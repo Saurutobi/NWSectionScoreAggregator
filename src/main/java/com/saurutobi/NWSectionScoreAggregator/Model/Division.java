@@ -14,14 +14,14 @@ public enum Division {
     REVOLVER,
     SINGLE_STACK;
 
-    private static final String CARRY_OPTICS_STRING = "Carry Optics";
-    private static final String LIMITED_STRING = "Limited";
-    private static final String LIMITED_10_STRING = "Limited 10";
-    private static final String OPEN_STRING = "Open";
-    private static final String PCC_STRING = "PCC";
-    private static final String PRODUCTION_STRING = "Production";
-    private static final String REVOLVER_STRING = "Revolver";
-    private static final String SINGLE_STACK_STRING = "Single Stack";
+    private static final String CARRY_OPTICS_STRING = "carry optics";
+    private static final String LIMITED_STRING = "limited";
+    private static final String LIMITED_10_STRING = "limited 10";
+    private static final String OPEN_STRING = "open";
+    private static final String PCC_STRING = "pcc";
+    private static final String PRODUCTION_STRING = "production";
+    private static final String REVOLVER_STRING = "revolver";
+    private static final String SINGLE_STACK_STRING = "single stack";
 
     public static Division mapDivisionString(String division) {
         return Match(division).of(

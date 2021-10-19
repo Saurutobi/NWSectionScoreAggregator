@@ -10,8 +10,8 @@ import lombok.Data;
 @Data
 @Builder
 public class Participant {
-    private static final String DQ_PISTOL_YES = "Yes";
-    private static final String DQ_PISTOL_NO = "No";
+    private static final String DQ_PISTOL_YES = "yes";
+    private static final String DQ_PISTOL_NO = "no";
     public String namefirst;
     public String nameLast;
     public String uspsaNumber; //TODO:should this be JUST the number part? I think so
@@ -36,5 +36,9 @@ public class Participant {
                 Case($(DQ_PISTOL_YES), true),
                 Case($(DQ_PISTOL_NO), false),
                 Case($(), false));
+    }
+
+    public String toMatchReport(String delimiter){
+        return namefirst + delimiter + nameLast + delimiter + uspsaNumber + delimiter + division + delimiter + divisonFinish + delimiter + isDQed;
     }
 }

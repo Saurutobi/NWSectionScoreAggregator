@@ -6,25 +6,33 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
+import java.util.Locale;
 import java.util.stream.Collectors;
 
+@SuppressWarnings("ThrowablePrintedToSystemOut")
 @SpringBootApplication
 public class NWSectionScoreAggregatorApplication {
+    private static final String DELIMITER = "|";
 
     public static void main(String[] args) throws IOException {
-        if (args.length == 0) {
-            System.out.println("No args, exiting");
+        if (args.length == 0 || args[0].equals("-h") || args[0].equals("help")) {
+            System.out.println("To import a match from The USPSA Classifier Report file");
+            System.out.println("-i [input file path] [output file path]" + "\n");
+            System.out.println("To aggregate all matches:");
+            System.out.println("-a [input folder] [output file path]");
             System.exit(0);
         } else if (args[0].equals("-i")) {
             System.out.println("importing match");
-            importMatch(args[1]);
+            importMatch(args[1], args[2]);
         } else if (args[0].equals("-a")) {
             System.out.println("aggregating matches");
-
             //aggregate individual match into main collection
             //read directory
             //combine all
@@ -32,24 +40,37 @@ public class NWSectionScoreAggregatorApplication {
             //final rows are shooters, columns are matches and match finish, ordered by match date jan-dec left-right (OR, dec-jan left-right)
 
         }
-
-//
-//        final FileWriter myWriter = new FileWriter("src/main/resources/some file.txt");
-//
-//                String out = "|" + thing + "||" + thing2 + "||";
-//                System.out.println(out);
-//                myWriter.write(out + "\n");
-//
-//        myWriter.flush();
-//        myWriter.close();
     }
 
-    private static void importMatch(String fileName) {
-        Option.of(fileName).peek(file -> {
-            final List<String> lines = readFile(file);
-            final List<Participant> participants = filterParticipants(lines);
-            //spit out csv
-        });
+    private static void importMatch(String inputFileName, String outputFileName) {
+        Option.of(inputFileName).peek(inputFile ->
+                                              Option.of(outputFileName).peek(outputFile -> {
+                                                  final List<String> lines = readFile(inputFile);
+                                                  final List<Participant> participants = filterParticipants(lines);
+                                                  participants.sort(Comparator.comparing(Participant::getNameLast));
+                                                  writeMatchReport(outputFile, participants);
+                                              }));
+    }
+
+    private static void writeMatchReport(String outputFileName, List<Participant> participants) {
+        try {
+            final FileWriter myWriter = new FileWriter(outputFileName);
+            writeMatchReportHeader(myWriter);
+            for (Participant participant : participants) {
+                String out = participant.toMatchReport(DELIMITER);
+                System.out.println(out);
+                myWriter.write(out + "\n");
+            }
+            myWriter.flush();
+            myWriter.close();
+        } catch (IOException e) {
+            System.out.println("error writing file");
+            System.out.println(e);
+        }
+    }
+
+    private static void writeMatchReportHeader(FileWriter myWriter) throws IOException {
+        myWriter.write("First|Last|USPSA Number|Division|Divison Finish|DQed" + "\n");
     }
 
     private static List<String> readFile(String fileName) {
@@ -61,28 +82,26 @@ public class NWSectionScoreAggregatorApplication {
                 lines.add(line);
             }
         } catch (IOException e) {
-            //ignored
+            System.out.println("error reading file");
+            System.out.println(e);
         }
         return lines;
     }
 
     private static List<Participant> filterParticipants(List<String> lines) {
-        //grab all lines starting with E, split by space then split part 2 by commas
         //raw line: "E 1, A122842, Jonathan, Tran, No, No, No, No, M, Carry Optics, 738.5825, 1, Minor,etcetc"
-//
-//        final List<String> rawParticipants = lines.stream()
-//                .map(line -> line.split(" ")[1])
-//                .collect(Collectors.toList());
-//
-//        return rawParticipants.stream()
-//                .map(line -> line.split(","))
-//                .map(Participant::mapParticipantFromFile)
-//                .collect(Collectors.toList());
-
         return lines.stream()
-                .map(line -> line.split(" ")[1])
+                .map(line -> line.split(" "))
+                .filter(elements -> elements[0].equals("E"))
+                .map(NWSectionScoreAggregatorApplication::reduceDown)
+                .map(line -> line.toLowerCase(Locale.ROOT))
                 .map(line -> line.split(","))
                 .map(Participant::mapParticipantFromFile)
                 .collect(Collectors.toList());
+    }
+
+    private static String reduceDown(String[] things) {
+        return Arrays.stream(things)
+                .reduce("", (partialString, element) -> partialString + " " + element);
     }
 }
