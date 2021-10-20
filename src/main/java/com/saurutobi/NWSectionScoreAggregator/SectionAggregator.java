@@ -2,7 +2,6 @@ package com.saurutobi.NWSectionScoreAggregator;
 
 import static com.saurutobi.NWSectionScoreAggregator.Model.ParticipantMatchAttendance.mapParticipantFromMatchImportFile;
 
-import com.saurutobi.NWSectionScoreAggregator.Model.Division;
 import com.saurutobi.NWSectionScoreAggregator.Model.Participant;
 import com.saurutobi.NWSectionScoreAggregator.Model.ParticipantMatchAttendance;
 import io.vavr.Tuple2;
@@ -15,24 +14,20 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Comparator;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.List;
-import java.util.ListIterator;
-import java.util.Map;
 import java.util.Map.Entry;
 import java.util.stream.Collectors;
 
 @SuppressWarnings("ThrowablePrintedToSystemOut")
 public class SectionAggregator {
-    private static final String DELIMITER = "|";
+    private static final String DELIMITER = "\\|";
 
     public static void aggregateMatch(String inputDirectory, String outputFileName) {
-        Option.of(inputDirectory).peek(inputFile ->
+        Option.of(inputDirectory).peek(inputDir ->
                                                Option.of(outputFileName).peek(outputFile -> {
-                                                   final List<Tuple2<String, List<ParticipantMatchAttendance>>> matchesByAttendance = readMatches(inputDirectory);
+                                                   final List<Tuple2<String, List<ParticipantMatchAttendance>>> matchesByAttendance = readMatches(inputDir);
                                                    final List<String> matchNames = matchesByAttendance.stream()
                                                            .map(match -> match._1)
                                                            .collect(Collectors.toList());
@@ -64,12 +59,12 @@ public class SectionAggregator {
         return matches;
     }
 
-    @SuppressWarnings("SuspiciousRegexArgument")
     private static List<ParticipantMatchAttendance> readFile(File file, String matchName) {
         final ArrayList<ParticipantMatchAttendance> participants = new ArrayList<>();
         try {
             BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(file)));
             String line;
+            reader.readLine(); // read header and ignore
             while ((line = reader.readLine()) != null) {
                 participants.add(mapParticipantFromMatchImportFile(line.split(DELIMITER), matchName));
             }
@@ -82,11 +77,11 @@ public class SectionAggregator {
 
     private static List<Entry<Participant, List<ParticipantMatchAttendance>>> createParticipantList(List<Tuple2<String, List<ParticipantMatchAttendance>>> matchesByAttendance) {
         final HashMap<Participant, List<ParticipantMatchAttendance>> allParticipants = new HashMap<>();
-        for(Tuple2<String, List<ParticipantMatchAttendance>> currentMatch : matchesByAttendance){
-            for(ParticipantMatchAttendance participant : currentMatch._2){
-                if(allParticipants.containsKey(participant.getParticipant())){ //TODO: maybe do this via USPSA number
+        for (Tuple2<String, List<ParticipantMatchAttendance>> currentMatch : matchesByAttendance) {
+            for (ParticipantMatchAttendance participant : currentMatch._2) {
+                if (allParticipants.containsKey(participant.getParticipant())) { //TODO: maybe do this via USPSA number
                     allParticipants.get(participant.getParticipant()).add(participant);
-                } else{
+                } else {
                     final ArrayList<ParticipantMatchAttendance> participantsMatches = new ArrayList<>();
                     participantsMatches.add(participant);
                     allParticipants.put(participant.getParticipant(), participantsMatches);
@@ -125,16 +120,15 @@ public class SectionAggregator {
             for (Entry<Participant, List<ParticipantMatchAttendance>> record : allRecords) {
                 final StringBuilder out = new StringBuilder(record.getKey().getNamefirst() + "|" + record.getKey().getNameLast() + "|" + record.getKey().getUspsaNumber());
                 for (ParticipantMatchAttendance match : record.getValue()) {
-                    if(match.attended){
+                    if (match.attended) {
                         out.append("|")
                                 .append("Division:")
                                 .append(match.division)
-                                .append("DivisionFinish:")
+                                .append(" DivisionFinish:")
                                 .append(match.divisonFinish)
-                                .append("isQDed:")
+                                .append(" isQDed:")
                                 .append(match.isDQed);
-
-                    }else {
+                    } else {
                         out.append("|");
                     }
                 }
@@ -151,7 +145,7 @@ public class SectionAggregator {
 
     private static void writeSectionReportHeader(FileWriter myWriter, List<ParticipantMatchAttendance> matches) throws IOException {
         final StringBuilder out = new StringBuilder("First|Last|USPSA Number");
-        for(ParticipantMatchAttendance match : matches){
+        for (ParticipantMatchAttendance match : matches) {
             out.append("|").append(match.getMatchName());
         }
         myWriter.write(out + "\n");

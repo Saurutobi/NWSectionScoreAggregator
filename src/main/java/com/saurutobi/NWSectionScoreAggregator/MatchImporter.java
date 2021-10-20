@@ -24,30 +24,9 @@ public class MatchImporter {
                                               Option.of(outputFileName).peek(outputFile -> {
                                                   final List<String> lines = readFile(inputFile);
                                                   final List<ParticipantMatchAttendance> participantMatchAttendances = filterParticipants(lines);
-                                                  participantMatchAttendances.sort(Comparator.comparing(p->p.getParticipant().getNameLast()));
+                                                  participantMatchAttendances.sort(Comparator.comparing(p -> p.getParticipant().getNameLast()));
                                                   writeMatchReport(outputFile, participantMatchAttendances);
                                               }));
-    }
-
-    private static void writeMatchReport(String outputFileName, List<ParticipantMatchAttendance> participantMatchAttendances) {
-        try {
-            final FileWriter myWriter = new FileWriter(outputFileName);
-            writeMatchReportHeader(myWriter);
-            for (ParticipantMatchAttendance participantMatchAttendance : participantMatchAttendances) {
-                String out = participantMatchAttendance.toMatchReport(DELIMITER);
-                System.out.println(out);
-                myWriter.write(out + "\n");
-            }
-            myWriter.flush();
-            myWriter.close();
-        } catch (IOException e) {
-            System.out.println("error writing file");
-            System.out.println(e);
-        }
-    }
-
-    private static void writeMatchReportHeader(FileWriter myWriter) throws IOException {
-        myWriter.write("First|Last|USPSA Number|Division|Divison Finish|DQed" + "\n");
     }
 
     private static List<String> readFile(String fileName) {
@@ -80,5 +59,26 @@ public class MatchImporter {
     private static String reduceDown(String[] things) {
         return Arrays.stream(things)
                 .reduce("", (partialString, element) -> partialString + " " + element);
+    }
+
+    private static void writeMatchReport(String outputFileName, List<ParticipantMatchAttendance> participantMatchAttendances) {
+        try {
+            final FileWriter myWriter = new FileWriter(outputFileName);
+            writeMatchReportHeader(myWriter);
+            for (ParticipantMatchAttendance participantMatchAttendance : participantMatchAttendances) {
+                String out = participantMatchAttendance.toMatchReport(DELIMITER);
+                System.out.println(out);
+                myWriter.write(out + "\n");
+            }
+            myWriter.flush();
+            myWriter.close();
+        } catch (IOException e) {
+            System.out.println("error writing file");
+            System.out.println(e);
+        }
+    }
+
+    private static void writeMatchReportHeader(FileWriter myWriter) throws IOException {
+        myWriter.write("First|Last|USPSA Number|Division|Divison Finish|DQed" + "\n");
     }
 }
