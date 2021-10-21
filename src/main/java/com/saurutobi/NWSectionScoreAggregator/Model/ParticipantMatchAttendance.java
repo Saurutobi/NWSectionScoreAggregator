@@ -41,7 +41,7 @@ public class ParticipantMatchAttendance {
                                      .nameLast(attributes[1])
                                      .uspsaNumber(attributes[2])
                                      .build())
-                .isDQed(Boolean.getBoolean(attributes[5]))
+                .isDQed(Boolean.parseBoolean(attributes[5]))
                 .division(Division.valueOf(attributes[3]))
                 .divisonFinish(Integer.parseInt(attributes[4]))
                 .matchName(matchName)

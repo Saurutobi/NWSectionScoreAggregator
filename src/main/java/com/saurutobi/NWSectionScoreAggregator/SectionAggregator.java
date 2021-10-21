@@ -24,7 +24,7 @@ import java.util.stream.Collectors;
 public class SectionAggregator {
     private static final String DELIMITER = "\\|";
 
-    public static void aggregateMatch(String inputDirectory, String outputFileName) {
+    public static void aggregateMatch(String inputDirectory, String outputFileName, boolean dqOnly) {
         Option.of(inputDirectory).peek(inputDir ->
                                                Option.of(outputFileName).peek(outputFile -> {
                                                    final List<Tuple2<String, List<ParticipantMatchAttendance>>> matchesByAttendance = readMatches(inputDir);
@@ -42,7 +42,7 @@ public class SectionAggregator {
 
                                                    //single csv output (or spreadsheet?)
                                                    //final rows are shooters, columns are matches and match finish, ordered by match date jan-dec left-right (OR, dec-jan left-right)
-                                                   writeSectionReport(outputFile, allParticipants);
+                                                   writeSectionReport(outputFile, allParticipants, dqOnly);
                                                }));
     }
 
@@ -113,14 +113,18 @@ public class SectionAggregator {
         }
     }
 
-    private static void writeSectionReport(String outputFileName, List<Entry<Participant, List<ParticipantMatchAttendance>>> allRecords) {
+    private static void writeSectionReport(String outputFileName, List<Entry<Participant, List<ParticipantMatchAttendance>>> allRecords, boolean dqOnly) {
         try {
             final FileWriter myWriter = new FileWriter(outputFileName);
-            writeSectionReportHeader(myWriter, allRecords.get(0).getValue());
+            writeSectionReportHeader(myWriter, allRecords.get(0).getValue(), dqOnly);
             for (Entry<Participant, List<ParticipantMatchAttendance>> record : allRecords) {
                 final StringBuilder out = new StringBuilder(record.getKey().getNamefirst() + "|" + record.getKey().getNameLast() + "|" + record.getKey().getUspsaNumber());
                 for (ParticipantMatchAttendance match : record.getValue()) {
                     if (match.attended) {
+                        if(dqOnly){
+                            out.append("|")
+                                    .append(match.isDQed? "DQ":"__");
+                        }else{
                         out.append("|")
                                 .append("Division:")
                                 .append(match.division)
@@ -128,12 +132,18 @@ public class SectionAggregator {
                                 .append(match.divisonFinish)
                                 .append(" isQDed:")
                                 .append(match.isDQed);
+                        }
                     } else {
                         out.append("|");
                     }
                 }
-                System.out.println(out);
-                myWriter.write(out + "\n");
+                out.append("\n");
+                String printValue = out.toString();
+                if (dqOnly && !printValue.contains("DQ")) {
+                    printValue = "";
+                }
+                System.out.print(printValue);
+                myWriter.write(printValue);
             }
             myWriter.flush();
             myWriter.close();
@@ -143,7 +153,7 @@ public class SectionAggregator {
         }
     }
 
-    private static void writeSectionReportHeader(FileWriter myWriter, List<ParticipantMatchAttendance> matches) throws IOException {
+    private static void writeSectionReportHeader(FileWriter myWriter, List<ParticipantMatchAttendance> matches, boolean dqOnly) throws IOException {
         final StringBuilder out = new StringBuilder("First|Last|USPSA Number");
         for (ParticipantMatchAttendance match : matches) {
             out.append("|").append(match.getMatchName());
