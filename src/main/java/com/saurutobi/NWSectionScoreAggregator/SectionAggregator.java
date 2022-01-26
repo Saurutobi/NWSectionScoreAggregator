@@ -2,7 +2,6 @@ package com.saurutobi.NWSectionScoreAggregator;
 
 import static com.saurutobi.NWSectionScoreAggregator.Model.ParticipantMatchAttendance.mapParticipantFromMatchImportFile;
 
-import com.saurutobi.NWSectionScoreAggregator.Model.Participant;
 import com.saurutobi.NWSectionScoreAggregator.Model.ParticipantMatchAttendance;
 import io.vavr.Tuple2;
 import io.vavr.control.Option;
