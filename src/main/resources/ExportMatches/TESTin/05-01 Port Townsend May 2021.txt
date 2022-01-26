@@ -1,0 +1,25 @@
+First|Last|USPSA Number|Division|Divison Finish|DQed
+jack|apling|a133577|CARRY_OPTICS|8|false
+steve|blazina|a83244|SINGLE_STACK|3|false
+lee|boyle||LIMITED|3|false
+gregory|cain|fy104954|CARRY_OPTICS|4|false
+brandon|collins|a-104437|LIMITED|2|false
+emilio|domingo|ty86951|OPEN|1|false
+nick|duran||LIMITED|8|false
+jay|hennen|ty123198|LIMITED|6|false
+erin|hubbard|ty123369|CARRY_OPTICS|6|false
+m dwight|hughes||LIMITED|1|false
+todd|johansson|ty111193|CARRY_OPTICS|1|false
+james|johnson||LIMITED|7|false
+neal|knudson|a42954|PCC|1|false
+richard|lindquist||PRODUCTION|2|false
+eugene|madayag|a111900|CARRY_OPTICS|3|false
+bill|mayne|l-343|SINGLE_STACK|1|false
+simon|mckee||LIMITED|5|false
+phillip|meyers|ty12765|CARRY_OPTICS|5|false
+ray|narimatsu||SINGLE_STACK|4|false
+lucas|newman|ty116087|CARRY_OPTICS|2|false
+eric|pratt|a108992|LIMITED|4|false
+steve|rankin||PRODUCTION|1|false
+art|tordini|ty106402|SINGLE_STACK|2|false
+scott|whiting|a83609|CARRY_OPTICS|7|false

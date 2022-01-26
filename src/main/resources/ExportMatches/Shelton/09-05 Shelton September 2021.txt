@@ -1,0 +1,13 @@
+First|Last|USPSA Number|Division|Divison Finish|DQed
+greg|beck|fy92838|LIMITED|1|false
+bruce|blair|a47451|PCC|2|false
+matthew|crane|ty108303|LIMITED_10|1|false
+doug|hartley|ty55079|PRODUCTION|1|false
+scott|hawkins|ty52998|OPEN|1|false
+bill|johnston|ty93603|PCC|1|false
+alan|kies|ty24792|CARRY_OPTICS|2|false
+tod|sherman|ty37515|PCC|3|false
+josh|stone|a116865|CARRY_OPTICS|1|false
+jonathan|tran|a122842|CARRY_OPTICS|3|false
+kaiwen|wang|a133424|CARRY_OPTICS|4|false
+bruce|wood|ty 47022|OPEN|2|false

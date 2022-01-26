@@ -20,7 +20,7 @@ public class ParticipantMatchAttendance {
     public boolean attended;
 
     public static ParticipantMatchAttendance mapParticipantFromUSPSAMatchReportFile(String[] attributes) {
-        //RAW attributes: "1, A122842, Jonathan, Tran, No, No, No, No, M, Carry Optics, 738.5825, 1, Minor,etcetc"
+        //RAW attributes: "1, A1234, first, last, No, No, No, No, M, Carry Optics, 738.5825, 1, Minor,etcetc"
         return ParticipantMatchAttendance.builder()
                 .participant(Participant.builder()
                                      .namefirst(attributes[2])
@@ -34,7 +34,7 @@ public class ParticipantMatchAttendance {
     }
 
     public static ParticipantMatchAttendance mapParticipantFromMatchImportFile(String[] attributes, String matchName) {
-        //RAW attributes: "john|newman||PRODUCTION|7|false"
+        //RAW attributes: "first|last||PRODUCTION|7|false"
         return ParticipantMatchAttendance.builder()
                 .participant(Participant.builder()
                                      .namefirst(attributes[0])

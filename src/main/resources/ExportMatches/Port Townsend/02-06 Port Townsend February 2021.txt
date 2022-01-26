@@ -1,0 +1,15 @@
+First|Last|USPSA Number|Division|Divison Finish|DQed
+steve|blazina|a83244|LIMITED|2|false
+brian|bolling||LIMITED|5|false
+lee|boyle|fy105750|LIMITED|4|false
+mike|green|a121109|CARRY_OPTICS|2|false
+erin|hubbard|ty123369|CARRY_OPTICS|4|false
+m dwight|hughes|b6|LIMITED|1|false
+todd|johansson||OPEN|2|false
+neal|knudson|a42954|LIMITED|3|false
+ian|laughlin|ty114571|OPEN|1|false
+richard|lindquist|ty11614|PRODUCTION|1|false
+lucas|newman|ty116087|CARRY_OPTICS|1|false
+steve|rankin|fy87777|SINGLE_STACK|1|false
+art|tordini|ty106402|SINGLE_STACK|2|false
+scott|whiting|a83609|CARRY_OPTICS|3|false
