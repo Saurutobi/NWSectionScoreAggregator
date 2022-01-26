@@ -19,6 +19,16 @@ import java.util.stream.Collectors;
 public class MatchImporter {
     private static final String DELIMITER = "|";
 
+    public static void importBulkMatches(String inputDirectory, String outputDirectory) {
+        Option.of(inputDirectory).peek(inputFile ->
+                                               Option.of(outputDirectory).peek(outputFile -> {
+                                                   //find all files in the directory
+                                                   //for each file in files, importmatch(file, outputDirectory+filename thing)
+
+                                                   throw new UnsupportedOperationException("This feature isn't built yet");
+                                               }));
+    }
+
     public static void importMatch(String inputFileName, String outputFileName) {
         Option.of(inputFileName).peek(inputFile ->
                                               Option.of(outputFileName).peek(outputFile -> {
