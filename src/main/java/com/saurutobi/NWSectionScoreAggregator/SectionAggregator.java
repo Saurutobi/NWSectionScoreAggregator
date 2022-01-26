@@ -21,6 +21,9 @@ public class SectionAggregator {
     private static final String DELIMITER = "\\|";
 
     public static void aggregateMatch(String inputDirectory, String outputFileName, boolean dqOnly) {
+        //TODO: rewrite this and base it on the json input
+
+
 //        Option.of(inputDirectory).peek(inputDir ->
 //                                               Option.of(outputFileName).peek(outputFile -> {
 //                                                   final List<Tuple2<String, List<ParticipantMatchAttendance>>> matchesByAttendance = readMatches(inputDir);
