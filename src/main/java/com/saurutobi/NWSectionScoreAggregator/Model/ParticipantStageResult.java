@@ -18,7 +18,7 @@ public class ParticipantStageResult {
     public int countNoShoot;
 
     public static ParticipantStageResult mapStageResultFromUSPSAMatchReportFile(String[] attributes) {
-        //RAW attributes: "Pistol,1,1,No,No,13,0,5,0,0,0,0,2,0,0,0,0,0,0,0,14.56,0,0,0,0,14.56,80,80,5.4945,90.0000,1,"
+        //RAW attributes: "I Pistol,1,1,No,No,13,0,5,0,0,0,0,2,0,0,0,0,0,0,0,14.56,0,0,0,0,14.56,80,80,5.4945,90.0000,1,"
         return ParticipantStageResult.builder()
                 .stageNumber(Integer.parseInt(attributes[1]))
                 .shooterNumber(Integer.parseInt(attributes[2]))

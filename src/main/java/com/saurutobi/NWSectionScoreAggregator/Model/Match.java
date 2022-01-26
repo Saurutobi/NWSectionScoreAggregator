@@ -1,5 +1,8 @@
 package com.saurutobi.NWSectionScoreAggregator.Model;
 
+import static com.saurutobi.NWSectionScoreAggregator.Util.removeLinePrefix;
+
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 import lombok.Builder;
@@ -17,12 +20,13 @@ public class Match {
     public List<Participant> participants;
     public List<Stage> stages;
     public List<ParticipantStageResult> participantStageResults;
+    private static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy");
 
     public static Match mapBaseMatchInfoFromUSPSAMatchReportFile(String[] attributes) {
-        //RAW attributes: "Name,ClubName,Date"
+        //RAW attributes: "A Name,ClubName,Date"
         return Match.builder()
-                .name(attributes[0])
-                .date(LocalDate.parse(attributes[2]))
+                .name(removeLinePrefix(attributes[0]))
+                .date(LocalDate.parse(attributes[2], formatter))
                 .build();
     }
 }

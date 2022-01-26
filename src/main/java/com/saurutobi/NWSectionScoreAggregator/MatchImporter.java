@@ -1,5 +1,6 @@
 package com.saurutobi.NWSectionScoreAggregator;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.saurutobi.NWSectionScoreAggregator.Model.Match;
 import com.saurutobi.NWSectionScoreAggregator.Model.Participant;
 import com.saurutobi.NWSectionScoreAggregator.Model.ParticipantStageResult;
@@ -7,6 +8,7 @@ import com.saurutobi.NWSectionScoreAggregator.Model.Stage;
 import io.vavr.control.Option;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -16,31 +18,28 @@ import java.util.List;
 import java.util.Locale;
 import java.util.stream.Collectors;
 
+@SuppressWarnings("ThrowablePrintedToSystemOut")
 public class MatchImporter {
-    public static void importBulkMatches(String inputDirectory, String outputDirectory) {
-        Option.of(inputDirectory).peek(inputFile ->
-                                               Option.of(outputDirectory).peek(outputFile -> {
-                                                   //find all files in the directory
-                                                   //for each file in files, importmatch(file, outputDirectory+filename thing)
+    public static void importBulkMatches(String inputDirectory) {
+        Option.of(inputDirectory).peek(inputFile -> {
+            //find all files in the directory
+            //for each file in files, importmatch(file, inputDirectoy+"json"+filename thing)
 
-                                                   throw new UnsupportedOperationException("This feature isn't built yet");
-                                               }));
+            throw new UnsupportedOperationException("This feature isn't built yet");
+        });
     }
 
-    public static void importMatch(String inputFileName, String outputFileName) {
-        Option.of(inputFileName).peek(inputFile ->
-                                              Option.of(outputFileName).peek(outputFile -> {
-                                                  final List<String> lines = readFile(inputFile);
-                                                  final Match match = getBaseMatchInfo(lines);
-                                                  match.setStages(getStages(lines));
-                                                  match.setParticipants(getParticipants(lines));
-                                                  match.setParticipantStageResults(getStageResults(lines));
-
-                                                  //writeMatchReport(outputFile, Match);
-                                              }));
+    public static void importMatch(String inputFileName) {
+        Option.of(inputFileName).peek(inputFile -> {
+            final List<String> lines = readFile(inputFile);
+            final Match match = getBaseMatchInfo(lines);
+            match.setStages(getStages(lines));
+            match.setParticipants(getParticipants(lines));
+            match.setParticipantStageResults(getStageResults(lines));
+            writeMatchReport(inputFile, match);
+        });
     }
 
-    @SuppressWarnings("ThrowablePrintedToSystemOut")
     private static List<String> readFile(String fileName) {
         final ArrayList<String> lines = new ArrayList<>();
         try {
@@ -105,5 +104,14 @@ public class MatchImporter {
     private static String reduceDown(String[] things) {
         return Arrays.stream(things)
                 .reduce("", (partialString, element) -> partialString + " " + element);
+    }
+
+    private static void writeMatchReport(String inputFileName, Match match) {
+        try {
+            Util.getObjectMapper().writeValue(new File(inputFileName + ".json"), match);
+        } catch (IOException e) {
+            System.out.println("error reading file");
+            System.out.println(e);
+        }
     }
 }

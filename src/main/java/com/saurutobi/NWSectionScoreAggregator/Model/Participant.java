@@ -1,5 +1,6 @@
 package com.saurutobi.NWSectionScoreAggregator.Model;
 
+import static com.saurutobi.NWSectionScoreAggregator.Util.removeLinePrefix;
 import static io.vavr.API.$;
 import static io.vavr.API.Case;
 import static io.vavr.API.Match;
@@ -23,9 +24,9 @@ public class Participant {
     public boolean attended;
 
     public static Participant mapParticipantFromUSPSAMatchReportFile(String[] attributes) {
-        //RAW attributes: "1, A1234, first, last, No, No, No, No, M, Carry Optics, 738.5825, 1, Minor,etcetc"
+        //RAW attributes: "E 1, A1234, first, last, No, No, No, No, M, Carry Optics, 738.5825, 1, Minor,etcetc"
         return Participant.builder()
-                .shooterNumber(Integer.parseInt(attributes[0]))
+                .shooterNumber(Integer.parseInt(removeLinePrefix(attributes[0])))
                 .nameFirst(attributes[2])
                 .nameLast(attributes[3])
                 .uspsaNumber(attributes[1])

@@ -1,5 +1,7 @@
 package com.saurutobi.NWSectionScoreAggregator.Model;
 
+import static com.saurutobi.NWSectionScoreAggregator.Util.removeLinePrefix;
+
 import lombok.Builder;
 import lombok.Data;
 
@@ -16,9 +18,9 @@ public class Stage {
     public int stringCount;
 
     public static Stage mapStageFromUSPSAMatchReportFile(String[] attributes) {
-        //RAW attributes: "1,Pistol,18,90,No,08-03,Stage 1 - Dance Boatman Dance,Comstock,1"
+        //RAW attributes: "G 1,Pistol,18,90,No,08-03,Stage 1 - Dance Boatman Dance,Comstock,1"
         return Stage.builder()
-                .number(Integer.parseInt(attributes[0]))
+                .number(Integer.parseInt(removeLinePrefix(attributes[0])))
                 .name(attributes[6])
                 .roundCount(Integer.parseInt(attributes[2]))
                 .points(Integer.parseInt(attributes[3]))

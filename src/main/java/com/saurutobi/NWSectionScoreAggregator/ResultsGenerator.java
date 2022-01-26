@@ -1,28 +1,27 @@
 package com.saurutobi.NWSectionScoreAggregator;
 
-import io.vavr.Tuple2;
+import com.saurutobi.NWSectionScoreAggregator.Model.Match;
 import io.vavr.control.Option;
 
-import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map.Entry;
-import java.util.stream.Collectors;
 
 @SuppressWarnings("ThrowablePrintedToSystemOut")
-public class SectionAggregator {
-    private static final String DELIMITER = "\\|";
+public class ResultsGenerator {
 
-    public static void aggregateMatch(String inputDirectory, String outputFileName, boolean dqOnly) {
-//        Option.of(inputDirectory).peek(inputDir ->
-//                                               Option.of(outputFileName).peek(outputFile -> {
+    public static void generateResultsFromMatch(String inputFileName) {
+        Option.of(readMatchFromFile(inputFileName)).peek(match -> {
+
+            final String sundialAward = "name here" + "how long here";
+
+
+
+
+            //final Match match = readMatchFromFile(inputFile);
+
+
+
+
 //                                                   final List<Tuple2<String, List<ParticipantMatchAttendance>>> matchesByAttendance = readMatches(inputDir);
 //                                                   final List<String> matchNames = matchesByAttendance.stream()
 //                                                           .map(match -> match._1)
@@ -39,7 +38,17 @@ public class SectionAggregator {
 //                                                   //single csv output (or spreadsheet?)
 //                                                   //final rows are shooters, columns are matches and match finish, ordered by match date jan-dec left-right (OR, dec-jan left-right)
 //                                                   writeSectionReport(outputFile, allParticipants, dqOnly);
-//                                               }));
+                                               });
+    }
+
+    private static Match readMatchFromFile(String inputFileName) {
+        try {
+            return Util.getObjectMapper().readValue(new File(inputFileName), Match.class);
+        } catch (IOException e) {
+            System.out.println("error reading file");
+            System.out.println(e);
+            return null;
+        }
     }
 
 //    private static List<Tuple2<String, List<ParticipantMatchAttendance>>> readMatches(String inputDirectory) {
