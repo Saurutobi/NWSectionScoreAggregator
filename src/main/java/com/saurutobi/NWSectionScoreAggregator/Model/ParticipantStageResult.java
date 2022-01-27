@@ -1,10 +1,14 @@
 package com.saurutobi.NWSectionScoreAggregator.Model;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
 @Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class ParticipantStageResult {
     public int stageNumber;
     public int shooterNumber;
@@ -16,6 +20,7 @@ public class ParticipantStageResult {
     public int countD;
     public int countMiss;
     public int countNoShoot;
+    public int countProcedural;
 
     public static ParticipantStageResult mapStageResultFromUSPSAMatchReportFile(String[] attributes) {
         //RAW attributes: "I Pistol,1,1,No,No,13,0,5,0,0,0,0,2,0,0,0,0,0,0,0,14.56,0,0,0,0,14.56,80,80,5.4945,90.0000,1,"
@@ -30,6 +35,7 @@ public class ParticipantStageResult {
                 .countD(Integer.parseInt(attributes[8]))
                 .countMiss(Integer.parseInt(attributes[9]))
                 .countNoShoot(Integer.parseInt(attributes[10]))
+                .countProcedural(Integer.parseInt(attributes[11]))
                 .build();
     }
 }

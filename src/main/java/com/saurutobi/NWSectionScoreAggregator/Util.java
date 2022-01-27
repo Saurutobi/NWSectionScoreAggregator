@@ -4,7 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class Util {
     public static String removeLinePrefix(String attribute) {
-        return attribute.substring(3);
+        return attribute.substring(2);
     }
 
     public static ObjectMapper getObjectMapper() {

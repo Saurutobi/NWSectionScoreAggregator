@@ -9,7 +9,7 @@ public class NWSectionScoreAggregatorApplication {
             System.out.println("To import a single match from The USPSA Classifier Report file:");
             System.out.println("-i [input file path]" + "\n");
             System.out.println("To bulk import all matches from The USPSA Classifier Report file in a directory:");
-            System.out.println("-ia [input directory]" + "\n");
+            System.out.println("-ia  [input directory] [output directory]" + "\n");
             System.out.println("Generate custom results from imported match:");
             System.out.println("-r [input file]" + "\n");
             System.out.println("To aggregate all matches from the Section:");
@@ -19,10 +19,10 @@ public class NWSectionScoreAggregatorApplication {
             System.exit(0);
         } else if (args[0].equals("-i")) {
             System.out.println("Importing Match" + "\n");
-            MatchImporter.importMatch(args[1]);
+            MatchImporter.importMatch(args[1], args[1] + ".json");
         } else if (args[0].equals("-ia")) {
             System.out.println("Bulk Importing Matches" + "\n");
-            MatchImporter.importBulkMatches(args[1]);
+            MatchImporter.importBulkMatches(args[1], args[2]);
         } else if (args[0].equals("-r")) {
             System.out.println("Generating Custom Results" + "\n");
             ResultsGenerator.generateResultsFromMatch(args[1]);

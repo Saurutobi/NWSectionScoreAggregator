@@ -5,16 +5,14 @@ $INFO PractiScore_Product: PractiScore (iOS)
 $INFO PractiScore_Version:1.682
 $INFO Match name:NW01 Paul Bunyan USPSA April 2021
 $INFO Match date:04/11/2021
-$INFO Club Name:Paul 
-Bunyan Rifle & Sportsman's Club
+$INFO Club Name:Paul Bunyan Rifle & Sportsman's Club
 $INFO Club Code:NW01
 $INFO Multigun:0
 $INFO Scoring:0
 $INFO Classifiers:1
 $INFO Match Level: Level I
 Z 3.0
-A NW01 Paul Bunyan USPSA April 2021,Paul 
-Bunyan Rifle & Sportsman's Club,04/11/2021
+A NW01 Paul Bunyan USPSA April 2021,Paul Bunyan Rifle & Sportsman's Club,04/11/2021
 D Comp,USPSA,FirstName,LastName,DQPistol,DQRifle,DQShotgun,Reentry,Class,Division,Match Points,Place Overall,Power Factor,Shotgun Division,Shotgun Power Factor,Shotgun Place Overall,Shotgun Entered,Shotgun Match Points,Rifle Division,Rifle Power Factor,Rifle Place Overall,Rifle Entered,Rifle Match Points,Aggregate,Aggregate Division,Aggregate Pistol Percent,Aggregate Pistol Points,Aggregate Place,Aggregate Rifle Percent,Aggregate Rifle Points,Aggregate Shotgun Percent,Aggregate Shotgun Points,Aggregate Total,Female,Age,Law,Military
 E 1,A124172,Katon,Bingham,No,No,No,No,A,Carry Optics,753.4788,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 2,A107036,Bo,Oeltjen,No,No,No,No,M,Carry Optics,742.6634,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No

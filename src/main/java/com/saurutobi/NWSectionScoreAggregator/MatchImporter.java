@@ -1,11 +1,11 @@
 package com.saurutobi.NWSectionScoreAggregator;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.saurutobi.NWSectionScoreAggregator.Model.Match;
 import com.saurutobi.NWSectionScoreAggregator.Model.Participant;
 import com.saurutobi.NWSectionScoreAggregator.Model.ParticipantStageResult;
 import com.saurutobi.NWSectionScoreAggregator.Model.Stage;
 import io.vavr.control.Option;
+import org.apache.commons.io.FileUtils;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -13,31 +13,38 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
 import java.util.stream.Collectors;
 
 @SuppressWarnings("ThrowablePrintedToSystemOut")
 public class MatchImporter {
-    public static void importBulkMatches(String inputDirectory) {
-        Option.of(inputDirectory).peek(inputFile -> {
-            //find all files in the directory
-            //for each file in files, importmatch(file, inputDirectoy+"json"+filename thing)
+    private static final String INFO_LINE_MARKER = "$INFO ";
+    private static final String STAGE_LINE_MARKER = "G ";
+    private static final String PARTICIPANT_LINE_MARKER = "E ";
+    private static final String STAGE_RESULT_LINE_MARKER = "I ";
 
-            throw new UnsupportedOperationException("This feature isn't built yet");
-        });
+    public static void importBulkMatches(String inputDirectory, String outputDirectory) {
+        Option.of(inputDirectory).peek(inputDir ->
+                                               Option.of(outputDirectory).peek(outputDir ->
+                                                                                       FileUtils.listFiles(new File(inputDir), null, true).forEach(file -> {
+                                                                                           final String outputPath = outputDir + "\\" + file.getName() + ".json";
+                                                                                           //noinspection ResultOfMethodCallIgnored
+                                                                                           new File(outputDir).mkdirs();
+                                                                                           importMatch(file.getAbsolutePath(), outputPath);
+                                                                                       })));
     }
 
-    public static void importMatch(String inputFileName) {
-        Option.of(inputFileName).peek(inputFile -> {
-            final List<String> lines = readFile(inputFile);
-            final Match match = getBaseMatchInfo(lines);
-            match.setStages(getStages(lines));
-            match.setParticipants(getParticipants(lines));
-            match.setParticipantStageResults(getStageResults(lines));
-            writeMatchReport(inputFile, match);
-        });
+    public static void importMatch(String inputFilePath, String outputFilePath) {
+        Option.of(inputFilePath).peek(inputFile ->
+                                              Option.of(outputFilePath).peek(outputFile -> {
+                                                  final List<String> lines = readFile(inputFile);
+                                                  final Match match = getBaseMatchInfo(lines);
+                                                  match.setStages(getStages(lines));
+                                                  match.setParticipants(getParticipants(lines));
+                                                  match.setParticipantStageResults(getStageResults(lines));
+                                                  writeMatchReport(outputFile, match);
+                                              }));
     }
 
     private static List<String> readFile(String fileName) {
@@ -56,23 +63,39 @@ public class MatchImporter {
     }
 
     private static Match getBaseMatchInfo(List<String> lines) {
-        //raw line: "A Renton USPSA - May 2021 - NW05,asdf,05/23/2021"
-        return lines.stream()
-                .map(line -> line.split(" "))
-                .filter(elements -> elements[0].equals("A"))
-                .map(MatchImporter::reduceDown)
-                .map(line -> line.split(","))
-                .map(Match::mapBaseMatchInfoFromUSPSAMatchReportFile)
+        //raw line: "A MatchName with commas possibly,asdf,05/23/2021"
+        final String matchName = lines.stream()
+                .filter(line -> line.startsWith(INFO_LINE_MARKER))
+                .filter(line -> line.contains("Match name"))
+                .map(line -> line.split(":")[1])
                 .findFirst()
                 .orElse(null);
+        final String matchDate = lines.stream()
+                .filter(line -> line.startsWith(INFO_LINE_MARKER))
+                .filter(line -> line.contains("Match date"))
+                .map(line -> line.split(":")[1])
+                .findFirst()
+                .orElse(null);
+        ;
+        final String clubName = lines.stream()
+                .filter(line -> line.startsWith(INFO_LINE_MARKER))
+                .filter(line -> line.contains("Club Name"))
+                .map(line -> line.split(":")[1])
+                .findFirst()
+                .orElse(null);
+        final String clubCode = lines.stream()
+                .filter(line -> line.startsWith(INFO_LINE_MARKER))
+                .filter(line -> line.contains("Club Code"))
+                .map(line -> line.split(":")[1])
+                .findFirst()
+                .orElse(null);
+        return Match.mapBaseMatchInfoFromUSPSAMatchReportFile(matchName, matchDate, clubName, clubCode);
     }
 
     private static List<Stage> getStages(List<String> lines) {
         //RAW attributes: "G 1,Pistol,18,90,No,08-03,Stage 1 - Dance Boatman Dance,Comstock,1"
         return lines.stream()
-                .map(line -> line.split(" "))
-                .filter(elements -> elements[0].equals("G"))
-                .map(MatchImporter::reduceDown)
+                .filter(line -> line.startsWith(STAGE_LINE_MARKER))
                 .map(line -> line.split(","))
                 .map(Stage::mapStageFromUSPSAMatchReportFile)
                 .collect(Collectors.toList());
@@ -81,9 +104,7 @@ public class MatchImporter {
     private static List<Participant> getParticipants(List<String> lines) {
         //raw line: "E 1, A1234, first, last, No, No, No, No, M, Carry Optics, 738.5825, 1, Minor,etcetc"
         return lines.stream()
-                .map(line -> line.split(" "))
-                .filter(elements -> elements[0].equals("E"))
-                .map(MatchImporter::reduceDown)
+                .filter(line -> line.startsWith(PARTICIPANT_LINE_MARKER))
                 .map(line -> line.toLowerCase(Locale.ROOT))
                 .map(line -> line.split(","))
                 .map(Participant::mapParticipantFromUSPSAMatchReportFile)
@@ -93,22 +114,15 @@ public class MatchImporter {
     private static List<ParticipantStageResult> getStageResults(List<String> lines) {
         //raw line: "I Pistol,1,1,No,No,13,0,5,0,0,0,0,2,0,0,0,0,0,0,0,14.56,0,0,0,0,14.56,80,80,5.4945,90.0000,1,"
         return lines.stream()
-                .map(line -> line.split(" "))
-                .filter(elements -> elements[0].equals("I"))
-                .map(MatchImporter::reduceDown)
+                .filter(line -> line.startsWith(STAGE_RESULT_LINE_MARKER))
                 .map(line -> line.split(","))
                 .map(ParticipantStageResult::mapStageResultFromUSPSAMatchReportFile)
                 .collect(Collectors.toList());
     }
 
-    private static String reduceDown(String[] things) {
-        return Arrays.stream(things)
-                .reduce("", (partialString, element) -> partialString + " " + element);
-    }
-
-    private static void writeMatchReport(String inputFileName, Match match) {
+    private static void writeMatchReport(String outputFile, Match match) {
         try {
-            Util.getObjectMapper().writeValue(new File(inputFileName + ".json"), match);
+            Util.getObjectMapper().writeValue(new File(outputFile), match);
         } catch (IOException e) {
             System.out.println("error reading file");
             System.out.println(e);

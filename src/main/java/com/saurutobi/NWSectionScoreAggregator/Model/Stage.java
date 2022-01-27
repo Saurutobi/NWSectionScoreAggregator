@@ -2,13 +2,15 @@ package com.saurutobi.NWSectionScoreAggregator.Model;
 
 import static com.saurutobi.NWSectionScoreAggregator.Util.removeLinePrefix;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
-
-import java.time.LocalDate;
+import lombok.NoArgsConstructor;
 
 @Data
 @Builder
+@AllArgsConstructor
+@NoArgsConstructor
 public class Stage {
     public int number;
     public String name;
