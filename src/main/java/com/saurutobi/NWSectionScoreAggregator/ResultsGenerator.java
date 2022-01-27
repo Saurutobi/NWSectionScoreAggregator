@@ -20,7 +20,6 @@ import java.util.stream.Collectors;
 
 @SuppressWarnings("OptionalGetWithoutIsPresent")
 public class ResultsGenerator {
-
     public static void generateResultsFromMatch(String inputFileName) {
         Option.of(readMatchFromFile(inputFileName)).peek(match -> {
             final String sundial = "Sundial Award: " + getSundialAward(match);
