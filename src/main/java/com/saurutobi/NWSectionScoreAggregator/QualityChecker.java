@@ -54,7 +54,7 @@ public class QualityChecker {
         final Set<Tuple2<String, String>> dupeChecker = new HashSet<>();
         for (Participant particpant : allParticipants) {
             if (!dupeChecker.add(new Tuple2<>(particpant.getNameFirst(), particpant.getNameLast()))) {
-                System.out.println("Duplicate Participant: " + particpant.getNameFirst() + "," + particpant.getNameLast() + "," + particpant.getUspsaNumber());
+                System.out.println("Duplicate Participant: " + particpant.getNameFirst() + " " + particpant.getNameLast());
             }
         }
     }

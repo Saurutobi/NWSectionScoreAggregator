@@ -68,7 +68,7 @@ public class Participant {
     }
 
     private static String stripNonNumbers(String uspsaNumber) {
-        return uspsaNumber.replaceAll("[^a-zA-Z]", "");
+        return uspsaNumber.replaceAll("[^0-9]", "");
     }
 
     private static boolean mapDQPistolValueToBoolean(String dqPistolValue) {
