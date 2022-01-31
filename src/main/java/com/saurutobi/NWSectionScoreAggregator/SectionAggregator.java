@@ -1,162 +1,117 @@
 package com.saurutobi.NWSectionScoreAggregator;
 
-import io.vavr.Tuple2;
+import com.saurutobi.NWSectionScoreAggregator.Model.Match;
+import com.saurutobi.NWSectionScoreAggregator.Model.Participant;
+import io.vavr.Tuple3;
 import io.vavr.control.Option;
+import org.apache.commons.io.FileUtils;
 
-import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Comparator;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map.Entry;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @SuppressWarnings("ThrowablePrintedToSystemOut")
 public class SectionAggregator {
-    private static final String DELIMITER = "\\|";
+    private static final String DELIMITER = "|";
 
     public static void aggregateMatch(String inputDirectory, String outputFileName, boolean dqOnly) {
-        //TODO: rewrite this and base it on the json input
-
-
-//        Option.of(inputDirectory).peek(inputDir ->
-//                                               Option.of(outputFileName).peek(outputFile -> {
-//                                                   final List<Tuple2<String, List<ParticipantMatchAttendance>>> matchesByAttendance = readMatches(inputDir);
-//                                                   final List<String> matchNames = matchesByAttendance.stream()
-//                                                           .map(match -> match._1)
-//                                                           .collect(Collectors.toList());
-//                                                   final List<Entry<Participant, List<ParticipantMatchAttendance>>> allParticipants = createParticipantList(matchesByAttendance);
-//
-//                                                   //now we have a master list of people and the matches they attended.
-//                                                   //first, sort all by Participant's last name.
-//                                                   allParticipants.sort(Comparator.comparing(p -> p.getKey().getNameLast()));
-//                                                   fillInMissingMatches(allParticipants, matchNames);
-//
-//                                                   //now we have a list of participants with every match. Print that shit
-//
-//                                                   //single csv output (or spreadsheet?)
-//                                                   //final rows are shooters, columns are matches and match finish, ordered by match date jan-dec left-right (OR, dec-jan left-right)
-//                                                   writeSectionReport(outputFile, allParticipants, dqOnly);
-//                                               }));
+        Option.of(inputDirectory).peek(inputDir -> Option.of(outputFileName).peek(outputFile -> {
+            final List<Match> matches = readConvertedMatches(inputDir);
+            writeSectionReport(outputFile, matches, getAllDistinctMembersWhoParticipatedByUspsaNumber(matches), dqOnly);
+        }));
     }
 
-//    private static List<Tuple2<String, List<ParticipantMatchAttendance>>> readMatches(String inputDirectory) {
-//        final File[] files = new File(inputDirectory).listFiles();
-//        final List<Tuple2<String, List<ParticipantMatchAttendance>>> matches = new ArrayList<>();
-//        Option.of(files).peek(fs -> {
-//            for (File file : fs) {
-//                final String matchName = file.getName();
-//                matches.add(new Tuple2<>(matchName, readFile(file, matchName)));
-//            }
-//        });
-//
-//        return matches;
-//    }
-//
-//    private static List<ParticipantMatchAttendance> readFile(File file, String matchName) {
-//        final ArrayList<ParticipantMatchAttendance> participants = new ArrayList<>();
-//        try {
-//            BufferedReader reader = new BufferedReader(new InputStreamReader(new FileInputStream(file)));
-//            String line;
-//            reader.readLine(); // read header and ignore
-//            while ((line = reader.readLine()) != null) {
-//                participants.add(mapParticipantFromMatchImportFile(line.split(DELIMITER), matchName));
-//            }
-//        } catch (IOException e) {
-//            System.out.println("error reading file");
-//            System.out.println(e);
-//        }
-//        return participants;
-//    }
-//
-//    private static List<Entry<Participant, List<ParticipantMatchAttendance>>> createParticipantList(List<Tuple2<String, List<ParticipantMatchAttendance>>> matchesByAttendance) {
-//        final HashMap<Participant, List<ParticipantMatchAttendance>> allParticipants = new HashMap<>();
-//        for (Tuple2<String, List<ParticipantMatchAttendance>> currentMatch : matchesByAttendance) {
-//            for (ParticipantMatchAttendance participant : currentMatch._2) {
-//                if (allParticipants.containsKey(participant.getParticipant())) { //TODO: maybe do this via USPSA number
-//                    allParticipants.get(participant.getParticipant()).add(participant);
-//                } else {
-//                    final ArrayList<ParticipantMatchAttendance> participantsMatches = new ArrayList<>();
-//                    participantsMatches.add(participant);
-//                    allParticipants.put(participant.getParticipant(), participantsMatches);
-//                }
-//            }
-//        }
-//        return new ArrayList<>(allParticipants.entrySet());
-//    }
-//
-//    private static void fillInMissingMatches(List<Entry<Participant, List<ParticipantMatchAttendance>>> allParticipants, List<String> matchNames) {
-//        //For each Participant, go through the MatchNames. If it's not in the Attendances, add it with that boolean flag off.
-//        for (Entry<Participant, List<ParticipantMatchAttendance>> personMatches : allParticipants) {
-//            final List<String> personsMatchNames = personMatches.getValue().stream()
-//                    .map(ParticipantMatchAttendance::getMatchName)
-//                    .collect(Collectors.toList());
-//            for (String matchName : matchNames) {
-//                if (!personsMatchNames.contains(matchName)) {
-//                    final ParticipantMatchAttendance skippedMatch = ParticipantMatchAttendance.builder()
-//                            .participant(personMatches.getKey())
-//                            .isDQed(false)
-//                            .matchName(matchName)
-//                            .attended(false)
-//                            .build();
-//                    personMatches.getValue().add(skippedMatch);
-//                }
-//            }
-//            //when all are added for Participant, sort by matchname
-//            personMatches.getValue().sort(Comparator.comparing(ParticipantMatchAttendance::getMatchName));
-//        }
-//    }
-//
-//    private static void writeSectionReport(String outputFileName, List<Entry<Participant, List<ParticipantMatchAttendance>>> allRecords, boolean dqOnly) {
-//        try {
-//            final FileWriter myWriter = new FileWriter(outputFileName);
-//            writeSectionReportHeader(myWriter, allRecords.get(0).getValue(), dqOnly);
-//            for (Entry<Participant, List<ParticipantMatchAttendance>> record : allRecords) {
-//                final StringBuilder out = new StringBuilder(record.getKey().getNamefirst() + "|" + record.getKey().getNameLast() + "|" + record.getKey().getUspsaNumber());
-//                for (ParticipantMatchAttendance match : record.getValue()) {
-//                    if (match.attended) {
-//                        if(dqOnly){
-//                            out.append("|")
-//                                    .append(match.isDQed? "DQ":"__");
-//                        }else{
-//                        out.append("|")
-//                                .append("Division:")
-//                                .append(match.division)
-//                                .append(" DivisionFinish:")
-//                                .append(match.divisonFinish)
-//                                .append(" isQDed:")
-//                                .append(match.isDQed);
-//                        }
-//                    } else {
-//                        out.append("|");
-//                    }
-//                }
-//                out.append("\n");
-//                String printValue = out.toString();
-//                if (dqOnly && !printValue.contains("DQ")) {
-//                    printValue = "";
-//                }
-//                System.out.print(printValue);
-//                myWriter.write(printValue);
-//            }
-//            myWriter.flush();
-//            myWriter.close();
-//        } catch (IOException e) {
-//            System.out.println("error writing file");
-//            System.out.println(e);
-//        }
-//    }
-//
-//    private static void writeSectionReportHeader(FileWriter myWriter, List<ParticipantMatchAttendance> matches, boolean dqOnly) throws IOException {
-//        final StringBuilder out = new StringBuilder("First|Last|USPSA Number");
-//        for (ParticipantMatchAttendance match : matches) {
-//            out.append("|").append(match.getMatchName());
-//        }
-//        myWriter.write(out + "\n");
-//    }
+    private static List<Tuple3<String, String, String>> getAllDistinctMembersWhoParticipatedByUspsaNumber(List<Match> matches) {
+        return io.vavr.collection.List.ofAll(matches.stream()
+                                                     .map(Match::getParticipants)
+                                                     .flatMap(List::stream)
+                                                     .collect(Collectors.toList())
+                                                     .stream()
+                                                     .map(participant -> new Tuple3<>(
+                                                             participant.getNameFirst(),
+                                                             participant.getNameLast(),
+                                                             participant.getUspsaNumber()))
+                                                     .distinct()
+                                                     .collect(Collectors.toList()))
+                .distinctBy(participant -> participant._3)
+                .sorted(Comparator.comparing(a -> a._2))
+                .toJavaList();
+    }
+
+    private static List<Match> readConvertedMatches(String inputDirectory) {
+        final List<Match> matches = new ArrayList<>();
+        FileUtils.listFiles(new File(inputDirectory), null, true).forEach(file -> matches.add(readFile(file)));
+        return matches;
+    }
+
+    private static Match readFile(File file) {
+        try {
+            return Util.getObjectMapper().readValue(file, Match.class);
+        } catch (IOException e) {
+            System.out.println("error reading file");
+            System.out.println(e);
+            return null;
+        }
+    }
+
+    private static void writeSectionReport(String outputFileName, List<Match> matches, List<Tuple3<String, String, String>> participants, boolean dqOnly) {
+        try {
+            final FileWriter myWriter = new FileWriter(outputFileName);
+            writeSectionReportHeader(myWriter, matches);
+            for (Tuple3<String, String, String> participant : participants) {
+                final StringBuilder out = new StringBuilder(participant._1 + DELIMITER + participant._2 + DELIMITER + participant._3);
+                for (Match match : matches) {
+                    final Optional<Participant> participantAtMatch = match.participants.stream()
+                            .filter(matchParticipant -> matchParticipant.getUspsaNumber().equals(participant._3))
+                            .findFirst();
+                    if (participantAtMatch.isPresent()) {
+                        final Participant participantForRecord = participantAtMatch.get();
+                        if (dqOnly) {
+                            out.append("|")
+                                    .append(participantForRecord.isDQed ? "DQ" : "__");
+                        } else {
+                            out.append("|")
+                                    .append("Division:")
+                                    .append(participantForRecord.getDivision())
+                                    .append(" DivisionFinish:")
+                                    .append(participantForRecord.getDivisonFinish())
+                                    .append(" isQDed:")
+                                    .append(participantForRecord.isDQed);
+                        }
+                    } else {
+                        out.append(DELIMITER)
+                                .append("__");
+                    }
+                }
+                out.append("\n");
+                String printValue = out.toString();
+
+                //Remove those that never DQed
+                if (dqOnly && !printValue.contains("DQ")) {
+                    printValue = "";
+                }
+                System.out.print(printValue);
+                myWriter.write(printValue);
+            }
+            myWriter.flush();
+            myWriter.close();
+        } catch (IOException e) {
+            System.out.println("error writing file");
+            System.out.println(e);
+        }
+    }
+
+    private static void writeSectionReportHeader(FileWriter myWriter, List<Match> matches) throws IOException {
+        final StringBuilder out = new StringBuilder("First|Last|USPSA Number");
+        for (Match match : matches) {
+            out.append(DELIMITER)
+                    .append(match.name.replace(",", ""));
+        }
+        myWriter.write(out + "\n");
+    }
 }
