@@ -1,0 +1,34 @@
+First|Last|USPSA Number|Division|Divison Finish|DQed
+clifford|aguilar||OPEN|3|false
+jack|apling||CARRY_OPTICS|11|false
+steve|blazina|a83244|REVOLVER|1|false
+lee|boyle|fy105750|LIMITED|8|false
+augusto|cabanilla|ty126829|SINGLE_STACK|3|false
+gregory|cain|fy104954|CARRY_OPTICS|10|false
+brandon|collins|fy104437|LIMITED|2|false
+noel|domingo|a85786|OPEN|1|false
+emilio|domingo|ty86951|OPEN|2|false
+david|dupree|ty89148|PCC|2|false
+nick|duran||LIMITED|10|false
+mike|green|a121109|CARRY_OPTICS|5|false
+doug|hartley|ty55079|PCC|1|false
+jay|hennen|ty123198|LIMITED|4|false
+m dwight|hughes|b6|LIMITED|6|false
+todd|johansson|a111193|CARRY_OPTICS|2|false
+james|johnson|a133488|LIMITED|9|false
+neal|knudson|a42954|REVOLVER|2|false
+ian|laughlin|ty114571|CARRY_OPTICS|4|false
+scott|leroux|l3253|LIMITED|1|false
+bob|loo|l1770|CARRY_OPTICS|6|false
+eugene|madayag|a111900|CARRY_OPTICS|8|false
+harold|martinez|a110099|CARRY_OPTICS|1|false
+wisly|martinez|fy122523|OPEN|4|false
+ray|narimatsu|ty66184|REVOLVER|3|false
+lucas|newman|a116087|CARRY_OPTICS|3|false
+eric|pratt|a108992|LIMITED|5|false
+steve|rankin|fy87777|SINGLE_STACK|2|false
+dane|sands||LIMITED|3|false
+nelson|tablang|ty86966|CARRY_OPTICS|7|false
+squire|tomasie|l1145|CARRY_OPTICS|9|false
+art|tordini|ty106402|SINGLE_STACK|1|false
+scott|whiting|a83609|LIMITED|7|false

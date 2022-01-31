@@ -1,0 +1,39 @@
+First|Last|USPSA Number|Division|Divison Finish|DQed
+lovell|agtani|a125996|CARRY_OPTICS|20|false
+clifford|aguilar|l4865|OPEN|3|false
+todd|anderson|a97885|CARRY_OPTICS|2|false
+rae arsen|baleros|a83018|OPEN|2|false
+john harold|barros|a132256|CARRY_OPTICS|19|false
+eric|beerbaum|fy108575|CARRY_OPTICS|1|false
+dave|bowman|a114761|CARRY_OPTICS|18|false
+lee|boyle|fy105750|LIMITED|4|false
+augusto|cabanilla|ty126829|SINGLE_STACK|2|true
+don|carroll|a131363|PRODUCTION|1|false
+eric|dayrit|ty119251|PCC|1|false
+scott|denton|pending|PRODUCTION|3|false
+james|dong|fy22573|LIMITED|6|false
+keanuhea|dunn|a129511|CARRY_OPTICS|3|false
+marcel|englmaier|l4898|LIMITED_10|1|false
+joshua|glastra|l4681|CARRY_OPTICS|21|false
+joseph|iglesias|a131479|LIMITED|2|false
+ernest|inocencio|0|LIMITED|5|false
+tom|kettells|l465|CARRY_OPTICS|8|false
+cathy|kiyota|ty44443|CARRY_OPTICS|14|false
+scott|leroux|l3253|CARRY_OPTICS|15|false
+harold|martinez|a110099|LIMITED|3|false
+wisly|martinez|fy122523|LIMITED|7|false
+chris|mcmeen|ty100339|CARRY_OPTICS|4|false
+zach|minor|a132755|CARRY_OPTICS|11|false
+sam|nurik|a129753|CARRY_OPTICS|10|false
+dean|prayner|a128707|CARRY_OPTICS|17|false
+jordan|rogers|ty114649|OPEN|1|false
+brian|rowe|ty114139|SINGLE_STACK|1|false
+luke|schwebke|fy108653|CARRY_OPTICS|9|false
+george|siriyanonh|a132236|CARRY_OPTICS|16|false
+jim|speedy|a113268|CARRY_OPTICS|5|false
+josh|stone|a116865|CARRY_OPTICS|7|false
+steve|taylor|a95116|PRODUCTION|2|false
+jonathan|tran|a122842|CARRY_OPTICS|12|false
+owen|yeasting|a114180|CARRY_OPTICS|6|false
+rainier|yee|a131478|CARRY_OPTICS|13|false
+austin j.|young|a104403|LIMITED|1|false

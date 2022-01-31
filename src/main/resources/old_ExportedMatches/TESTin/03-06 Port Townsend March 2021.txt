@@ -1,0 +1,27 @@
+First|Last|USPSA Number|Division|Divison Finish|DQed
+steve|blazina|a83244|LIMITED|6|false
+lee|boyle|fy105750|LIMITED|7|false
+gregory|cain|fy104954|CARRY_OPTICS|5|false
+jason|campbell||CARRY_OPTICS|3|false
+billy andrew|de guzman|a121011|OPEN|3|false
+mercedita|de guzman|a121340|OPEN|5|false
+noel|domingo|a85786|OPEN|1|false
+emilio|domingo|ty86951|OPEN|2|false
+david|dupree|fy89148|PCC|1|false
+mike|green|a121109|LIMITED|3|false
+jay|hennen|ty123198|LIMITED|5|false
+dean|hennen||PRODUCTION|2|false
+erin|hubbard|ty123369|CARRY_OPTICS|4|false
+m dwight|hughes|b6|LIMITED|1|false
+earl|jull|l2865|REVOLVER|1|false
+neal|knudson|a42954|LIMITED|4|false
+richard|lindquist|ty11614|PRODUCTION|1|false
+bob|loo|l1770|CARRY_OPTICS|1|false
+kris|mcgaughey|fy88243|OPEN|4|false
+mercy|mcgaughey||OPEN|6|false
+ray|narimatsu|ty66184|LIMITED|8|false
+eric|pratt|a108992|LIMITED|2|false
+steve|rankin|fy87777|SINGLE_STACK|2|false
+tab|severns||REVOLVER|2|false
+squire|tomasie|l1145|CARRY_OPTICS|2|false
+art|tordini|ty106402|SINGLE_STACK|1|false

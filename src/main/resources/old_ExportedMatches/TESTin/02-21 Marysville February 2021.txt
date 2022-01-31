@@ -1,0 +1,29 @@
+First|Last|USPSA Number|Division|Divison Finish|DQed
+rae arsen|baleros|a83018|OPEN|5|false
+matthew|cushman||LIMITED|5|false
+noel|domingo|a85786|OPEN|2|false
+emilio|domingo|ty86951|OPEN|4|false
+james|dong|fy22573|PCC|6|false
+sorida|eap|fy76563|CARRY_OPTICS|2|false
+deri|helterline|a63830|PCC|5|false
+vinh|hoang|l4494|LIMITED|3|false
+tom|kettells|l465|CARRY_OPTICS|3|false
+cathy|kiyota|ty44443|CARRY_OPTICS|6|false
+mike|leander|a28558|PCC|3|false
+larry|leone|l3001|CARRY_OPTICS|1|false
+bob|loo|l1770|CARRY_OPTICS|5|false
+harold|martinez|a110099|OPEN|3|false
+greg|purcell|fy23884|CARRY_OPTICS|4|false
+tim|ramberg|ty70622|PCC|1|false
+jon|ramberg||PCC|8|false
+kevin|roberts|l4924|LIMITED|2|false
+shawn|roe|a72005|CARRY_OPTICS|7|false
+gary|roessel|a2757|OPEN|6|false
+steven|roessel|a44141|PCC|7|false
+victor|rojas|a71096|PCC|4|false
+brian|rowe|ty114139|SINGLE_STACK|1|false
+peter|ryakhovskiy|ty98462|LIMITED|1|false
+jaxon|scofield|a131224|LIMITED|4|false
+loke|tan|ty66256|OPEN|1|false
+evan|tisler|a88085|PCC|2|false
+squire|tomasie|l1145|CARRY_OPTICS|8|false
