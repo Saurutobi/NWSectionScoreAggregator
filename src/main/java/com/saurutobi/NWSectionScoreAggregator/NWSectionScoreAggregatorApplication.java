@@ -25,7 +25,7 @@ public class NWSectionScoreAggregatorApplication {
             MatchImporter.importBulkMatches(args[1], args[2]);
         } else if (args[0].equals("-r")) {
             System.out.println("Generating Custom Results" + "\n");
-            ResultsGenerator.generateResultsFromMatch(args[1]);
+            CustomMatchResultsGenerator.generateResultsFromMatch(args[1]);
         } else if (args[0].equals("-a")) {
             System.out.println("Aggregating Section Matches" + "\n");
             SectionAggregator.aggregateMatch(args[1], args[2], false);

@@ -26,12 +26,18 @@ Example
 ###Aggregate all converted matches into a report
 ``` -a [input directory] [output file]```
 
+Example
+
+```-a "C:\Git\NWSectionScoreAggregator\src\main\resources\2021_ConvertedMatches" "C:\Git\NWSectionScoreAggregator\src\main\resources\NWSectionMatchReport.csv"```
+
 ###Aggregate all converted matches into a DQ report
 ```-d [input folder] [output file path]```
 
+Example
 
-
+```-d "C:\Git\NWSectionScoreAggregator\src\main\resources\2021_ConvertedMatches" "C:\Git\NWSectionScoreAggregator\src\main\resources\NWSectionDQReport.csv"```
 
 
 ## TODO
--use json schema to generate targets which are the Model rather than hardcoding a model, give that schema to PS and USPSA
+- Print only matches that have DQs for DQ report
+- Use json schema to generate targets which are the Model rather than hardcoding a model, give that schema to PS and USPSA

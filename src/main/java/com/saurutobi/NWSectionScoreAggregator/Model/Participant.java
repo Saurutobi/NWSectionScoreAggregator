@@ -25,7 +25,6 @@ public class Participant {
     public boolean isDQed;
     public Division division;
     public Integer divisonFinish;
-    public boolean attended;
 
     public static Participant mapParticipantFromUSPSAMatchReportFile(String[] attributes) {
         //RAW attributes: "E 1, A1234, first, last, No, No, No, No, M, Carry Optics, 738.5825, 1, Minor,etcetc"
