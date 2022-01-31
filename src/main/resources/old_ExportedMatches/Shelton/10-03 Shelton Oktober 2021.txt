@@ -1,9 +1,0 @@
-First|Last|USPSA Number|Division|Divison Finish|DQed
-greg|beck|fy92838|LIMITED|1|false
-bruce|bennett|l2124|PCC|4|false
-lee|boyle|fy105750|SINGLE_STACK|1|false
-matt|crane|ty108303|PCC|3|false
-alan|kies|ty24792|CARRY_OPTICS|1|false
-bill|mayne|l-343|PCC|1|false
-kaiwen|wang|a133424|CARRY_OPTICS|2|false
-bruce|wood|ty47022|PCC|2|false
