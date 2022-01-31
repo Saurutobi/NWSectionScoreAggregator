@@ -32,7 +32,7 @@ E 15,L1770,Bob,Loo,No,No,No,No,B,Carry Optics,440.4107,15,Minor,Open,Major,,No,,
 E 16,A83018,Rae Arsen,Baleros,No,No,No,No,B,Carry Optics,417.0957,16,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 17,A84564,Ryan,Reibman,No,No,No,No,B,Carry Optics,415.5694,17,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 18,Ty86951,Emilio,Domingo,No,No,No,No,B,Carry Optics,414.3739,18,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
-E 19,,Tim,Anderson,No,No,No,No,U,Carry Optics,403.7907,19,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 19,NOT_A_MEMBER,Tim,Anderson,No,No,No,No,U,Carry Optics,403.7907,19,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 20,FY107432,Rezner,Abubakar,No,No,No,No,B,Carry Optics,391.4538,20,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 21,TY122981,Kevin,Nguyen,No,No,No,No,C,Carry Optics,385.5494,21,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 22,A132236,George,Siriyanonh,No,No,No,No,C,Carry Optics,352.3151,22,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
@@ -52,7 +52,7 @@ E 35,A99949,Tomas,Tapia,No,No,No,No,C,Limited,442.3097,4,Major,Open,Major,,No,,O
 E 36,A133685,Efren,Lizarraga,No,No,No,No,U,Limited,416.6576,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 37,TY114139,Brian,Rowe,No,No,No,No,C,Limited,400.3628,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 38,fy122523,Wisly,Martinez,No,No,No,No,D,Limited,378.1275,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 39,,Gabriel,Melendez,No,No,No,No,U,Limited,347.6145,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 39,NOT_A_MEMBER,Gabriel,Melendez,No,No,No,No,U,Limited,347.6145,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 40,A124035,Don,Bermudez,No,No,No,No,D,Limited,167.9879,9,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 41,L4898,Marcel,Englmaier,No,No,No,No,A,Limited 10,613.0000,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 42,A137421,Erwin,Evangelista,No,No,No,No,U,Limited 10,258.4386,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No

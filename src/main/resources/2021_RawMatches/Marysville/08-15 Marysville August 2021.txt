@@ -47,7 +47,7 @@ E 30,A28558,Mike,Leander,No,No,No,No,M,PCC,796.1995,2,Minor,Open,Major,,No,,Open
 E 31,FY107432,Rezner,Abubakar,No,No,No,No,A,PCC,693.3762,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 32,A44141,Steven,Roessel,No,No,No,No,B,PCC,638.2721,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 33,TY107104,Katherine,Abubakar,No,No,No,No,B,PCC,597.8867,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
-E 34,,James,Dong,No,No,No,No,A,PCC,557.3129,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
+E 34,NOT_A_MEMBER,James,Dong,No,No,No,No,A,PCC,557.3129,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 35,TY39942,Roger,Arcoite,No,No,No,No,B,PCC,537.5653,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 36,TY77726,James,Fenlin,No,No,No,No,B,PCC,511.1328,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 37,A131363,Don,Carroll,No,No,No,No,A,Production,865.0000,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No

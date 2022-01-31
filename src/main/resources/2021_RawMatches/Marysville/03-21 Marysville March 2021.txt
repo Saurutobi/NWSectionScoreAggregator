@@ -62,7 +62,7 @@ E 45,A28558,Mike,Leander,No,No,No,No,M,PCC,567.5846,2,Minor,Open,Major,,No,,Open
 E 46,A63830,Deri,Helterline,No,No,No,No,B,PCC,442.0778,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 47,TY77726,James,Fenlin,No,No,No,No,B,PCC,426.6015,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 48,L2396,Floyd,Shoemaker,No,No,No,No,A,PCC,425.1162,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
-E 49,,James,Dong,No,No,No,No,A,PCC,424.3813,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
+E 49,NOT_A_MEMBER,James,Dong,No,No,No,No,A,PCC,424.3813,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 50,TY93287,Chris,Orr,No,No,No,No,B,PCC,345.3245,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 51,TY100122,Donald,Jones,No,No,No,No,U,PCC,224.2313,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 52,L4898,Marcel,Englmaier,No,No,No,No,B,Production,573.9615,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No

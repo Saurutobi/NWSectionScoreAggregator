@@ -49,7 +49,7 @@ E 32,L4865,Clifford,Aguilar,No,No,No,No,C,Open,375.5230,6,Major,Open,Major,,No,,
 E 33,TY133212,Phillip,Robinson,No,No,No,No,U,Open,356.0580,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 34,TY14867,Randall,Hess,No,No,No,No,C,Open,318.6516,8,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 35,A131817,Angie,Anderson,No,No,No,No,U,Open,238.5669,9,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
-E 36,,Daniel,Brown,No,No,No,No,U,Open,82.4244,10,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
+E 36,NOT_A_MEMBER,Daniel,Brown,No,No,No,No,U,Open,82.4244,10,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 37,A86278,Hwansik,Kim,No,No,No,No,GM,PCC,604.4170,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 38,TY114649,Jordan,Rogers,No,No,No,No,A,PCC,539.0358,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 39,TY107104,Katherine,Abubakar,No,No,No,No,B,PCC,506.4808,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No

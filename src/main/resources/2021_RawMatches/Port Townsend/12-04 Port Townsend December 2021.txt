@@ -20,7 +20,7 @@ E 3,TY111193,Todd,Johansson,No,No,No,No,B,CO,424.9507,3,Minor,Open,Major,,No,,Op
 E 4,A121109,Mike,Green,No,No,No,No,B,CO,416.8779,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 5,A112110,Collin,West III,No,No,No,No,B,CO,393.0573,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 6,A111900,Eugene,Madayag,No,No,No,No,C,CO,378.8262,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 7,,Dane,Sands,No,No,No,No,C,CO,365.1445,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 7,NOT_A_MEMBER,Dane,Sands,No,No,No,No,C,CO,365.1445,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 8,A131408,Aaron,Burke,No,No,No,No,U,CO,342.1288,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 9,A83609,scott,whiting,No,No,No,No,D,CO,289.1805,9,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 10,A136588,Ricardo,Vargas,No,No,No,No,U,CO,251.7022,10,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,Yes
@@ -36,7 +36,7 @@ E 19,A110099,harold,martinez,No,No,No,No,A,Open,560.0000,1,Major,Open,Major,,No,
 E 20,L4865,Clifford,Aguilar,No,No,No,No,C,Open,420.5207,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 21,A133577,Jack,Apling,No,No,No,No,U,Open,185.7505,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 22,,Neal,Knudson,No,No,No,No,B,PCC,550.2186,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
-E 23,,M Dwight,Hughes,No,No,No,No,B,PCC,346.1865,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
+E 23,b6,M Dwight,Hughes,No,No,No,No,B,PCC,346.1865,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 24,,Jason,Hart,No,No,No,No,U,PCC,263.6747,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 25,,Richard,Lindquist,No,No,No,No,C,Production,547.9077,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 26,A136496,Mike,Hudson,No,No,No,No,U,Production,424.9994,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No

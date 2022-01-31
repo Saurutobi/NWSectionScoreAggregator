@@ -16,7 +16,7 @@ A NW15 Port Townsend Practical Pistol USPSA March 6 2021,asdf,03/06/2021
 D Comp,USPSA,FirstName,LastName,DQPistol,DQRifle,DQShotgun,Reentry,Class,Division,Match Points,Place Overall,Power Factor,Shotgun Division,Shotgun Power Factor,Shotgun Place Overall,Shotgun Entered,Shotgun Match Points,Rifle Division,Rifle Power Factor,Rifle Place Overall,Rifle Entered,Rifle Match Points,Aggregate,Aggregate Division,Aggregate Pistol Percent,Aggregate Pistol Points,Aggregate Place,Aggregate Rifle Percent,Aggregate Rifle Points,Aggregate Shotgun Percent,Aggregate Shotgun Points,Aggregate Total,Female,Age,Law,Military
 E 1,L1770,Bob,Loo,No,No,No,No,B,CO,692.8293,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 2,L1145,Squire,Tomasie,No,No,No,No,A,CO,654.0718,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
-E 3,,Jason,Campbell,No,No,No,No,B,CO,527.7377,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 3,NOT_A_MEMBER,Jason,Campbell,No,No,No,No,B,CO,527.7377,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 4,TY123369,Erin,Hubbard,No,No,No,No,D,CO,472.4023,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 5,FY104954,Gregory,Cain,No,No,No,No,C,CO,415.1610,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 6,B6,M Dwight,Hughes,No,No,No,No,A,Limited,684.5504,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
@@ -32,12 +32,12 @@ E 15,TY86951,Emilio,Domingo,No,No,No,No,A,Open,651.3177,2,Major,Open,Major,,No,,
 E 16,A121011,Billy Andrew,De Guzman,No,No,No,No,B,Open,651.0285,3,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 17,FY88243,Kris,McGaughey,No,No,No,No,C,Open,494.8635,4,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 18,A121340,Mercedita,De Guzman,No,No,No,No,C,Open,374.1833,5,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
-E 19,,Mercy,McGaughey,No,No,No,No,U,Open,246.8266,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,Junior,No,No
+E 19,NOT_A_MEMBER,Mercy,McGaughey,No,No,No,No,U,Open,246.8266,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,Junior,No,No
 E 20,FY89148,David,Dupree,No,No,No,No,B,PCC,730.0000,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 21,TY11614,Richard,Lindquist,No,No,No,No,C,Production,711.2264,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
-E 22,,Dean,Hennen,No,No,No,No,U,Production,447.2427,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 22,NOT_A_MEMBER,Dean,Hennen,No,No,No,No,U,Production,447.2427,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 23,L2865,Earl,Jull,No,No,No,No,C,Revolver,729.4233,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
-E 24,,Tab,Severns,No,No,No,No,U,Revolver,424.1894,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
+E 24,NOT_A_MEMBER,Tab,Severns,No,No,No,No,U,Revolver,424.1894,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 25,TY106402,Art,Tordini,No,No,No,No,B,Single Stack,671.0159,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 26,FY87777,Steve,Rankin,No,No,No,No,C,Single Stack,626.3827,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 F Number,Guntype,Minimum Rounds,Maximum Points,Classifier,Classifier_No,Stage_name,ScoringType,TimesRun

@@ -1,5 +1,7 @@
 package com.saurutobi.NWSectionScoreAggregator;
 
+import static com.saurutobi.NWSectionScoreAggregator.Util.readConvertedMatches;
+
 import com.saurutobi.NWSectionScoreAggregator.Model.Match;
 import com.saurutobi.NWSectionScoreAggregator.Model.Participant;
 import io.vavr.Tuple3;
@@ -63,22 +65,6 @@ public class MatchAggregator {
                 .distinctBy(participant -> participant._2 + participant._3)
                 .sorted(Comparator.comparing(a -> a._2))
                 .toJavaList();
-    }
-
-    private static List<Match> readConvertedMatches(String inputDirectory) {
-        final List<Match> matches = new ArrayList<>();
-        FileUtils.listFiles(new File(inputDirectory), null, true).forEach(file -> matches.add(readFile(file)));
-        return matches;
-    }
-
-    private static Match readFile(File file) {
-        try {
-            return Util.getObjectMapper().readValue(file, Match.class);
-        } catch (IOException e) {
-            System.out.println("error reading file");
-            System.out.println(e);
-            return null;
-        }
     }
 
     private static void writeSectionDqReport(String outputFileName, List<Match> matches, List<Tuple3<String, String, String>> participants) {

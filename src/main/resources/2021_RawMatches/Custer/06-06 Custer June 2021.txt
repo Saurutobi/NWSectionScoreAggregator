@@ -24,7 +24,7 @@ E 7,A85321,Dean,Clark,No,No,No,No,B,Carry Optics,500.2137,7,Minor,Open,Major,,No
 E 8,A109227,Anna,Skurdal,No,No,No,No,C,Carry Optics,430.1654,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 9,L1145,SQUIRE,TOMASIE,No,No,No,No,A,Carry Optics,396.8108,9,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 10,,Kay,Patterson,No,No,No,No,U,Carry Optics,259.4145,10,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
-E 11,,Jody,Hernandez,No,No,No,No,U,Carry Optics,242.5716,11,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Junior,No,No
+E 11,NOT_A_MEMBER,Jody,Hernandez,No,No,No,No,U,Carry Optics,242.5716,11,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Junior,No,No
 E 12,TY85699,Ken,Pavlick,No,No,No,No,C,Carry Optics,241.6238,12,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 13,L4494,Vinh,Hoang,No,No,No,No,M,Limited,680.0000,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 14,TY92223,stuart,wilson,No,No,No,No,A,Limited,514.2721,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
@@ -40,7 +40,7 @@ E 23,TY98462,Peter,Ryakhovskiy,No,No,No,No,M,Open,620.8419,1,Major,Open,Major,,N
 E 24,A110185,Ryan,Halwick,No,No,No,No,A,Open,604.0396,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 25,L2396,Floyd,Shoemaker,No,No,No,No,M,Open,532.9923,3,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 26,A83018,Rae Arsen,Baleros,No,No,No,No,B,Open,505.5922,4,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 27,,Damon,Donner,No,No,No,No,U,Open,354.2936,5,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,Yes
+E 27,A136619,Damon,Donner,No,No,No,No,U,Open,354.2936,5,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,Yes
 E 28,A2757,gary,roessel,No,No,No,No,C,Open,328.6810,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 29,FY103459,melissa,wilson,No,No,No,No,C,Open,319.1521,7,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 30,,Dustin,Hansen,No,No,No,No,U,Open,268.9619,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No

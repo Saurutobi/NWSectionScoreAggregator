@@ -27,13 +27,13 @@ E 10,,James,Johnson,No,No,No,No,U,CO,209.5341,10,Minor,Open,Major,,No,,Open,Mino
 E 11,A133577,Jack,Apling,No,No,No,No,U,CO,180.6638,11,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 12,L4747,Bill,Saunders,No,No,No,No,D,CO,161.7105,12,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 13,a104437,Brandon,Collins,No,No,No,No,U,Limited,541.0337,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 14,,M Dwight,Hughes,No,No,No,No,A,Limited,471.7910,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
+E 14,b6,M Dwight,Hughes,No,No,No,No,A,Limited,471.7910,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 15,A111915,Dane,Sands,No,No,No,No,C,Limited,457.2340,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 16,A108992,Eric,Pratt,No,No,No,No,C,Limited,452.5527,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 17,,Jay,Hennen,No,No,No,No,C,Limited,424.1160,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 17,TY123198,Jay,Hennen,No,No,No,No,C,Limited,424.1160,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 18,A125553,Phillip,Oconnor,No,No,No,No,C,Limited,417.5207,6,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 19,TY106641,Kevin,Jones,No,No,No,No,B,Limited,385.8191,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 20,,Nick,Duran,No,No,No,No,A,Limited,383.9734,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 20,NOT_A_MEMBER,Nick,Duran,No,No,No,No,A,Limited,383.9734,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 21,A130275,John,Petroff,No,No,No,No,U,Limited,358.6097,9,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 22,,Steve,Blazina,No,No,No,No,C,Limited,322.7500,10,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 23,TY12765,Phillip,Meyers,No,No,No,No,C,Limited,312.2339,11,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No

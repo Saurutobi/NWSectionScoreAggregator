@@ -42,7 +42,7 @@ E 25,FY23884,Greg,Purcell,No,No,No,No,M,PCC,634.4957,2,Minor,Open,Major,,No,,Ope
 E 26,A28558,Mike,Leander,No,No,No,No,M,PCC,529.3866,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 27,A44141,Steven,Roessel,No,No,No,No,B,PCC,451.1325,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 28,FY22573,James,Dong,No,No,No,No,A,PCC,438.6641,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
-E 29,,Jon,Ramberg,No,No,No,No,U,PCC,318.9484,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
+E 29,NOT_A_MEMBER,Jon,Ramberg,No,No,No,No,U,PCC,318.9484,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 30,TY120660,Rich,Nelson,No,No,No,No,C,PCC,301.0175,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 31,TY77726,James,Fenlin,No,No,No,No,B,PCC,119.6259,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 32,FY105750,lee,boyle,No,No,No,No,B,Single Stack,665.0000,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No

@@ -22,9 +22,9 @@ E 5,B6,M Dwight,Hughes,No,No,No,No,A,Limited,567.7160,1,Major,Open,Major,,No,,Op
 E 6,A83244,Steve,Blazina,No,No,No,No,C,Limited,454.2301,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 7,A42954,Neal,Knudson,No,No,No,No,C,Limited,441.5621,3,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 8,FY105750,Lee,Boyle,No,No,No,No,C,Limited,389.5124,4,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 9,,Brian,Bolling,No,No,No,No,C,Limited,339.8983,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 9,NOT_A_MEMBER,Brian,Bolling,No,No,No,No,C,Limited,339.8983,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 10,TY114571,Ian,Laughlin,No,No,No,No,C,Open,550.4342,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 11,,Todd,Johansson,No,No,No,No,U,Open,549.5297,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 11,TY111193,Todd,Johansson,No,No,No,No,U,Open,549.5297,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 12,TY11614,Richard,Lindquist,No,No,No,No,C,Production,600.0000,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 13,FY87777,Steve,Rankin,No,No,No,No,C,Single Stack,570.4813,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 14,TY106402,Art,Tordini,No,No,No,No,B,Single Stack,548.4560,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No

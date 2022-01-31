@@ -49,7 +49,7 @@ E 32,A133543,Amber,Black,No,No,No,No,D,Carry Optics,213.1862,32,Minor,Open,Major
 E 33,A136343,Tiffani,Wong,No,No,No,No,U,Carry Optics,208.7315,33,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 34,A134618,Carley,Scholter,No,No,No,No,U,Carry Optics,172.9692,34,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 35,A133720,Ray,Voeller,Yes,No,No,No,U,Carry Optics,0.0000,35,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 36,,Tim,Anderson,Yes,No,No,No,U,Carry Optics,0.0000,36,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 36,NOT_A_MEMBER,Tim,Anderson,Yes,No,No,No,U,Carry Optics,0.0000,36,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 37,L4494,Vinh,Hoang,No,No,No,No,M,Limited,814.9569,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 38,TY78052,Serge,Davis,No,No,No,No,M,Limited,716.4597,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 39,A51227,Kevin,Olson,No,No,No,No,A,Limited,664.8926,3,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No

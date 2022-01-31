@@ -44,7 +44,7 @@ E 27,TY103985,Chris,Tedford,No,No,No,No,B,Limited,594.1313,6,Major,Open,Major,,N
 E 28,A51227,Kevin,Olson,No,No,No,No,A,Limited,555.8290,7,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 29,TY96391,Tessina,Hurley,No,No,No,No,C,Limited,394.8233,8,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 30,ty37515,Tod,Sherman,No,No,No,No,C,Limited,337.3262,9,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
-E 31,,Nick,Duran,No,No,No,No,U,Limited,333.8491,10,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 31,NOT_A_MEMBER,Nick,Duran,No,No,No,No,U,Limited,333.8491,10,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 32,A133488,James,Johnson,No,No,No,No,U,Limited,301.9162,11,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 33,fy122523,Wisly,Martinez,No,No,No,No,D,Limited,268.0719,12,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 34,A133543,Amber,Black,No,No,No,No,U,Limited,250.7708,13,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No

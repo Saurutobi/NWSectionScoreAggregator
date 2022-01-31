@@ -1,22 +1,20 @@
 package com.saurutobi.NWSectionScoreAggregator.Model;
 
-import static com.saurutobi.NWSectionScoreAggregator.Util.removeLinePrefix;
-
-import java.time.format.DateTimeFormatter;
-import java.util.List;
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.util.List;
 
 @Data
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
 public class Match {
+    private static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy");
     public String name;
     public LocalDate date;
     public String clubName;
@@ -24,7 +22,6 @@ public class Match {
     public List<Participant> participants;
     public List<Stage> stages;
     public List<ParticipantStageResult> participantStageResults;
-    private static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy");
 
     public static Match mapBaseMatchInfoFromUSPSAMatchReportFile(String name, String date, String clubName, String clubCode) {
         return Match.builder()

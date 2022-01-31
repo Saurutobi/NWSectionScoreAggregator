@@ -12,7 +12,7 @@ $INFO Scoring:0
 $INFO Classifiers:1
 $INFO Match Level: Level I
 Z 3.0
-A NW02 MRCPS USPSA J  un 20, 2021,Marysville Rifle Club Practical Shooters,06/20/2021
+A NW02 MRCPS USPSA June 20, 2021,Marysville Rifle Club Practical Shooters,06/20/2021
 D Comp,USPSA,FirstName,LastName,DQPistol,DQRifle,DQShotgun,Reentry,Class,Division,Match Points,Place Overall,Power Factor,Shotgun Division,Shotgun Power Factor,Shotgun Place Overall,Shotgun Entered,Shotgun Match Points,Rifle Division,Rifle Power Factor,Rifle Place Overall,Rifle Entered,Rifle Match Points,Aggregate,Aggregate Division,Aggregate Pistol Percent,Aggregate Pistol Points,Aggregate Place,Aggregate Rifle Percent,Aggregate Rifle Points,Aggregate Shotgun Percent,Aggregate Shotgun Points,Aggregate Total,Female,Age,Law,Military
 E 1,L4681,Joshua,Glastra,No,No,No,No,M,Carry Optics,624.0714,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 2,L3001,Larry,Leone,No,No,No,No,B,Carry Optics,588.3126,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
@@ -65,7 +65,7 @@ E 48,A63830,Deri,Helterline,No,No,No,No,B,PCC,399.7309,6,Minor,Open,Major,,No,,O
 E 49,TY107104,Katherine,Abubakar,No,No,No,No,B,PCC,349.4017,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 50,A130178,Raiana,Abubakar,No,No,No,No,C,PCC,320.4684,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 51,TY77726,James,Fenlin,No,No,No,No,B,PCC,312.0357,9,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
-E 52,,Jon,Ramberg,No,No,No,No,U,PCC,294.3300,10,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
+E 52,NOT_A_MEMBER,Jon,Ramberg,No,No,No,No,U,PCC,294.3300,10,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 53,A131363,Don,Carroll,No,No,No,No,A,Production,700.0000,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 54,TY87542,Alan,Holloway,No,No,No,No,B,Production,488.1838,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 55,A90645,Greg,Vanlandingham,No,No,No,No,A,Single Stack,598.3139,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No

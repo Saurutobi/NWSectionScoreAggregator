@@ -34,7 +34,7 @@ E 17,A133720,Ray,Voeller,No,No,No,No,U,Carry Optics,453.7397,17,Minor,Open,Major
 E 18,A133488,James,Johnson,No,No,No,No,U,Carry Optics,421.3311,18,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 19,A135240,Sasi,Narra,No,No,No,No,U,Carry Optics,387.3488,19,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 20,TY109119,Colin,Wakefield,No,No,No,No,D,Carry Optics,369.9312,20,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 21,,Nick,Duran,No,No,No,No,U,Carry Optics,341.2418,21,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 21,NOT_A_MEMBER,Nick,Duran,No,No,No,No,U,Carry Optics,341.2418,21,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 22,A135654,Tyler,Scott,No,No,No,No,U,Carry Optics,327.2231,22,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 23,A1011779,Wuyang,Wang,No,No,No,No,U,Carry Optics,314.2826,23,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 24,L4494,Vinh,Hoang,No,No,No,No,M,Limited,802.3631,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
@@ -63,7 +63,7 @@ E 46,fy22573,James,Dong,No,No,No,No,A,PCC,492.4796,7,Minor,Open,Major,,No,,Open,
 E 47,Ty107104,Katherine,Abubakar,No,No,No,No,B,PCC,476.3255,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 48,Fy89148,David,Dupree,No,No,No,No,B,PCC,443.1192,9,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 49,FY77755,Pascual (Lito),Serio,No,No,No,No,D,PCC,367.8966,10,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
-E 50,,Jon,Ramberg,No,No,No,No,U,PCC,365.7265,11,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
+E 50,NOT_A_MEMBER,Jon,Ramberg,No,No,No,No,U,PCC,365.7265,11,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 51,TY86531,Ruben,Heim,No,No,No,No,A,Production,761.1243,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 52,A118767,Joe,Bawden,No,No,No,No,B,Production,690.9529,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,Yes
 E 53,Ty85569,ryan,diez,No,No,No,No,D,Production,620.6901,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No

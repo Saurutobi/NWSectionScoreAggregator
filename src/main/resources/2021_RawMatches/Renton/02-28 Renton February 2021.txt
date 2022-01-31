@@ -39,7 +39,7 @@ E 22,A104403,Austin J.,Young,No,No,No,No,M,Limited,382.4534,1,Major,Open,Major,,
 E 23,A131479,Joseph,Iglesias,No,No,No,No,U,Limited,272.0747,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 24,A110099,harold,martinez,No,No,No,No,U,Limited,222.8983,3,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 25,fy105750,lee,boyle,No,No,No,No,C,Limited,208.8292,4,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 26,0,Ernest,Inocencio,No,No,No,No,U,Limited,176.1307,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 26,A134625,Ernest,Inocencio,No,No,No,No,U,Limited,176.1307,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 27,fy22573,James,Dong,No,No,No,No,B,Limited,171.1127,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 28,fy122523,Wisly,Martinez,No,No,No,No,U,Limited,143.2907,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 29,L4898,Marcel,Englmaier,No,No,No,No,U,Limited 10,271.0000,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
@@ -49,7 +49,7 @@ E 32,L4865,Clifford,Aguilar,No,No,No,No,C,Open,215.6428,3,Major,Open,Major,,No,,
 E 33,TY119251,Eric,Dayrit,No,No,No,No,U,PCC,404.0000,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 34,A131363,Don,Carroll,No,No,No,No,B,Production,367.7115,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 35,A95116,Steve,Taylor,No,No,No,No,U,Production,243.9243,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 36,pending,Scott,Denton,No,No,No,No,U,Production,53.6926,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 36,NOT_A_MEMBER,Scott,Denton,No,No,No,No,U,Production,53.6926,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 37,TY114139,Brian,Rowe,No,No,No,No,C,Single Stack,385.0000,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 38,Ty126829,Augusto,Cabanilla,Yes,No,No,No,D,Single Stack,0.0000,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 F Number,Guntype,Minimum Rounds,Maximum Points,Classifier,Classifier_No,Stage_name,ScoringType,TimesRun

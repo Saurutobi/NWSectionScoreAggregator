@@ -19,7 +19,7 @@ E 2,A83609,Scott,Whiting,No,No,No,No,,CO,433.2168,2,Minor,Open,Major,,No,,Open,M
 E 3,B6,M Dwight,Hughes,No,No,No,No,A,Limited,583.4984,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 4,A83244,Steve,Blazina,No,No,No,No,C,Limited,488.4196,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 5,TY123369,Erin,Hubbard,No,No,No,No,U,Limited,358.9021,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
-E 6,,Todd,Johansson,No,No,No,No,,Open,590.0000,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 6,TY111193,Todd,Johansson,No,No,No,No,,Open,590.0000,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 7,A42954,Neal,Knudson,No,No,No,No,C,PCC,590.0000,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 8,TY116146,Richard,Lindquist,No,No,No,No,C,Production,470.0000,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 9,FY87777,Steve,Rankin,No,No,No,No,C,Single Stack,499.3562,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No

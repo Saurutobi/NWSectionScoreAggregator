@@ -21,9 +21,9 @@ E 4,A71578,Keith,Tsang,No,No,No,No,B,Carry Optics,407.3484,4,Minor,Open,Major,,N
 E 5,A129753,Sam,Nurik,No,No,No,No,B,Carry Optics,358.5041,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 6,A122842,Jonathan,Tran,Yes,No,No,No,A,Carry Optics,0.0000,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 7,FY105750,lee,boyle,No,No,No,No,C,Limited,421.7810,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 8,,Edward,Kim,No,No,No,No,U,Limited,372.5363,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,Yes
+E 8,NOT_A_MEMBER,Edward,Kim,No,No,No,No,U,Limited,372.5363,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,Yes
 E 9,A118767,Joe,Bawden,No,No,No,No,U,Limited 10,461.0000,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,Yes,No
-E 10,,Khappo,Newdell,No,No,No,No,A,Open,506.0000,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 10,A85786,Noel,Domingp,No,No,No,No,A,Open,506.0000,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 11,Ty86951,Emilio,Domingo,No,No,No,No,A,Open,393.6303,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 12,A91246,Jim,Steward,No,No,No,No,C,Open,260.0331,3,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 13,Ty94333,Jon,Porter,No,No,No,No,GM,PCC,507.0000,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,Yes

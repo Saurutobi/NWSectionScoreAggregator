@@ -40,16 +40,16 @@ E 23,A104403,Austin,Young,No,No,No,No,M,Limited,508.3700,1,Major,Open,Major,,No,
 E 24,TY92223,stuart,wilson,No,No,No,No,A,Limited,405.0105,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 25,L4898,Marcel,Englmaier,No,No,No,No,U,Limited,380.8172,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 26,L3253,Scott,LeRoux,No,No,No,No,M,Limited,372.8206,4,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
-E 27,,Federico,Romero,No,No,No,No,U,Limited,266.2663,5,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,Yes,No
-E 28,,Adam,Miller,No,No,No,No,U,Limited,254.0286,6,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,Yes,No
+E 27,NOT_A_MEMBER,Federico,Romero,No,No,No,No,U,Limited,266.2663,5,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,Yes,No
+E 28,NOT_A_MEMBER,Adam,Miller,No,No,No,No,U,Limited,254.0286,6,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,Yes,No
 E 29,A125553,phillip,oconnor,No,No,No,No,C,Limited,233.5232,7,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 30,A132974,Isaac,Oquist,No,No,No,No,U,Limited,205.9248,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 31,A129238,William,Young,No,No,No,No,U,Limited,178.9347,9,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 32,A41939,Gary,Wall,No,No,No,No,B,Limited,169.2849,10,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 33,A133024,Alex,Skaggs,No,No,No,No,U,Limited,164.8983,11,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,Yes
-E 34,,Samson,Fernandez,No,No,No,No,U,Limited,134.1189,12,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 34,A133281,Samson,Fernandez,No,No,No,No,U,Limited,134.1189,12,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 35,A126530,Kay,Patterson,No,No,No,No,U,Limited,115.0121,13,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
-E 36,,Damon,Donner,No,No,No,No,U,Limited,97.7344,14,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 36,A136619,Damon,Donner,No,No,No,No,U,Limited,97.7344,14,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 37,TY114649,Jordan,Rogers,No,No,No,No,U,Limited 10,435.0000,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 38,A83018,Rae Arsen,Baleros,No,No,No,No,B,Open,503.9107,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 39,TY114649,Jordan,Rogers,No,No,No,Yes,M,Open,498.7114,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
@@ -89,7 +89,7 @@ E 72,A82167,Marc,Ambers,No,No,No,No,U,Revolver,116.1687,3,Minor,Open,Major,,No,,
 E 73,FY98214,Christopher,Wise,No,No,No,No,C,Single Stack,306.9660,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 74,TY126829,Augusto,Cabanilla,No,No,No,No,D,Single Stack,229.7988,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 75,A104964,Lynn,Wise,No,No,No,No,D,Single Stack,168.3349,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
-E 76,,Dean,Berkeley,No,No,No,No,U,Single Stack,136.2029,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
+E 76,A105466,Dean,Berkeley,No,No,No,No,U,Single Stack,136.2029,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 F Number,Guntype,Minimum Rounds,Maximum Points,Classifier,Classifier_No,Stage_name,ScoringType,TimesRun
 G 1,Pistol,12,60,Yes,99-11,Bay 11-El Presidente,Virginia,1
 G 2,Pistol,18,90,Yes,09-09,Bay 2-Lightning And Thunder,Fixed,3

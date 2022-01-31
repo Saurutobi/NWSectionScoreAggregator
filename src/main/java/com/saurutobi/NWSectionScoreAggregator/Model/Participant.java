@@ -5,7 +5,6 @@ import static io.vavr.API.$;
 import static io.vavr.API.Case;
 import static io.vavr.API.Match;
 
-import io.vavr.control.Option;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -18,7 +17,7 @@ import lombok.NoArgsConstructor;
 public class Participant {
     private static final String DQ_PISTOL_YES = "yes";
     private static final String DQ_PISTOL_NO = "no";
-    private static final String NOT_A_MEMBER = "NOT_A_MEMBER";
+    private static final String NO_USPSA_NUMBER = "NO_USPSA_NUMBER";
     public int shooterNumber;
     public String nameFirst;
     public String nameLast;
@@ -41,7 +40,7 @@ public class Participant {
     }
 
     private static String handleUspsaNumber(String uspsaNumber) {
-        return uspsaNumber.isEmpty() ? NOT_A_MEMBER : uspsaNumber;
+        return uspsaNumber.isEmpty() ? NO_USPSA_NUMBER : uspsaNumber;
     }
 
     private static boolean mapDQPistolValueToBoolean(String dqPistolValue) {

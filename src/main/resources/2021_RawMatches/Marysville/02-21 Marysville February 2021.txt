@@ -26,7 +26,7 @@ E 9,TY98462,Peter,Ryakhovskiy,No,No,No,No,C,Limited,542.0458,1,Minor,Open,Major,
 E 10,L4924,Kevin,Roberts,No,No,No,No,B,Limited,532.4872,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 11,L4494,Vinh,Hoang,No,No,No,No,M,Limited,424.6373,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 12,A131224,Jaxon,Scofield,No,No,No,No,U,Limited,412.8376,4,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 13,,Matthew,Cushman,No,No,No,No,U,Limited,206.6069,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 13,NOT_A_MEMBER,Matthew,Cushman,No,No,No,No,U,Limited,206.6069,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 14,TY66256,Loke,Tan,No,No,No,No,GM,Open,558.0416,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 15,A85786,Noel,Domingo,No,No,No,No,A,Open,523.0389,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 16,A110099,harold,martinez,No,No,No,No,A,Open,498.9428,3,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
@@ -40,7 +40,7 @@ E 23,A71096,Victor,Rojas,No,No,No,No,C,PCC,374.1628,4,Minor,Open,Major,,No,,Open
 E 24,A63830,Deri,Helterline,No,No,No,No,B,PCC,350.9563,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 25,FY22573,James,Dong,No,No,No,No,A,PCC,336.9830,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 26,A44141,Steven,Roessel,No,No,No,No,B,PCC,334.0526,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 27,,Jon,Ramberg,No,No,No,No,U,PCC,243.7970,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
+E 27,NOT_A_MEMBER,Jon,Ramberg,No,No,No,No,U,PCC,243.7970,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 28,TY114139,Brian,Rowe,No,No,No,No,C,Single Stack,580.0000,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 F Number,Guntype,Minimum Rounds,Maximum Points,Classifier,Classifier_No,Stage_name,ScoringType,TimesRun
 G 1,Pistol,24,120,No,,Stage 1 bay 2,Comstock,1

@@ -26,10 +26,10 @@ E 9,L5043,Sorida,Eap,No,No,No,No,A,Carry Optics,382.0821,9,Minor,Open,Major,,No,
 E 10,A106179,David,Daniels,No,No,No,No,B,Carry Optics,343.8472,10,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 11,A109227,Anna,Skurdal,No,No,No,No,C,Carry Optics,325.6767,11,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 12,A134209,Michael,Roger,No,No,No,No,U,Carry Optics,301.4783,12,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,Yes
-E 13,,Jody,Hernandez,No,No,No,No,U,Carry Optics,201.7507,13,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Junior,No,No
+E 13,NOT_A_MEMBER,Jody,Hernandez,No,No,No,No,U,Carry Optics,201.7507,13,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Junior,No,No
 E 14,A126530,Kay,Patterson,No,No,No,No,U,Carry Optics,188.7397,14,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 15,A132236,George,Siriyanonh,No,No,No,No,C,Carry Optics,166.6206,15,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 16,,Angie,Anderson,No,No,No,No,D,Carry Optics,156.4213,16,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
+E 16,NOT_A_MEMBER,Angie,Anderson,No,No,No,No,D,Carry Optics,156.4213,16,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 17,A86278,Hwansik,Kim,No,No,No,No,M,Limited,482.1858,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 18,A104403,Austin j.,Young,No,No,No,No,M,Limited,474.9765,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 19,TY92223,Stuart,Wilson,No,No,No,No,M,Limited,445.3269,3,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No

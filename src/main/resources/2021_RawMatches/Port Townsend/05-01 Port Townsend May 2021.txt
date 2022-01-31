@@ -22,14 +22,14 @@ E 5,TY12765,Phillip,Meyers,No,No,No,No,C,CO,245.4833,5,Minor,Open,Major,,No,,Ope
 E 6,TY123369,Erin,Hubbard,No,No,No,No,D,CO,241.7542,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 7,A83609,Scott,Whiting,No,No,No,No,D,CO,237.1836,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 8,A133577,Jack,Apling,No,No,No,No,U,CO,122.9378,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
-E 9,,M Dwight,Hughes,No,No,No,No,A,Limited,378.6373,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
+E 9,b6,M Dwight,Hughes,No,No,No,No,A,Limited,378.6373,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 10,A-104437,Brandon,Collins,No,No,No,No,U,Limited,302.4932,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 11,,Lee,Boyle,No,No,No,No,C,Limited,299.3406,3,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 12,A108992,Eric,Pratt,No,No,No,No,C,Limited,281.5571,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 13,,Simon,McKee,No,No,No,No,D,Limited,272.8583,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 14,TY123198,Jay,Hennen,No,No,No,No,C,Limited,252.9203,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 15,,James,Johnson,No,No,No,No,U,Limited,218.0491,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 16,,Nick,Duran,No,No,No,No,U,Limited,163.7245,8,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 16,NOT_A_MEMBER,Nick,Duran,No,No,No,No,U,Limited,163.7245,8,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 17,Ty86951,Emilio,Domingo,No,No,No,No,A,Open,415.0000,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 18,a42954,Neal,Knudson,No,No,No,No,B,PCC,415.0000,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 19,,Steve,Rankin,No,No,No,No,C,Production,372.3338,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No

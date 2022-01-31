@@ -31,7 +31,7 @@ E 14,A106179,David,Daniels,No,No,No,No,B,Carry Optics,455.0172,14,Minor,Open,Maj
 E 15,A135133,JACOB,QUARLES,No,No,No,No,U,Carry Optics,388.1954,15,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,Yes
 E 16,,Andy,Anorbes,No,No,No,No,U,Carry Optics,385.3849,16,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,Yes,No
 E 17,A132236,George,Siriyanonh,No,No,No,No,C,Carry Optics,377.3226,17,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 18,,Chase,Job,No,No,No,No,X,Carry Optics,374.5302,18,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 18,NOT_A_MEMBER,Chase,Job,No,No,No,No,X,Carry Optics,374.5302,18,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 19,TY122981,Kevin,Nguyen,No,No,No,No,U,Carry Optics,357.4983,19,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 20,A136343,Tiffani,Wong,No,No,No,No,U,Carry Optics,258.4127,20,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 21,,Trevor,Giesbrecht,No,No,No,No,U,Carry Optics,244.4037,21,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
@@ -66,7 +66,7 @@ E 49,L2396,Floyd,Shoemaker,No,No,No,No,A,PCC,586.6254,3,Minor,Open,Major,,No,,Op
 E 50,FY107432,Rezner,Abubakar,No,No,No,No,A,PCC,586.2963,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 51,TY107104,Katherine,Abubakar,No,No,No,No,B,PCC,582.8995,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 52,FY89148,David,Dupree,No,No,No,No,B,PCC,560.1779,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
-E 53,,James,Dong,No,No,No,No,A,PCC,546.4926,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
+E 53,NOT_A_MEMBER,James,Dong,No,No,No,No,A,PCC,546.4926,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 54,TY41784,Rick,Naslund,No,No,No,No,A,PCC,536.1337,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 55,TT109299,Joseph,Imperio,No,No,No,No,C,PCC,460.8002,9,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 56,FY23884,Greg,Purcell,No,No,No,No,GM,PCC,290.0000,10,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No

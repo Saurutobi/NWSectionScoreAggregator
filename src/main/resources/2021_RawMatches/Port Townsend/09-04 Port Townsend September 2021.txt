@@ -30,9 +30,9 @@ E 13,FY104954,Gregory,Cain,No,No,No,No,D,CO,205.5898,13,Minor,Open,Major,,No,,Op
 E 14,TY125711,Rodolfo,Tiburcio,No,No,No,No,U,CO,190.4243,14,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 15,A133577,Jack,Apling,Yes,No,No,No,U,CO,0.0000,15,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 16,l3253,Scott,LeRoux,No,No,No,No,M,Limited,620.7169,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
-E 17,,M Dwight,Hughes,No,No,No,No,A,Limited,541.4140,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
+E 17,b6,M Dwight,Hughes,No,No,No,No,A,Limited,541.4140,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 18,A112110,Collin,West III,No,No,No,No,U,Limited,520.1163,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 19,,Jay,Hennen,No,No,No,No,C,Limited,514.0241,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 19,TY123198,Jay,Hennen,No,No,No,No,C,Limited,514.0241,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 20,A111915,Dane,Sands,No,No,No,No,C,Limited,419.8402,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 21,A136602,Johnnie,Freitas,No,No,No,No,U,Limited,418.8911,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 22,,Steve,Blazina,No,No,No,No,C,Limited,416.3621,7,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No

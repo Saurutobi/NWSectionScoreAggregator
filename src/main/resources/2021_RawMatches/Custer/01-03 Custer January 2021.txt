@@ -27,23 +27,23 @@ E 10,A73753,Dan,Gleckman,No,No,No,No,U,Carry Optics,391.1396,10,Minor,Open,Major
 E 11,A85321,Dean,Clark,No,No,No,No,C,Carry Optics,365.7639,11,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 12,L1145,Squire,Tomasie,No,No,No,No,A,Carry Optics,327.2329,12,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 13,FY23884,Greg,Purcell,No,No,No,No,M,Carry Optics,314.9699,13,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
-E 14,,Andrew,Fitzgerald,No,No,No,No,U,Carry Optics,274.0546,14,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 15,,John,Selchert,No,No,No,No,U,Carry Optics,261.4525,15,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 14,NOT_A_MEMBER,Andrew,Fitzgerald,No,No,No,No,U,Carry Optics,274.0546,14,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 15,A134357,John,Selchert,No,No,No,No,U,Carry Optics,261.4525,15,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 16,A114761,Dave,Bowman,No,No,No,No,C,Carry Optics,260.0316,16,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 17,TY39942,Roger,Arcoite,No,No,No,No,C,Carry Optics,243.3898,17,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 18,TY85699,Ken,Pavlick,No,No,No,No,C,Carry Optics,210.7832,18,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
-E 19,,Jody,Hernandez,No,No,No,No,U,Carry Optics,199.4180,19,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Junior,No,No
+E 19,NOT_A_MEMBER,Jody,Hernandez,No,No,No,No,U,Carry Optics,199.4180,19,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Junior,No,No
 E 20,TY94266,mike,marr,No,No,No,No,C,Carry Optics,186.4340,20,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
-E 21,,George,Siriyanonh,No,No,No,No,U,Carry Optics,158.2595,21,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 21,TY132236,George,Siriyanonh,No,No,No,No,U,Carry Optics,158.2595,21,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 22,A131817,Angie,Anderson,No,No,No,No,U,Carry Optics,84.2335,22,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 23,A106179,David,Daniels,Yes,No,No,No,B,Carry Optics,,23,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 24,A131478,Rainier,yee,No,No,No,Yes,U,Limited,495.9612,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 25,L4494,Vinh,Hoang,No,No,No,No,M,Limited,467.5499,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 26,,Damon,Donner,No,No,No,No,U,Limited,462.6064,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
-E 27,,Sam,Brown,No,No,No,No,U,Limited,434.5049,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 26,A136619,Damon,Donner,No,No,No,No,U,Limited,462.6064,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
+E 27,NOT_A_MEMBER,Sam,Brown,No,No,No,No,U,Limited,434.5049,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 28,A131503,Tim,Boxrz,No,No,No,No,U,Limited,415.5212,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 29,A125553,phillip,oconnor,No,No,No,No,C,Limited,412.1946,6,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
-E 30,,Adam,Miller,No,No,No,No,U,Limited,407.3099,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,Yes,No
+E 30,NOT_A_MEMBER,Adam,Miller,No,No,No,No,U,Limited,407.3099,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,Yes,No
 E 31,A132036,Jeffrey,Rogers,No,No,No,No,U,Limited,329.4237,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 32,A109227,Anna,Skurdal,No,No,No,No,D,Limited,267.5466,9,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 33,TY89781,Allen,Brown,No,No,No,No,U,Limited,211.0687,10,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No

@@ -22,9 +22,9 @@ E 5,A131478,Rainier,yee,No,No,No,No,B,Carry Optics,397.8590,5,Minor,Open,Major,,
 E 6,Ty24792,Alan,Kies,No,No,No,No,A,Carry Optics,386.9366,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 7,A113268,Jim,Speedy,No,No,No,No,A,Carry Optics,350.3015,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 8,A131479,Joseph,Iglesias,No,No,No,No,C,Carry Optics,332.6282,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 9,123,John,Selchert,No,No,No,No,U,Carry Optics,286.8254,9,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 9,A134357,John,Selchert,No,No,No,No,U,Carry Optics,286.8254,9,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 10,TY78646,David,Alsabery,No,No,No,No,D,Carry Optics,181.3792,10,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 11,01,Ryan-Francis,Yap,No,No,No,No,U,Carry Optics,110.7706,11,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 11,NOT_A_MEMBER,Ryan-Francis,Yap,No,No,No,No,U,Carry Optics,110.7706,11,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 12,TY86531,Ruben,Heim,No,No,No,No,B,Limited,468.6108,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 13,TY85544,Jason,Hall,No,No,No,No,A,Limited,465.4728,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 14,A51227,Kevin,Olson,No,No,No,No,A,Limited,440.1854,3,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
@@ -35,7 +35,7 @@ E 18,Ty86951,Emilio,Domingo,No,No,No,No,A,Open,446.2911,2,Major,Open,Major,,No,,
 E 19,TY47022,Bruce,Wood,No,No,No,No,A,Open,392.8422,3,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 20,A113360,Eric,Short,No,No,No,No,U,Open,312.0369,4,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 21,L5045,Marty,Marstrom,No,No,No,No,B,Open,305.4282,5,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 22,0,Ernest,Inocencio,No,No,No,No,U,Open,248.7323,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 22,A134625,Ernest,Inocencio,No,No,No,No,U,Open,248.7323,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 23,Fy89148,David,Dupree,No,No,No,No,B,PCC,498.6869,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 24,ty92214,Steve,Parkison,No,No,No,No,B,PCC,361.2564,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 25,B49,David,Farrow,No,No,No,No,B,Production,510.0000,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No

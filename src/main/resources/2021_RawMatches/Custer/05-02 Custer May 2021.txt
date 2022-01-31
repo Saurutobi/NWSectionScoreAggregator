@@ -32,7 +32,7 @@ E 15,A109227,Anna,Skurdal,No,No,No,No,C,Carry Optics,365.6109,15,Minor,Open,Majo
 E 16,,Darrell,Feller,No,No,No,No,U,Carry Optics,354.6726,16,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 17,TY85699,Ken,Pavlick,No,No,No,No,C,Carry Optics,315.7030,17,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 18,L4865,Clifford,Aguilar,No,No,No,No,U,Carry Optics,312.9112,18,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 19,,Chase,Job,No,No,No,No,X,Carry Optics,281.7603,19,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 19,NOT_A_MEMBER,Chase,Job,No,No,No,No,X,Carry Optics,281.7603,19,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 20,A131817,Angie,Anderson,No,No,No,No,D,Carry Optics,168.0114,20,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 21,TY92223,stuart,wilson,No,No,No,No,A,Limited,604.7701,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 22,L4494,Vinh,Hoang,No,No,No,No,M,Limited,589.7839,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
@@ -41,7 +41,7 @@ E 24,TY103985,Chris,Tedford,No,No,No,No,B,Limited,461.8583,4,Major,Open,Major,,N
 E 25,TY133709,Mark,Vogel,No,No,No,No,U,Limited,360.2164,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 26,A125553,phillip,oconnor,No,No,No,No,C,Limited,300.1394,6,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 27,A130898,Jeff,Cantle,No,No,No,No,U,Limited,290.3484,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 28,,Jody,Hernandez,No,No,No,No,U,Limited,262.0261,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Junior,No,No
+E 28,NOT_A_MEMBER,Jody,Hernandez,No,No,No,No,U,Limited,262.0261,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Junior,No,No
 E 29,A133543,Amber,Black,No,No,No,No,U,Limited,199.0537,9,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 30,TY96141,Jaimee,Mendoza,No,No,No,No,M,Open,637.2546,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 31,TY98462,Peter,Ryakhovskiy,No,No,No,No,M,Open,623.5049,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No

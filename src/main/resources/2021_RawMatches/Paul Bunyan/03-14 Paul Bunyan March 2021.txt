@@ -61,7 +61,7 @@ E 44,A95958,Lani,Kuanoni,No,No,No,No,B,Open,518.3873,9,Major,Open,Major,,No,,Ope
 E 45,L4865,Clifford,Aguilar,No,No,No,No,C,Open,461.2937,10,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 46,A121340,Mercedita,De Guzman,No,No,No,No,C,Open,431.4054,11,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 47,TY96391,Tessina,Hurley,No,No,No,No,C,Open,372.1619,12,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
-E 48,0,Ernest,Inocencio,No,No,No,No,U,Open,292.4156,13,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 48,A134625,Ernest,Inocencio,No,No,No,No,U,Open,292.4156,13,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 49,fy122523,Wisly,Martinez,No,No,No,No,D,Open,215.7615,14,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 50,ty63903,Bill,Johnston,No,No,No,No,B,PCC,831.9059,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 51,FY89148,David,Dupree,No,No,No,No,B,PCC,699.3534,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No

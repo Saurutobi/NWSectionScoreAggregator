@@ -18,7 +18,7 @@ E 1,TY109957,Jared,Schwebke,No,No,No,No,A,Carry Optics,405.3287,1,Minor,Open,Maj
 E 2,A116865,Josh,Stone,No,No,No,No,A,Carry Optics,402.7333,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 3,A122842,Jonathan,Tran,No,No,No,No,A,Carry Optics,378.5523,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 4,A124172,Katon,Bingham,No,No,No,No,A,Carry Optics,373.7198,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 5,A 86966,Nelson,Tablang,No,No,No,No,B,Carry Optics,364.2119,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 5,TY86966,Nelson,Tablang,No,No,No,No,B,Carry Optics,364.2119,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 6,Fy108653,Luke,Schwebke,No,No,No,No,A,Carry Optics,353.4742,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 7,A83609,scott,whiting,No,No,No,No,D,Carry Optics,194.7513,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 8,A129322,Mike,Shaw,No,No,No,No,U,Carry Optics,97.1272,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
