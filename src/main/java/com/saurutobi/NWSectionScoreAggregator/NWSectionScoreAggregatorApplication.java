@@ -28,10 +28,10 @@ public class NWSectionScoreAggregatorApplication {
             CustomMatchResultsGenerator.generateResultsFromMatch(args[1]);
         } else if (args[0].equals("-a")) {
             System.out.println("Aggregating Section Matches" + "\n");
-            SectionAggregator.aggregateMatch(args[1], args[2], false);
+            NWSectionAggregator.aggregateMatch(args[1], args[2], false);
         } else if (args[0].equals("-d")) {
             System.out.println("Aggregating Section Matches" + "\n");
-            SectionAggregator.aggregateMatch(args[1], args[2], true);
+            NWSectionAggregator.aggregateMatch(args[1], args[2], true);
         }
     }
 }

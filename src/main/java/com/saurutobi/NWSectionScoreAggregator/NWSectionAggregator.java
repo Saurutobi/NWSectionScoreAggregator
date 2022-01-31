@@ -16,21 +16,39 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 @SuppressWarnings("ThrowablePrintedToSystemOut")
-public class SectionAggregator {
+public class NWSectionAggregator {
     private static final String DELIMITER = "|";
 
     public static void aggregateMatch(String inputDirectory, String outputFileName, boolean dqOnly) {
         Option.of(inputDirectory).peek(inputDir -> Option.of(outputFileName).peek(outputFile -> {
             final List<Match> matches = readConvertedMatches(inputDir);
             if (dqOnly) {
-                writeSectionDqReport(outputFile, matches, getAllDistinctMembersWhoParticipatedByUspsaNumber(matches));
+                writeSectionDqReport(outputFile, matches, getAllDistinctMembersWhoParticipatedAndDqed(matches));
             } else {
-                writeSectionMatchReport(outputFile, matches, getAllDistinctMembersWhoParticipatedByUspsaNumber(matches));
+                writeSectionMatchReport(outputFile, matches, getAllDistinctMembersWhoParticipated(matches));
             }
         }));
     }
 
-    private static List<Tuple3<String, String, String>> getAllDistinctMembersWhoParticipatedByUspsaNumber(List<Match> matches) {
+    private static List<Tuple3<String, String, String>> getAllDistinctMembersWhoParticipatedAndDqed(List<Match> matches) {
+        return io.vavr.collection.List.ofAll(matches.stream()
+                                                     .map(Match::getParticipants)
+                                                     .flatMap(List::stream)
+                                                     .collect(Collectors.toList())
+                                                     .stream()
+                                                     .filter(participant -> participant.isDQed)
+                                                     .map(participant -> new Tuple3<>(
+                                                             participant.getNameFirst(),
+                                                             participant.getNameLast(),
+                                                             participant.getUspsaNumber()))
+                                                     .distinct()
+                                                     .collect(Collectors.toList()))
+                .distinctBy(participant -> participant._2 + participant._3)
+                .sorted(Comparator.comparing(a -> a._2))
+                .toJavaList();
+    }
+
+    private static List<Tuple3<String, String, String>> getAllDistinctMembersWhoParticipated(List<Match> matches) {
         return io.vavr.collection.List.ofAll(matches.stream()
                                                      .map(Match::getParticipants)
                                                      .flatMap(List::stream)
@@ -42,7 +60,7 @@ public class SectionAggregator {
                                                              participant.getUspsaNumber()))
                                                      .distinct()
                                                      .collect(Collectors.toList()))
-                .distinctBy(participant -> participant._3)
+                .distinctBy(participant -> participant._2 + participant._3)
                 .sorted(Comparator.comparing(a -> a._2))
                 .toJavaList();
     }
@@ -66,16 +84,16 @@ public class SectionAggregator {
     private static void writeSectionDqReport(String outputFileName, List<Match> matches, List<Tuple3<String, String, String>> participants) {
         try {
             final FileWriter myWriter = new FileWriter(outputFileName);
-            final List<Match> matchesWithNoDqs = matches.stream()
-                    .filter(SectionAggregator::matchContainsDq)
+            final List<Match> matchesWithDqs = matches.stream()
+                    .filter(NWSectionAggregator::matchContainsDq)
                     .collect(Collectors.toList());
 
-            writeSectionReportHeader(myWriter, matchesWithNoDqs);
+            writeSectionReportHeader(myWriter, matchesWithDqs);
             for (Tuple3<String, String, String> participant : participants) {
                 final StringBuilder out = new StringBuilder(participant._1 + DELIMITER + participant._2 + DELIMITER + participant._3);
-                for (Match match : matchesWithNoDqs) {
+                for (Match match : matchesWithDqs) {
                     final Optional<Participant> participantAtMatch = match.participants.stream()
-                            .filter(matchParticipant -> matchParticipant.getUspsaNumber().equals(participant._3))
+                            .filter(matchParticipant -> matchParticipant.getNameLast().equals(participant._2) && matchParticipant.getUspsaNumber().equals(participant._3))
                             .findFirst();
                     if (participantAtMatch.isPresent()) {
                         final Participant participantForRecord = participantAtMatch.get();
