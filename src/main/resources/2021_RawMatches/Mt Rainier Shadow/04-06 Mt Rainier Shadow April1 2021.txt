@@ -26,7 +26,7 @@ E 9,L3253,Scott,LeRoux,No,No,No,No,M,Limited,388.3586,1,Major,Open,Major,,No,,Op
 E 10,A51227,Kevin,Olson,No,No,No,No,A,Limited,378.6287,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 11,fy105750,lee,boyle,No,No,No,No,C,Limited,329.1049,3,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 12,A129680,Ronn,Lauer,No,No,No,No,U,Limited,133.3078,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 13,ty-81660,mark,butler,No,No,No,No,U,Limited 10,305.0000,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 13,ty81660,mark,butler,No,No,No,No,U,Limited 10,305.0000,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 14,Ty86951,Emilio,Domingo,No,No,No,No,A,Open,401.9120,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 15,A85786,Noel,Domingo,No,No,No,No,A,Open,399.4334,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 16,a707979,Neal,Knudson,No,No,No,No,B,PCC,427.1032,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No

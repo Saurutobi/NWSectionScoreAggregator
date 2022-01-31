@@ -39,14 +39,14 @@ E 22,Fy108653,Luke,Schwebke,No,No,No,No,A,CO,398.7825,22,Minor,Open,Major,,No,,O
 E 23,A131348,Josh,Moore,No,No,No,No,U,CO,386.7908,23,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 24,A121338,Yuanchen,Bai,No,No,No,No,U,CO,372.2067,24,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 25,L5061,Jesse,Mrozowski,No,No,No,No,U,CO,353.5108,25,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 26,Pen,Remington,Lance,No,No,No,No,X,CO,329.2423,26,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 27,Pend,Garrett,Yee,No,No,No,No,X,CO,328.8665,27,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 26,NOT_A_MEMBER,Remington,Lance,No,No,No,No,X,CO,329.2423,26,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 27,NOT_A_MEMBER,Garrett,Yee,No,No,No,No,X,CO,328.8665,27,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 28,TY109119,Colin,Wakefield,No,No,No,No,D,CO,306.1785,28,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 29,U,Steven,Li,No,No,No,No,X,CO,271.7302,29,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 29,NOT_A_MEMBER,Steven,Li,No,No,No,No,X,CO,271.7302,29,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 30,A135708,Joe,Kim,No,No,No,No,U,CO,258.4159,30,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 31,A131817,Angie,Anderson,No,No,No,No,D,CO,157.9542,31,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 32,a132755,Zach,Minor,No,No,No,No,B,CO,131.8123,32,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 33,Pen,Jon,Smith,No,No,No,No,X,CO,99.7086,33,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 33,TY120242,Jon,Smith,No,No,No,No,X,CO,99.7086,33,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 34,A104403,Austin,Young,No,No,No,No,M,Limited,737.5310,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 35,Ty92223,stuart,Wilson,No,No,No,No,M,Limited,663.9711,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 36,L4494,Vinh,Hoang,No,No,No,No,M,Limited,663.0620,3,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
@@ -59,7 +59,7 @@ E 42,FY92838,Greg,Beck,No,No,No,No,B,Limited,520.5903,9,Major,Open,Major,,No,,Op
 E 43,A125553,phillip,oconnor,No,No,No,No,C,Limited,422.6112,10,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 44,ty37515,Tod,Sherman,No,No,No,No,C,Limited,340.8639,11,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 45,FY122523,Wisly,Martinez,No,No,No,No,D,Limited,240.8279,12,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 46,124035,Don,Bermudez,No,No,No,No,D,Limited,61.5149,13,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 46,TY124035,Don,Bermudez,No,No,No,No,D,Limited,61.5149,13,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 47,A42237,Michael,McIntosh,No,No,No,No,C,Limited,0.0000,14,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 48,b49,David,Farrow,No,No,No,No,C,Limited 10,750.0000,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 49,TY66256,Loke,Tan,No,No,No,No,GM,Open,760.1753,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
@@ -81,7 +81,7 @@ E 64,FY103459,melissa,wilson,No,No,No,No,C,Open,49.6852,16,Major,Open,Major,,No,
 E 65,Fy23884,Greg,Purcell,No,No,No,No,GM,PCC,754.1211,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 66,A76637,Jeff,Snope,No,No,No,No,M,PCC,700.2869,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 67,FY107432,Rezner,Abubakar,No,No,No,No,A,PCC,651.4557,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 68,L-343,Bill,Mayne,No,No,No,No,A,PCC,616.2214,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 68,L343,Bill,Mayne,No,No,No,No,A,PCC,616.2214,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 69,A47451,bruce,blair,No,No,No,No,B,PCC,615.0382,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 70,TY107104,Katherine,Abubakar,No,No,No,No,B,PCC,605.8753,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 71,fy22573,James,Dong,No,No,No,No,A,PCC,597.8722,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No

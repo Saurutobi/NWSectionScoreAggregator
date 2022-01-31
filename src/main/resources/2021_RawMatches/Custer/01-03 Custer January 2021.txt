@@ -64,7 +64,7 @@ E 47,A71096,Victor,Rojas,No,No,No,No,U,PCC,395.7680,4,Minor,Open,Major,,No,,Open
 E 48,FY22573,James,Dong,No,No,No,No,A,PCC,374.1689,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 49,TY93287,Chris,Orr,No,No,No,No,B,PCC,368.5003,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 50,TY77726,James,Fenlin,No,No,No,No,B,PCC,361.8869,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
-E 51,A108575,Eric,Beerbaum,No,No,No,No,M,Production,488.7736,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 51,FY108575,Eric,Beerbaum,No,No,No,No,M,Production,488.7736,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 52,TY87542,Alan,Holloway,No,No,No,No,C,Production,355.4403,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 53,A126409,Dylan,Eastwood,No,No,No,No,D,Production,121.1980,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 54,FY98214,Christopher,Wise,No,No,No,No,C,Single Stack,565.0000,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No

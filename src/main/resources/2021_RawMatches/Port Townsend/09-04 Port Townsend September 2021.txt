@@ -16,14 +16,14 @@ A NW15 Port Townsend Practical Pistol USPSA September 4 2021,asdf,09/04/2021
 D Comp,USPSA,FirstName,LastName,DQPistol,DQRifle,DQShotgun,Reentry,Class,Division,Match Points,Place Overall,Power Factor,Shotgun Division,Shotgun Power Factor,Shotgun Place Overall,Shotgun Entered,Shotgun Match Points,Rifle Division,Rifle Power Factor,Rifle Place Overall,Rifle Entered,Rifle Match Points,Aggregate,Aggregate Division,Aggregate Pistol Percent,Aggregate Pistol Points,Aggregate Place,Aggregate Rifle Percent,Aggregate Rifle Points,Aggregate Shotgun Percent,Aggregate Shotgun Points,Aggregate Total,Female,Age,Law,Military
 E 1,A122842,Jonathan,Tran,No,No,No,No,A,CO,633.6311,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 2,A70601,Clark,Cagle,No,No,No,No,U,CO,610.2355,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 3,,Sam,Nurik,No,No,No,No,A,CO,555.8734,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 3,A129753,Sam,Nurik,No,No,No,No,A,CO,555.8734,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 4,A121109,Mike,Green,No,No,No,No,B,CO,523.9454,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 5,A116865,Josh,Stone,No,No,No,No,A,CO,523.5303,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 6,TY24792,Alan,Kies,No,No,No,No,A,CO,491.6670,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 7,TY111193,Todd,Johansson,No,No,No,No,B,CO,417.0444,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 8,TY106402,Art,Tordini,No,No,No,No,B,CO,386.3531,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 9,A136588,Ricardo,Vargas,No,No,No,No,U,CO,269.9273,9,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,Yes
-E 10,,Nick,Johansson,No,No,No,No,U,CO,250.7394,10,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 10,A136831,Nick,Johansson,No,No,No,No,U,CO,250.7394,10,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 11,TY123369,Erin,Hubbard,No,No,No,No,D,CO,241.2936,11,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 12,Ty,richard,Stowell,No,No,No,No,D,CO,230.3177,12,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 13,FY104954,Gregory,Cain,No,No,No,No,D,CO,205.5898,13,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
@@ -35,18 +35,18 @@ E 18,A112110,Collin,West III,No,No,No,No,U,Limited,520.1163,3,Minor,Open,Major,,
 E 19,TY123198,Jay,Hennen,No,No,No,No,C,Limited,514.0241,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 20,A111915,Dane,Sands,No,No,No,No,C,Limited,419.8402,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 21,A136602,Johnnie,Freitas,No,No,No,No,U,Limited,418.8911,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 22,,Steve,Blazina,No,No,No,No,C,Limited,416.3621,7,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
+E 22,A83244,Steve,Blazina,No,No,No,No,C,Limited,416.3621,7,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 23,TY12765,phillip,meyers,No,No,No,No,C,Limited,364.8531,8,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
-E 24,,Robert,Ferens,No,No,No,No,U,Limited,212.6790,9,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
-E 25,,Dale,White,No,No,No,No,U,Limited 10,595.0000,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
+E 24,NOT_A_MEMBER,Robert,Ferens,No,No,No,No,U,Limited,212.6790,9,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
+E 25,NOT_A_MEMBER,Dale,White,No,No,No,No,U,Limited 10,595.0000,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 26,A88243,Kris,McGaughey,No,No,No,No,C,Open,600.9570,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 27,Ty47022,Bruce,Wood,No,No,No,No,A,Open,578.0475,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
-E 28,,Action,Jackson,No,No,No,No,U,Open,0.0000,3,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 28,NOT_A_MEMBER,Action,Jackson,No,No,No,No,U,Open,0.0000,3,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 29,A118767,Joe,Bawden,No,No,No,No,B,Production,655.0000,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,Yes,Yes
 E 30,TY116146,Richard,Lindquist,No,No,No,No,C,Production,527.3611,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 31,A136496,Mike,Hudson,No,No,No,No,U,Production,427.2611,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
-E 32,,Lee,Boyle,No,No,No,No,B,Single Stack,568.9006,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 33,,Steve,Rankin,No,No,No,No,C,Single Stack,566.0781,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
+E 32,FY105750,Lee,Boyle,No,No,No,No,B,Single Stack,568.9006,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 33,FY87777,Steve,Rankin,No,No,No,No,C,Single Stack,566.0781,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 F Number,Guntype,Minimum Rounds,Maximum Points,Classifier,Classifier_No,Stage_name,ScoringType,TimesRun
 G 1,Pistol,26,130,No,,Stage 1,Comstock,1
 G 2,Pistol,26,130,No,,Stage 2,Comstock,1

@@ -44,13 +44,13 @@ E 27,ty93603,Bill,Johnston,No,No,No,No,B,PCC,454.4418,3,Minor,Open,Major,,No,,Op
 E 28,A129511,Keanu,Dunn,No,No,No,No,U,PCC,420.4795,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,Yes
 E 29,Fy89148,David,Dupree,No,No,No,No,B,PCC,382.5484,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 30,fy27156,Steve,Clemo,No,No,No,No,B,PCC,381.3620,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
-E 31,2537775491,Dustin,Sheffler,No,No,No,No,U,PCC,336.1232,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,Yes
+E 31,NOT_A_MEMBER,Dustin,Sheffler,No,No,No,No,U,PCC,336.1232,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,Yes
 E 32,L1834,George,Williams,No,No,No,No,U,PCC,330.9857,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 33,A134401,William,Palonis,No,No,No,No,U,PCC,304.0443,9,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,Yes
 E 34,A131363,Don,Carroll,No,No,No,No,A,Production,595.0000,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 35,B49,David,Farrow,No,No,No,No,B,Production,446.5291,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 36,A111489,Saul,Cline,No,No,No,No,C,Production,425.5982,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 37,,Mark,Hansen,No,No,No,No,U,Production,87.1413,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 37,A136863,Mark,Hansen,No,No,No,No,U,Production,87.1413,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 F Number,Guntype,Minimum Rounds,Maximum Points,Classifier,Classifier_No,Stage_name,ScoringType,TimesRun
 G 1,Pistol,26,130,No,,Stage 1Whiskey &Ginger,Comstock,1
 G 2,Pistol,25,125,No,,Stage 2 Gin & Tonic,Comstock,1

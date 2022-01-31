@@ -29,7 +29,7 @@ E 12,L1145,SQUIRE,TOMASIE,No,No,No,No,A,Carry Optics,388.0595,12,Minor,Open,Majo
 E 13,A73753,Dan,Gleckman,No,No,No,No,U,Carry Optics,366.9198,13,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 14,A106179,David,Daniels,No,No,No,No,B,Carry Optics,366.1056,14,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 15,A109227,Anna,Skurdal,No,No,No,No,C,Carry Optics,365.6109,15,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
-E 16,,Darrell,Feller,No,No,No,No,U,Carry Optics,354.6726,16,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 16,A136877,Darrell,Feller,No,No,No,No,U,Carry Optics,354.6726,16,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 17,TY85699,Ken,Pavlick,No,No,No,No,C,Carry Optics,315.7030,17,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 18,L4865,Clifford,Aguilar,No,No,No,No,U,Carry Optics,312.9112,18,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 19,NOT_A_MEMBER,Chase,Job,No,No,No,No,X,Carry Optics,281.7603,19,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No

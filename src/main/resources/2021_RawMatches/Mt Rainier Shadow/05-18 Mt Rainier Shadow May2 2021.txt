@@ -29,7 +29,7 @@ E 12,A88085,Evan,Tisler,No,No,No,No,B,Limited,482.9816,2,Minor,Open,Major,,No,,O
 E 13,A51227,Kevin,Olson,No,No,No,No,A,Limited,382.4056,3,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 14,A133024,Alex,Skaggs,No,No,No,No,D,Limited,380.2418,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,Yes
 E 15,TY83510,Dan,Burns,No,No,No,No,C,Limited,369.5060,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 16,D753829,John,Dalessandro,No,No,No,No,U,Limited,186.6700,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,Yes
+E 16,NOT_A_MEMBER,John,Dalessandro,No,No,No,No,U,Limited,186.6700,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,Yes
 E 17,Ty86951,Emilio,Domingo,No,No,No,No,A,Open,491.7118,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 18,a85786,Noel,Domingo,No,No,No,No,M,Open,483.4316,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 19,Ty47022,Bruce,Wood,No,No,No,No,A,Open,367.6881,3,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No

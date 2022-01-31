@@ -60,8 +60,8 @@ E 43,TY109957,Jared,Schwebke,No,No,No,No,A,Carry Optics,1000.1533,43,Minor,Open,
 E 44,A129511,Keanuhea,Dunn,No,No,No,No,A,Carry Optics,984.8453,44,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,Yes
 E 45,FY108575,Eric,Beerbaum,No,No,No,No,M,Carry Optics,978.1955,45,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 46,L5052,Jinyang,Xiao,No,No,No,No,M,Carry Optics,970.0679,46,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 47,TY-82489,Trent,Wetherbee,No,No,No,No,B,Carry Optics,958.3109,47,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 48,ty 39983,Brett,Buchanan,No,No,No,No,A,Carry Optics,951.8900,48,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 47,TY82489,Trent,Wetherbee,No,No,No,No,B,Carry Optics,958.3109,47,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 48,ty39983,Brett,Buchanan,No,No,No,No,A,Carry Optics,951.8900,48,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 49,TY69042,Brendan,Woodrow,No,No,No,No,A,Carry Optics,944.4074,49,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,Yes,No
 E 50,A86040,Heather,Harding,No,No,No,No,B,Carry Optics,939.8034,50,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 51,A87093,Matt,Harding,No,No,No,No,A,Carry Optics,939.5254,51,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
@@ -80,7 +80,7 @@ E 63,A60752,Denny,Carter,No,No,No,No,M,Carry Optics,891.8786,63,Minor,Open,Major
 E 64,A129275,Joe,Lee,No,No,No,No,C,Carry Optics,891.1397,64,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 65,TY98589,Casey,Cancilla,No,No,No,No,B,Carry Optics,885.7250,65,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 66,A133394,Hao,Wang,No,No,No,No,U,Carry Optics,882.0668,66,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 67,TY-31712,kurt,ferstl,No,No,No,No,B,Carry Optics,881.9968,67,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 67,TY31712,kurt,ferstl,No,No,No,No,B,Carry Optics,881.9968,67,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 68,TY85533,Darrin,Bowers,No,No,No,No,B,Carry Optics,881.1297,68,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 69,A128950,Chris,Ries,No,No,No,No,B,Carry Optics,863.0527,69,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,Yes
 E 70,ty133212,Phillip,Robinson,No,No,No,No,C,Carry Optics,859.5249,70,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
@@ -167,11 +167,11 @@ E 150,Ty83510,Dan,Burns,No,No,No,No,C,Limited,952.4780,19,Major,Open,Major,,No,,
 E 151,A97924,Eric,Young,No,No,No,No,B,Limited,947.6258,20,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,Yes,No
 E 152,A104960,Ronald,Christner jr,No,No,No,No,B,Limited,916.9166,21,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 153,FY14401,Patrick,Kelley,No,No,No,No,M,Limited,899.8306,22,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
-E 154,TY-73449,Nathan,Lindeman,No,No,No,No,U,Limited,872.7473,23,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 154,TY73449,Nathan,Lindeman,No,No,No,No,U,Limited,872.7473,23,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 155,A92411,Craig,Worrell,No,No,No,No,B,Limited,865.5495,24,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 156,A131847,Joshua,Cleve,No,No,No,No,B,Limited,845.6865,25,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 157,TY43042,dan,hash,No,No,No,No,A,Limited,845.5123,26,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 158,A-75946,Erik,Peterson,No,No,No,No,B,Limited,843.3989,27,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 158,A75946,Erik,Peterson,No,No,No,No,B,Limited,843.3989,27,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 159,A51227,Kevin,Olson,No,No,No,No,A,Limited,822.2070,28,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 160,FY88704,Gary,Hansen,No,No,No,No,B,Limited,812.3772,29,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 161,TY103985,Chris,Tedford,No,No,No,No,B,Limited,805.1976,30,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
@@ -307,15 +307,15 @@ E 290,TY100358,Kelly,Bennett,No,No,No,No,M,PCC,1075.7259,19,Minor,Open,Major,,No
 E 291,L2949,Robert,Wright,No,No,No,No,A,PCC,1055.4838,20,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 292,TY24456,Randy,Melton,No,No,No,No,M,PCC,1045.0546,21,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 293,TY87139,Efren,Cabreros,No,No,No,No,M,PCC,1043.7517,22,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 294,Fu23884,Greg,Purcell,No,No,No,No,GM,PCC,1042.5574,23,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
+E 294,FY23884,Greg,Purcell,No,No,No,No,GM,PCC,1042.5574,23,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 295,FY88773,Ephraim,San Felipe,No,No,No,No,A,PCC,1029.0395,24,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 296,A71089,Warren,becker,No,No,No,No,U,PCC,1011.1564,25,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,Yes,No
 E 297,L1275,J.D.,Dover,No,No,No,No,A,PCC,955.2519,26,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 298,TY98598,Mark Anthony,Paz,No,No,No,No,C,PCC,938.1357,27,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 299,L-343,Bill,Mayne,No,No,No,No,A,PCC,921.9916,28,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
+E 299,L343,Bill,Mayne,No,No,No,No,A,PCC,921.9916,28,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 300,A121896,Kyle,Jameson,No,No,No,No,B,PCC,906.5903,29,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 301,A87110,Erik,Seo,No,No,No,No,A,PCC,878.5155,30,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 302,a-42954,NEAL,KNUDSON,No,No,No,No,B,PCC,877.1644,31,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
+E 302,a42954,NEAL,KNUDSON,No,No,No,No,B,PCC,877.1644,31,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 303,TY107104,Katherine,Abubakar,No,No,No,No,B,PCC,866.7541,32,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 304,A47451,Bruce,Blair,No,No,No,No,B,PCC,862.5634,33,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 305,TY109401,Connor,Barclay,No,No,No,No,B,PCC,858.2760,34,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No

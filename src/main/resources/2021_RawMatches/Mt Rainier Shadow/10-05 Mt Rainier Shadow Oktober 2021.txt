@@ -24,7 +24,7 @@ E 7,Fy108653,Luke,Schwebke,No,No,No,No,A,Carry Optics,223.5154,7,Minor,Open,Majo
 E 8,A132119,Vanessa,Wong,No,No,No,No,U,Carry Optics,148.6741,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 9,A131856,Dave,Veler,No,No,No,No,U,Carry Optics,133.9982,9,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 10,A137052,Justin,Stuck,No,No,No,No,U,Carry Optics,100.8599,10,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 11,KYLE M HERRON,Kyle,Herron,No,No,No,No,B,Limited,300.0321,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,Yes
+E 11,TY118166,Kyle,Herron,No,No,No,No,B,Limited,300.0321,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,Yes
 E 12,L1389,Walter,Mayne,No,No,No,No,A,Limited,285.2896,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 13,fy105750,lee,boyle,No,No,No,No,C,Limited,279.3057,3,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 14,L5035,David,Rivenes,No,No,No,No,U,Limited,99.1222,4,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
@@ -35,7 +35,7 @@ E 18,A91246,Jim,Steward,No,No,No,No,C,Open,164.2087,4,Major,Open,Major,,No,,Open
 E 19,A129511,Keanu,Dunn,No,No,No,No,B,PCC,323.4919,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,Yes
 E 20,Ty47022,Bruce,Wood,No,No,No,No,B,PCC,297.2859,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 21,fy27156,Steve,Clemo,No,No,No,No,B,PCC,245.8830,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
-E 22,,John,Christensen,No,No,No,No,U,PCC,174.9835,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
+E 22,A137380,John,Christensen,No,No,No,No,U,PCC,174.9835,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 23,A86531,Ruben,Heim,No,No,No,No,A,Production,318.4424,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 24,A131363,Don,Carroll,No,No,No,No,A,Production,316.7492,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 25,A111489,Saul,Cline,No,No,No,No,C,Production,227.6104,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No

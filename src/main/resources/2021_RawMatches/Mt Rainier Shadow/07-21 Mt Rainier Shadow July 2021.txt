@@ -27,7 +27,7 @@ E 10,L3253,Scott,LeRoux,No,No,No,No,M,Limited,466.0052,1,Major,Open,Major,,No,,O
 E 11,A88085,Evan,Tisler,No,No,No,No,A,Limited,450.6208,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 12,A51227,Kevin,Olson,No,No,No,No,A,Limited,421.5608,3,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 13,L1389,Walter,Mayne,No,No,No,No,A,Limited,389.4420,4,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
-E 14,ty 83520,Dan,Burns,No,No,No,No,C,Limited,313.2799,5,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 14,ty83520,Dan,Burns,No,No,No,No,C,Limited,313.2799,5,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 15,A135867,Adrian,Javier,No,No,No,No,U,Limited,142.2319,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 16,TY85544,Jason,Hall,No,No,No,No,U,Limited 10,510.0000,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 17,TY98462,Peter,Ryakhovskiy,No,No,No,No,M,Open,487.3211,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
@@ -41,7 +41,7 @@ E 24,A76637,Jeff,Snope,No,No,No,No,M,PCC,498.6779,1,Minor,Open,Major,,No,,Open,M
 E 25,TY100358,Kelly,Bennett,No,No,No,No,M,PCC,476.2252,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 26,TY94333,Jon,Porter,No,No,No,No,GM,PCC,420.5912,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,Yes
 E 27,Ty93603,Bill,Johnston,No,No,No,No,B,PCC,395.2181,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
-E 28,L-343,Bill,Mayne,No,No,No,No,A,PCC,357.3859,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
+E 28,L343,Bill,Mayne,No,No,No,No,A,PCC,357.3859,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 29,TY120199,Austin,Post,No,No,No,No,B,PCC,355.8572,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,Yes
 E 30,a42954,Neal,Knudson,No,No,No,No,B,PCC,345.0281,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 31,ty92214,Steve,Parkison,No,No,No,No,B,PCC,262.3490,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No

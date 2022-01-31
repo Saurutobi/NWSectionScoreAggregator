@@ -31,6 +31,7 @@ public class MatchImporter {
                                                                                            final String outputPath = outputDir + "\\" + file.getName() + ".json";
                                                                                            //noinspection ResultOfMethodCallIgnored
                                                                                            new File(outputDir).mkdirs();
+                                                                                           System.out.println("Importing " + file.getName());
                                                                                            importMatch(file.getAbsolutePath(), outputPath);
                                                                                        })));
     }

@@ -16,7 +16,7 @@ A NW01 Paul Bunyan February 2021 Love is the Smell of Gun Powder in the Air,asdf
 D Comp,USPSA,FirstName,LastName,DQPistol,DQRifle,DQShotgun,Reentry,Class,Division,Match Points,Place Overall,Power Factor,Shotgun Division,Shotgun Power Factor,Shotgun Place Overall,Shotgun Entered,Shotgun Match Points,Rifle Division,Rifle Power Factor,Rifle Place Overall,Rifle Entered,Rifle Match Points,Aggregate,Aggregate Division,Aggregate Pistol Percent,Aggregate Pistol Points,Aggregate Place,Aggregate Rifle Percent,Aggregate Rifle Points,Aggregate Shotgun Percent,Aggregate Shotgun Points,Aggregate Total,Female,Age,Law,Military
 E 1,A116865,Josh,Stone,No,No,No,No,B,Carry Optics,583.5881,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 2,L4681,Joshua,Glastra,No,No,No,No,M,Carry Optics,546.9858,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 3,A108575,Eric,Beerbaum,No,No,No,No,U,Carry Optics,540.3544,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 3,FY108575,Eric,Beerbaum,No,No,No,No,U,Carry Optics,540.3544,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 4,A129511,Keanu,Dunn,No,No,No,No,B,Carry Optics,318.5536,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,Yes
 E 5,a122842,Jonathan,Tran,No,No,No,No,B,Carry Optics,0.0000,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 6,A51227,Kevin,Olson,No,No,No,No,A,Limited,636.6676,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No

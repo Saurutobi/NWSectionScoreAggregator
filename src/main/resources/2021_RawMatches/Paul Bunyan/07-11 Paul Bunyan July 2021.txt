@@ -69,7 +69,7 @@ E 52,A118767,Joe,Bawden,No,No,No,No,B,Production,690.9529,2,Minor,Open,Major,,No
 E 53,Ty85569,ryan,diez,No,No,No,No,D,Production,620.6901,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 54,B49,David,Farrow,No,No,No,No,B,Production,512.9674,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 55,TY114139,Brian,Rowe,No,No,No,No,C,Production,428.9976,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
-E 56,,corey,bartlett,No,No,No,No,D,Production,409.9733,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 56,NOT_A_MEMBER,corey,bartlett,No,No,No,No,D,Production,409.9733,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 57,A118899,Ray,Kiemen,No,No,No,No,D,Production,341.7049,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,Yes,Yes
 E 58,A135574,John,Labish,Yes,No,No,No,U,Production,0.0000,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 59,A29646,Brian,Noel,No,No,No,No,GM,Revolver,810.0000,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,Yes,No

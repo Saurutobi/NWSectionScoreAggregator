@@ -44,7 +44,7 @@ E 27,Fy23884,Greg,Purcell,No,No,No,No,GM,PCC,606.2945,2,Minor,Open,Major,,No,,Op
 E 28,A28558,Mike,Leander,No,No,No,No,M,PCC,527.0870,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 29,FY75900,Chris,Nevins,No,No,No,No,GM,PCC,413.2561,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 30,L2396,Floyd,Shoemaker,No,No,No,No,A,PCC,367.3573,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
-E 31,A-71096,Victor,Rojas,No,No,No,No,C,PCC,293.7956,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 31,A71096,Victor,Rojas,No,No,No,No,C,PCC,293.7956,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 32,TY109299,Joseph,Imperio,No,No,No,No,C,PCC,283.7189,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 33,FY103459,melissa,wilson,No,No,No,No,U,PCC,233.3703,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 34,A105465,Erik,Berkeley,No,No,No,No,B,Production,646.8454,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No

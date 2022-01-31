@@ -42,7 +42,7 @@ E 25,TY123198,Jay,Hennen,No,No,No,No,C,Limited,704.5542,5,Minor,Open,Major,,No,,
 E 26,A83244,Steve,Blazina,No,No,No,No,C,Limited,644.6597,6,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 27,A128543,Daniel,Hughes,No,No,No,No,C,Limited,634.0249,7,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 28,TY37515,Tod,Sherman,No,No,No,No,C,Limited,597.7576,8,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
-E 29,,Simon,McKee,No,No,No,No,U,Limited,580.2778,9,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 29,NOT_A_MEMBER,Simon,McKee,No,No,No,No,U,Limited,580.2778,9,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 30,NOT_A_MEMBER,Jason,Campbell,No,No,No,No,C,Limited,535.1202,10,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 31,A133488,James,Johnson,No,No,No,No,U,Limited,514.3679,11,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 32,NOT_A_MEMBER,Nick,Duran,No,No,No,No,U,Limited,495.3594,12,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No

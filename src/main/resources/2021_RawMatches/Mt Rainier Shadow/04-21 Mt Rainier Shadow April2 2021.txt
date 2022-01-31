@@ -22,10 +22,10 @@ E 5,fy108653,Luke,Schwebke,No,No,No,No,A,Carry Optics,365.4453,5,Minor,Open,Majo
 E 6,A132123,Nicole,McGinnis,No,No,No,No,U,Carry Optics,224.4789,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 7,L3253,Scott,LeRoux,No,No,No,No,M,Limited,453.5087,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 8,A88085,Evan,Tisler,No,No,No,No,B,Limited,423.9666,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 9,6969,Dan,Burns,No,No,No,No,C,Limited,399.1394,3,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 9,TY83510,Dan,Burns,No,No,No,No,C,Limited,399.1394,3,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 10,A51227,Kevin,Olson,No,No,No,No,A,Limited,370.6688,4,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 11,fy105750,lee,boyle,No,No,No,No,C,Limited,289.4358,5,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 12,ty-81660,mark,butler,No,No,No,No,U,Limited,122.1241,6,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 12,ty81660,mark,butler,No,No,No,No,U,Limited,122.1241,6,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 13,A118767,Joe,Bawden,No,No,No,No,U,Limited 10,430.0000,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,Yes,No
 E 14,TY98462,Peter,Ryakhovskiy,No,No,No,No,A,Open,456.8462,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 15,A85786,Noel,Domingo,No,No,No,No,A,Open,401.1813,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No

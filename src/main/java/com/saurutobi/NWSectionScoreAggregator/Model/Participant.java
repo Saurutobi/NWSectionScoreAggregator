@@ -18,6 +18,11 @@ public class Participant {
     private static final String DQ_PISTOL_YES = "yes";
     private static final String DQ_PISTOL_NO = "no";
     private static final String NO_USPSA_NUMBER = "NO_USPSA_NUMBER";
+    private static final String USPSA_NUMBER_PREFIX_LIFE = "l";
+    private static final String USPSA_NUMBER_PREFIX_ANNUAL = "a";
+    private static final String USPSA_NUMBER_PREFIX_B = "b";
+    private static final String USPSA_NUMBER_PREFIX_THREEYEAR = "ty";
+    private static final String USPSA_NUMBER_PREFIX_FOREIGN_OR_FIVEYEAR = "f";
     public int shooterNumber;
     public String nameFirst;
     public String nameLast;
@@ -32,15 +37,38 @@ public class Participant {
                 .shooterNumber(Integer.parseInt(removeLinePrefix(attributes[0])))
                 .nameFirst(attributes[2])
                 .nameLast(attributes[3])
-                .uspsaNumber(handleUspsaNumber(attributes[1]))
+                .uspsaNumber(handleUspsaNumber(attributes))
                 .isDQed(mapDQPistolValueToBoolean(attributes[4]))
                 .division(Division.mapDivisionString(attributes[9]))
                 .divisonFinish(Integer.parseInt(attributes[11]))
                 .build();
     }
 
-    private static String handleUspsaNumber(String uspsaNumber) {
-        return uspsaNumber.isEmpty() ? NO_USPSA_NUMBER : uspsaNumber;
+    private static String handleUspsaNumber(String[] attributes) {
+        if(isNotValidUspsaNumber(attributes[1])){
+            System.out.println("INVALID USPSA NUMBER: " + attributes[1] + "," + attributes[2] + "," + attributes[3]);
+            return NO_USPSA_NUMBER;
+        }
+        return stripNonNumbers(attributes[1]);
+    }
+
+
+    private static boolean isNotValidUspsaNumber(String uspsaNumber) {
+        if (uspsaNumber.isEmpty()) {
+            return true;
+        } else if (uspsaNumber.contains(" ") || uspsaNumber.contains("-") || uspsaNumber.contains("/")) {
+            return true;
+        } else {
+            return !uspsaNumber.contains(USPSA_NUMBER_PREFIX_LIFE)
+                   && !uspsaNumber.contains(USPSA_NUMBER_PREFIX_ANNUAL)
+                   && !uspsaNumber.contains(USPSA_NUMBER_PREFIX_B)
+                   && !uspsaNumber.contains(USPSA_NUMBER_PREFIX_THREEYEAR)
+                   && !uspsaNumber.contains(USPSA_NUMBER_PREFIX_FOREIGN_OR_FIVEYEAR);
+        }
+    }
+
+    private static String stripNonNumbers(String uspsaNumber) {
+        return uspsaNumber.replaceAll("[^a-zA-Z]", "");
     }
 
     private static boolean mapDQPistolValueToBoolean(String dqPistolValue) {

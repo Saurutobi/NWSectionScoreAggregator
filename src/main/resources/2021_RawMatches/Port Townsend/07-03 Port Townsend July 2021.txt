@@ -19,11 +19,11 @@ E 2,TY111193,Todd,Johansson,No,No,No,No,C,CO,512.7215,2,Minor,Open,Major,,No,,Op
 E 3,A116865,Josh,Stone,No,No,No,No,A,CO,506.8149,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 4,Ty24792,Alan,Kies,No,No,No,No,A,CO,451.2576,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 5,L1770,Bob,Loo,No,No,No,No,B,CO,422.9819,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
-E 6,,Lucas,Newman,No,No,No,No,C,CO,414.6335,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 6,TY116087,Lucas,Newman,No,No,No,No,C,CO,414.6335,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 7,L1145,Squire,Tomasie,No,No,No,No,A,CO,356.9987,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 8,A83609,Scott,Whiting,No,No,No,No,D,CO,304.9421,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 9,FY104954,Gregory,Cain,No,No,No,No,D,CO,218.3484,9,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
-E 10,,James,Johnson,No,No,No,No,U,CO,209.5341,10,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 10,A133488,James,Johnson,No,No,No,No,U,CO,209.5341,10,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 11,A133577,Jack,Apling,No,No,No,No,U,CO,180.6638,11,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 12,L4747,Bill,Saunders,No,No,No,No,D,CO,161.7105,12,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 13,a104437,Brandon,Collins,No,No,No,No,U,Limited,541.0337,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
@@ -35,17 +35,17 @@ E 18,A125553,Phillip,Oconnor,No,No,No,No,C,Limited,417.5207,6,Major,Open,Major,,
 E 19,TY106641,Kevin,Jones,No,No,No,No,B,Limited,385.8191,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 20,NOT_A_MEMBER,Nick,Duran,No,No,No,No,A,Limited,383.9734,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 21,A130275,John,Petroff,No,No,No,No,U,Limited,358.6097,9,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 22,,Steve,Blazina,No,No,No,No,C,Limited,322.7500,10,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
+E 22,A83244,Steve,Blazina,No,No,No,No,C,Limited,322.7500,10,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 23,TY12765,Phillip,Meyers,No,No,No,No,C,Limited,312.2339,11,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 24,A85786,Noel,Domingo,No,No,No,No,M,Open,508.8884,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 25,A88243,Kris,McGaughey,No,No,No,No,C,Open,452.7373,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 26,A130582,Brad,VanPelt,No,No,No,No,C,Open,431.0716,3,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 27,,Neal,Knudson,No,No,No,No,B,PCC,560.0000,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
+E 27,A42954,Neal,Knudson,No,No,No,No,B,PCC,560.0000,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 28,A118767,Joe,Bawden,No,No,No,No,B,Production,528.1616,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,Yes,No
-E 29,,Richard,Lindquist,No,No,No,No,C,Production,343.1806,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
+E 29,TY116146,Richard,Lindquist,No,No,No,No,C,Production,343.1806,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 30,TY111964,Joel,Ruud,No,No,No,No,U,Production,335.0817,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 31,TY123369,Erin,Hubbard,No,No,No,No,U,Production,230.4610,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
-E 32,,Steve,Rankin,No,No,No,No,C,Single Stack,527.5107,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
+E 32,FY87777,Steve,Rankin,No,No,No,No,C,Single Stack,527.5107,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 33,TY106402,Art,Tordini,No,No,No,No,B,Single Stack,466.6592,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 34,fy105750,Lee,Boyle,No,No,No,No,B,Single Stack,434.3843,3,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 35,ty32654,Eric,Bell,No,No,No,No,U,Single Stack,357.4679,4,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No

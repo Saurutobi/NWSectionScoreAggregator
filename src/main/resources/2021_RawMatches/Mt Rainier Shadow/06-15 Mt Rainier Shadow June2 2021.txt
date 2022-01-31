@@ -48,7 +48,7 @@ E 31,TY94740,Dennis,Mahle,No,No,No,No,B,Open,393.8465,11,Major,Open,Major,,No,,O
 E 32,FY103459,melissa,wilson,No,No,No,No,C,Open,301.3862,12,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 33,A76637,Jeff,Snope,No,No,No,No,M,PCC,703.2314,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 34,ty93603,Bill,Johnston,No,No,No,No,B,PCC,610.9302,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
-E 35,L-343,Bill,Mayne,No,No,No,No,A,PCC,596.8025,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
+E 35,L343,Bill,Mayne,No,No,No,No,A,PCC,596.8025,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 36,fy22573,James,Dong,No,No,No,No,A,PCC,554.9142,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 37,A111489,Saul,Cline,No,No,No,No,C,Production,715.0000,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 38,A107112,Brett,Miller,No,No,No,No,U,Production,436.3926,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No

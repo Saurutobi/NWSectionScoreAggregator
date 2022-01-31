@@ -22,7 +22,7 @@ E 5,A116865,Josh,Stone,No,No,No,No,A,Carry Optics,719.8273,5,Minor,Open,Major,,N
 E 6,L4898,Marcel,Englmaier,No,No,No,No,M,Carry Optics,698.8291,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 7,A124172,Katon,Bingham,No,No,No,No,M,Carry Optics,685.8855,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 8,FY105023,Peng,Li,No,No,No,No,A,Carry Optics,648.4830,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 9,TY-104096,Anthony,Felder,No,No,No,No,B,Carry Optics,634.5284,9,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,Yes,No
+E 9,TY104096,Anthony,Felder,No,No,No,No,B,Carry Optics,634.5284,9,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,Yes,No
 E 10,TY100339,Chris,McMeen,No,No,No,No,A,Carry Optics,615.2102,10,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 11,Fy108653,Luke,Schwebke,No,No,No,No,A,Carry Optics,604.3941,11,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 12,TY85544,Jason,Hall,No,No,No,No,M,Carry Optics,563.4362,12,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
@@ -44,7 +44,7 @@ E 27,TY114094,Jordan,Scott,No,No,No,No,D,Carry Optics,279.1381,27,Minor,Open,Maj
 E 28,A83609,scott,whiting,No,No,No,No,C,Carry Optics,272.6545,28,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 29,A136831,Nick,Johansson,No,No,No,No,U,Carry Optics,245.6262,29,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 30,A136553,Dante,Arranza,No,No,No,No,U,Carry Optics,237.1252,30,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 31,,Nick,Cruz,No,No,No,No,U,Carry Optics,214.1433,31,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 31,NOT_A_MEMBER,Nick,Cruz,No,No,No,No,U,Carry Optics,214.1433,31,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 32,A133543,Amber,Black,No,No,No,No,D,Carry Optics,213.1862,32,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 33,A136343,Tiffani,Wong,No,No,No,No,U,Carry Optics,208.7315,33,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 34,A134618,Carley,Scholter,No,No,No,No,U,Carry Optics,172.9692,34,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
@@ -65,7 +65,7 @@ E 48,A135653,Asa,Dupuis,No,No,No,No,U,Limited,397.0998,12,Minor,Open,Major,,No,,
 E 49,FY105750,lee,boyle,No,No,No,No,C,Limited,394.8973,13,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 50,TY85106,Bryan,Adams,No,No,No,No,C,Limited,349.9420,14,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 51,ty37515,Tod,Sherman,No,No,No,No,C,Limited,328.0782,15,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
-E 52,N/A,Tim,Dahl,No,No,No,No,U,Limited,303.2001,16,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
+E 52,NOT_A_MEMBER,Tim,Dahl,No,No,No,No,U,Limited,303.2001,16,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 53,A103478,Bradley,Rasmussen,No,No,No,No,U,Limited,254.7567,17,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 54,A124035,Don,Bermudez,No,No,No,No,D,Limited,54.5964,18,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 55,Na,Rachel,Larson,No,No,No,No,U,Limited 10,680.0000,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
@@ -74,7 +74,7 @@ E 57,A110185,Ryan,Halwick,No,No,No,No,A,Open,757.4974,2,Major,Open,Major,,No,,Op
 E 58,TY98462,Peter,Ryakhovskiy,No,No,No,No,M,Open,738.5083,3,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 59,a85786,Noel,Domingo,No,No,No,No,M,Open,671.8225,4,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 60,A110099,harold,martinez,No,No,No,No,A,Open,633.8390,5,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 61,Ty 86951,Emilio,Domingo,No,No,No,No,A,Open,599.3626,6,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
+E 61,TY86951,Emilio,Domingo,No,No,No,No,A,Open,599.3626,6,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 62,A127217,Mark,Navarro,No,No,No,No,U,Open,488.7325,7,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 63,A88243,Kris,McGaughey,No,No,No,No,C,Open,468.2843,8,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 64,A95958,Lani,Kuanoni,No,No,No,No,B,Open,433.8206,9,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
@@ -100,7 +100,7 @@ E 83,A135574,John,Labish,No,No,No,No,U,Production,261.4509,9,Minor,Open,Major,,N
 E 84,A94374,Kevin,Castelo,Yes,No,No,No,C,Production,0.0000,10,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 85,A136848,Allen,Newby,Yes,No,No,No,U,Production,0.0000,11,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 86,A86531,Ruben,Heim,Yes,No,No,No,A,Production,0.0000,12,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 87,,Gregg,Anstensen,Yes,No,No,No,U,Production,0.0000,13,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 87,NOT_A_MEMBER,Gregg,Anstensen,Yes,No,No,No,U,Production,0.0000,13,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 88,a29646,Brian,Noel,No,No,No,No,GM,Revolver,855.0000,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 89,Ty92223,stuart,wilson,No,No,No,No,A,Single Stack,855.0000,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 90,Ty126829,Augusto,Cabanilla,No,No,No,No,C,Single Stack,381.0789,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No

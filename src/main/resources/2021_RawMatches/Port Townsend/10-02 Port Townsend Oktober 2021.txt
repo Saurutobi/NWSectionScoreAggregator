@@ -14,13 +14,13 @@ $INFO Match Level: Level I
 Z 3.0
 A NW15 Port Townsend Practical Pistol USPSA October 2 2021,asdf,10/02/2021
 D Comp,USPSA,FirstName,LastName,DQPistol,DQRifle,DQShotgun,Reentry,Class,Division,Match Points,Place Overall,Power Factor,Shotgun Division,Shotgun Power Factor,Shotgun Place Overall,Shotgun Entered,Shotgun Match Points,Rifle Division,Rifle Power Factor,Rifle Place Overall,Rifle Entered,Rifle Match Points,Aggregate,Aggregate Division,Aggregate Pistol Percent,Aggregate Pistol Points,Aggregate Place,Aggregate Rifle Percent,Aggregate Rifle Points,Aggregate Shotgun Percent,Aggregate Shotgun Points,Aggregate Total,Female,Age,Law,Military
-E 1,,Clark,Cagle,No,No,No,No,U,CO,611.8142,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 1,A70601,Clark,Cagle,No,No,No,No,U,CO,611.8142,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 2,A112110,Collin,West III,No,No,No,No,U,CO,581.6985,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 3,a109114,Mike,Green,No,No,No,No,B,CO,551.6422,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 4,TY111193,Todd,Johansson,No,No,No,No,B,CO,550.5653,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 5,Ty116087,Lucas,Newman,No,No,No,No,C,CO,535.9183,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 6,A110099,harold,martinez,No,No,No,No,B,CO,510.1982,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 7,,ryan,diez,No,No,No,No,D,CO,460.7121,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 7,TY85569,ryan,diez,No,No,No,No,D,CO,460.7121,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 8,TY13332,Michael,Galanti,No,No,No,No,B,CO,460.4261,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 9,A86966,Nelson,Tablang,No,No,No,No,B,CO,448.2948,9,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 10,TY106402,Art,Tordini,No,No,No,No,B,CO,421.5923,10,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No

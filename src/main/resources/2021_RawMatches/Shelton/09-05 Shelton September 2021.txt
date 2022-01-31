@@ -21,7 +21,7 @@ E 4,A133424,Kaiwen,Wang,No,No,No,No,U,Carry Optics,378.4405,4,Minor,Open,Major,,
 E 5,FY92838,Greg,Beck,No,No,No,No,B,Limited,660.0000,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 6,TY108303,Matthew,Crane,No,No,No,No,D,Limited 10,660.0000,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 7,ty52998,Scott,Hawkins,No,No,No,No,B,Open,555.7132,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,Yes
-E 8,TY 47022,Bruce,Wood,No,No,No,No,A,Open,548.1249,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
+E 8,TY47022,Bruce,Wood,No,No,No,No,A,Open,548.1249,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 9,ty93603,Bill,Johnston,No,No,No,No,B,PCC,648.7091,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 10,A47451,bruce,blair,No,No,No,No,B,PCC,551.6172,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 11,ty37515,Tod,Sherman,No,No,No,No,B,PCC,450.9967,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No

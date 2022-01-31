@@ -84,9 +84,9 @@ E 67,A137404,Joe,Ryan,No,No,No,No,U,Production,602.9757,3,Minor,Open,Major,,No,,
 E 68,b49,David,Farrow,No,No,No,No,B,Production,549.6761,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 69,TY87542,Alan,Holloway,No,No,No,No,B,Production,542.3290,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 70,TY114139,Brian,Rowe,No,No,No,No,C,Production,505.5127,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 71,,JOHN,NEWMAN,No,No,No,No,U,Production,339.7374,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 72,,corey,bartlett,No,No,No,No,U,Production,302.0224,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 73,,Rachel,Larson,No,No,No,No,U,Production,203.8689,9,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
+E 71,A137463,JOHN,NEWMAN,No,No,No,No,U,Production,339.7374,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 72,NOT_A_MEMBER,corey,bartlett,No,No,No,No,U,Production,302.0224,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 73,NOT_A_MEMBER,Rachel,Larson,No,No,No,No,U,Production,203.8689,9,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 74,A29646,Brian,Noel,No,No,No,No,GM,Revolver,790.0000,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 75,A136908,Jacob,Bryant,No,No,No,No,U,Single Stack,683.5469,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 76,Ty126829,Augusto,Cabanilla,No,No,No,No,C,Single Stack,651.7614,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No

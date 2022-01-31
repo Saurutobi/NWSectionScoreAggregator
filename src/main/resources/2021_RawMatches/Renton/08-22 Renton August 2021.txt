@@ -46,7 +46,7 @@ E 29,A134793,Xuzi,Zhou,No,No,No,No,U,CO,277.3710,29,Minor,Open,Major,,No,,Open,M
 E 30,A136338,Paul,Ross,No,No,No,No,U,CO,273.7783,30,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 31,A132119,Vanessa,Wong,No,No,No,No,U,CO,258.8872,31,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 32,TY114094,Jordan,Scott,No,No,No,No,D,CO,246.5545,32,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 33,U,Yu (Steven),Li,No,No,No,No,X,CO,239.3146,33,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 33,NOT_A_MEMBER,Steven,Li,No,No,No,No,X,CO,239.3146,33,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 34,TY130155,Robert,Hubbell,No,No,No,No,U,CO,214.7304,34,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 35,A136343,Tiffani,Wong,No,No,No,No,U,CO,208.0560,35,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 36,L4747,Bill,Saunders,No,No,No,No,D,CO,166.2884,36,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
@@ -74,7 +74,7 @@ E 57,Ty47022,Bruce,Wood,No,No,No,No,A,Open,382.6684,9,Major,Open,Major,,No,,Open
 E 58,L4865,Clifford,Aguilar,No,No,No,No,C,Open,379.6002,10,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 59,a85321,H,Clark,No,No,No,No,C,Open,319.5580,11,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 60,A131817,Angie,Anderson,No,No,No,No,U,Open,266.1195,12,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 61,A-96757,Kevin,Baker,No,No,No,No,D,Open,237.8734,13,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 61,A96757,Kevin,Baker,No,No,No,No,D,Open,237.8734,13,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 62,TY44166,Daniel,Lai,No,No,No,No,B,Open,50.0851,14,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 63,ty93603,Bill,Johnston,No,No,No,No,B,PCC,665.3659,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 64,fy22573,James,Dong,No,No,No,No,A,PCC,663.8933,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No

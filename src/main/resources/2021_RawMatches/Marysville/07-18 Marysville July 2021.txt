@@ -26,7 +26,7 @@ E 9,TY114139,Brian,Rowe,No,No,No,No,C,Carry Optics,320.1422,9,Minor,Open,Major,,
 E 10,TY32654,Eric,Bell,No,No,No,No,B,Carry Optics,191.5962,10,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 11,L4378,Sterling,Glines,No,No,No,No,U,Carry Optics,,11,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 12,A104403,Austin J.,Young,No,No,No,No,M,Limited,660.3099,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 13,4494,Vinh,Hoang,No,No,No,No,M,Limited,587.7814,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 13,L4494,Vinh,Hoang,No,No,No,No,M,Limited,587.7814,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 14,A104960,Ronald,Christner jr,No,No,No,No,B,Limited,390.5372,3,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 15,A125553,phillip,oconnor,No,No,No,No,C,Limited,322.4486,4,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 16,A41939,Gary,Wall,No,No,No,No,B,Limited,252.3804,5,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
@@ -46,7 +46,7 @@ E 29,NOT_A_MEMBER,Jon,Ramberg,No,No,No,No,U,PCC,318.9484,6,Minor,Open,Major,,No,
 E 30,TY120660,Rich,Nelson,No,No,No,No,C,PCC,301.0175,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 31,TY77726,James,Fenlin,No,No,No,No,B,PCC,119.6259,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 32,FY105750,lee,boyle,No,No,No,No,B,Single Stack,665.0000,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 33,,Ed,Curry,No,No,No,No,U,Single Stack,347.0119,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
+E 33,NOT_A_MEMBER,Ed,Curry,No,No,No,No,U,Single Stack,347.0119,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 34,FY27159,Kevin,Morgan,No,No,No,No,U,Single Stack,263.6634,3,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 F Number,Guntype,Minimum Rounds,Maximum Points,Classifier,Classifier_No,Stage_name,ScoringType,TimesRun
 G 1,Pistol,28,140,No,,Bay 2 Stage 1,Comstock,1

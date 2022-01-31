@@ -65,7 +65,7 @@ E 48,A134625,Ernest,Inocencio,No,No,No,No,U,Open,292.4156,13,Minor,Open,Major,,N
 E 49,fy122523,Wisly,Martinez,No,No,No,No,D,Open,215.7615,14,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 50,ty63903,Bill,Johnston,No,No,No,No,B,PCC,831.9059,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 51,FY89148,David,Dupree,No,No,No,No,B,PCC,699.3534,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
-E 52,A-42954,Neal,Knudson,No,No,No,No,B,PCC,645.4040,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
+E 52,A42954,Neal,Knudson,No,No,No,No,B,PCC,645.4040,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 53,TY93287,Chris,Orr,No,No,No,No,B,PCC,592.5300,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 54,ty92214,Steve,Parkison,No,No,No,No,B,PCC,551.3224,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 55,fy22573,James,Dong,No,No,No,No,A,PCC,220.5753,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No

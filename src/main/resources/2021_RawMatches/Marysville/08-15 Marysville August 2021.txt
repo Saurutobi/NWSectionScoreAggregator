@@ -60,7 +60,7 @@ E 43,TY114139,Brian,Rowe,No,No,No,No,C,Single Stack,520.0894,6,Minor,Open,Major,
 E 44,A89323,Gregg,Straathof,No,No,No,No,U,Single Stack,447.1679,7,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 45,TY126829,Augusto,Cabanilla,No,No,No,No,C,Single Stack,443.4227,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 46,A89231,Chris,Pukalo,No,No,No,No,C,Single Stack,407.1479,9,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 47,,Kevin,Morgan,No,No,No,No,U,Single Stack,,10,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
+E 47,FY27159,Kevin,Morgan,No,No,No,No,U,Single Stack,,10,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 F Number,Guntype,Minimum Rounds,Maximum Points,Classifier,Classifier_No,Stage_name,ScoringType,TimesRun
 G 1,Pistol,32,160,No,,Stage 1,Comstock,1
 G 2,Pistol,24,120,No,,Stage 2,Virginia,2

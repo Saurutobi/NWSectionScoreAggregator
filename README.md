@@ -49,5 +49,5 @@ Example
 
 
 ## TODO
-- Print only matches that have DQs for DQ report
+- strip USPSA numbers down to just the numbers-update the QC
 - Use json schema to generate targets which are the Model rather than hardcoding a model, give that schema to PS and USPSA

@@ -32,7 +32,7 @@ E 15,A109227,Anna,Skurdal,No,No,No,No,D,Carry Optics,276.4599,15,Minor,Open,Majo
 E 16,TY126530,Kay,Patterson,No,No,No,No,U,Carry Optics,241.1075,16,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 17,NOT_A_MEMBER,Chase,Job,No,No,No,No,X,Carry Optics,219.8993,17,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 18,TY85699,Ken,Pavlick,No,No,No,No,C,Carry Optics,206.8550,18,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
-E 19,NOT_A_MEMBER,Angie,Anderson,No,No,No,No,D,Carry Optics,138.5264,19,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
+E 19,A131817,Angie,Anderson,No,No,No,No,D,Carry Optics,138.5264,19,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 20,TY92223,Stuart,Wilson,No,No,No,No,GM,Limited,496.6346,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 21,L4494,Vinh,Hoang,No,No,No,No,M,Limited,494.2306,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 22,A104403,Austin j.,Young,No,No,No,No,M,Limited,414.2297,3,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No

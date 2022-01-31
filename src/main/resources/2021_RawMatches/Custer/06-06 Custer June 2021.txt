@@ -23,7 +23,7 @@ E 6,TY75331,Jason,James,No,No,No,No,B,Carry Optics,527.6985,6,Minor,Open,Major,,
 E 7,A85321,Dean,Clark,No,No,No,No,B,Carry Optics,500.2137,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 8,A109227,Anna,Skurdal,No,No,No,No,C,Carry Optics,430.1654,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 9,L1145,SQUIRE,TOMASIE,No,No,No,No,A,Carry Optics,396.8108,9,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
-E 10,,Kay,Patterson,No,No,No,No,U,Carry Optics,259.4145,10,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
+E 10,TY126530,Kay,Patterson,No,No,No,No,U,Carry Optics,259.4145,10,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
 E 11,NOT_A_MEMBER,Jody,Hernandez,No,No,No,No,U,Carry Optics,242.5716,11,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Junior,No,No
 E 12,TY85699,Ken,Pavlick,No,No,No,No,C,Carry Optics,241.6238,12,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 13,L4494,Vinh,Hoang,No,No,No,No,M,Limited,680.0000,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
@@ -43,12 +43,12 @@ E 26,A83018,Rae Arsen,Baleros,No,No,No,No,B,Open,505.5922,4,Major,Open,Major,,No
 E 27,A136619,Damon,Donner,No,No,No,No,U,Open,354.2936,5,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,Yes
 E 28,A2757,gary,roessel,No,No,No,No,C,Open,328.6810,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 29,FY103459,melissa,wilson,No,No,No,No,C,Open,319.1521,7,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,Yes,,No,No
-E 30,,Dustin,Hansen,No,No,No,No,U,Open,268.9619,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 30,NOT_A_MEMBER,Dustin,Hansen,No,No,No,No,U,Open,268.9619,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 31,TY14867,Randall,Hess,No,No,No,No,C,Open,236.1948,9,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 32,FY23884,Greg,Purcell,No,No,No,No,GM,PCC,634.7041,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 33,A28558,Mike,Leander,No,No,No,No,M,PCC,613.2678,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 34,FY22573,James,Dong,No,No,No,No,A,PCC,569.4238,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
-E 35,,Steven,Roessel,No,No,No,No,B,PCC,472.1003,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 35,A44141,Steven,Roessel,No,No,No,No,B,PCC,472.1003,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 36,TY77726,James,Fenlin,No,No,No,No,B,PCC,378.3094,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 37,A131363,Don,Carroll,No,No,No,No,A,Production,634.8655,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 38,TY111302,carlo,sulicipan,No,No,No,No,U,Production,585.5248,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,Yes

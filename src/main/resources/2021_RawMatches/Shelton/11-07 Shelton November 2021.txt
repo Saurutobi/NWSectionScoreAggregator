@@ -32,10 +32,10 @@ E 15,TY66256,Loke,Tan,No,No,No,No,GM,Open,624.4577,1,Major,Open,Major,,No,,Open,
 E 16,a85786,Noel,Domingo,No,No,No,No,M,Open,525.7364,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 17,A110099,harold,martinez,No,No,No,No,A,Open,478.5078,3,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 18,Ty86951,Emilio,Domingo,No,No,No,No,A,Open,447.1279,4,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
-E 19,A 102707,Glenn,Taliman,No,No,No,No,D,Open,352.2365,5,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 19,A102707,Glenn,Taliman,No,No,No,No,D,Open,352.2365,5,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 20,L4865,Clifford,Aguilar,No,No,No,No,C,Open,315.0595,6,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 21,A47451,bruce,blair,No,No,No,No,B,PCC,592.1175,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
-E 22,L-343,Bill,Mayne,No,No,No,No,M,PCC,581.7256,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
+E 22,L343,Bill,Mayne,No,No,No,No,M,PCC,581.7256,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 23,ty93603,Bill,Johnston,No,No,No,No,B,PCC,511.5839,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 24,TY108303,Matt,Crane,No,No,No,No,C,PCC,421.8388,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 25,A31008,Jim,Misener,No,No,No,No,U,PCC,0.0000,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No

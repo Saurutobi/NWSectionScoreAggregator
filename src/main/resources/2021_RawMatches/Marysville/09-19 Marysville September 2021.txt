@@ -30,7 +30,7 @@ E 13,A136877,Darrell,Feller,No,No,No,No,U,Carry Optics,405.6103,13,Minor,Open,Ma
 E 14,A72005,Shawn,Roe,No,No,No,No,U,Carry Optics,388.9919,14,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 15,A131348,Josh,Moore,No,No,No,No,C,Carry Optics,381.3754,15,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 16,A85321,Dean,Clark,No,No,No,No,B,Carry Optics,372.4620,16,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 17,PEND,Glenn,Taliman,No,No,No,No,U,Carry Optics,371.8529,17,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 17,A102707,Glenn,Taliman,No,No,No,No,U,Carry Optics,371.8529,17,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 18,TY122981,Kevin,Nguyen,No,No,No,No,U,Carry Optics,355.7305,18,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 19,A133424,Kaiwen,Wang,No,No,No,No,D,Carry Optics,348.0139,19,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 20,L5120,Bryan,McMahon,No,No,No,No,D,Carry Optics,325.8601,20,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No

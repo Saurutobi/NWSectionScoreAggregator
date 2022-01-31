@@ -36,11 +36,11 @@ E 19,A136778,Cody,Scott,No,No,No,No,U,CO,371.5232,19,Minor,Open,Major,,No,,Open,
 E 20,A133424,Kaiwen,Wang,No,No,No,No,D,CO,363.1419,20,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 21,A137480,Chris,Jirak,No,No,No,No,U,CO,341.4339,21,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 22,A86506,Dennis,Maguddayao,No,No,No,No,C,CO,336.4312,22,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 23,PENDING,Connor,Heine,No,No,No,No,X,CO,302.9931,23,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 23,TY137732,Connor,Heine,No,No,No,No,X,CO,302.9931,23,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 24,TY130155,Robert,Hubbell,No,No,No,No,U,CO,282.3518,24,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 25,N/A,Sergei,Goloborodov,No,No,No,No,U,CO,257.2406,25,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 25,A138923,Sergei,Goloborodov,No,No,No,No,U,CO,257.2406,25,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 26,A135708,Joe,Kim,No,No,No,No,U,CO,253.8383,26,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 27,U,Yu (Steven),Li,No,No,No,No,U,CO,245.6354,27,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 27,NOT_A_MEMBER,Steven,Li,No,No,No,No,U,CO,245.6354,27,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 28,FY92838,Greg,Beck,No,No,No,No,B,Limited,649.2140,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 29,fy105750,lee,boyle,No,No,No,No,C,Limited,515.4801,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 30,A130419,Tim,Dahl,No,No,No,No,U,Limited,420.3359,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
@@ -64,7 +64,7 @@ E 47,TY107104,Katherine,Abubakar,No,No,No,No,B,PCC,550.8286,5,Minor,Open,Major,,
 E 48,L4912,Taylor,Dahl,No,No,No,No,U,PCC,541.9390,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 49,A119864,Eric,Martinez,No,No,No,No,U,PCC,422.6684,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 50,FY103459,melissa,wilson,No,No,No,No,C,PCC,306.5919,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 51,0000,Steffen,Singleton,Yes,No,No,No,U,PCC,0.0000,9,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 51,NOT_A_MEMBER,Steffen,Singleton,Yes,No,No,No,U,PCC,0.0000,9,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 52,A79746,Charis,Denton,No,No,No,No,A,Production,640.3950,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 53,Ty131363,Don,Carroll,No,No,No,No,A,Production,622.7617,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 54,TY114139,Brian,Rowe,No,No,No,No,C,Production,367.3923,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No

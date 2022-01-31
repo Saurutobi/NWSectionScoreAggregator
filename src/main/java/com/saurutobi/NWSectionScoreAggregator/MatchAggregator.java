@@ -6,12 +6,9 @@ import com.saurutobi.NWSectionScoreAggregator.Model.Match;
 import com.saurutobi.NWSectionScoreAggregator.Model.Participant;
 import io.vavr.Tuple3;
 import io.vavr.control.Option;
-import org.apache.commons.io.FileUtils;
 
-import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
@@ -43,9 +40,8 @@ public class MatchAggregator {
                                                              participant.getNameFirst(),
                                                              participant.getNameLast(),
                                                              participant.getUspsaNumber()))
-                                                     .distinct()
                                                      .collect(Collectors.toList()))
-                .distinctBy(participant -> participant._2 + participant._3)
+                .distinctBy(participant -> participant._1 + participant._2 + participant._3)
                 .sorted(Comparator.comparing(a -> a._2))
                 .toJavaList();
     }
@@ -60,9 +56,8 @@ public class MatchAggregator {
                                                              participant.getNameFirst(),
                                                              participant.getNameLast(),
                                                              participant.getUspsaNumber()))
-                                                     .distinct()
                                                      .collect(Collectors.toList()))
-                .distinctBy(participant -> participant._2 + participant._3)
+                .distinctBy(participant -> participant._1 + participant._2 + participant._3)
                 .sorted(Comparator.comparing(a -> a._2))
                 .toJavaList();
     }
@@ -79,7 +74,9 @@ public class MatchAggregator {
                 final StringBuilder out = new StringBuilder(participant._1 + DELIMITER + participant._2 + DELIMITER + participant._3);
                 for (Match match : matchesWithDqs) {
                     final Optional<Participant> participantAtMatch = match.participants.stream()
-                            .filter(matchParticipant -> matchParticipant.getNameLast().equals(participant._2) && matchParticipant.getUspsaNumber().equals(participant._3))
+                            .filter(matchParticipant -> matchParticipant.getNameFirst().equals(participant._1) &&
+                                                        matchParticipant.getNameLast().equals(participant._2) &&
+                                                        matchParticipant.getUspsaNumber().equals(participant._3))
                             .findFirst();
                     if (participantAtMatch.isPresent()) {
                         final Participant participantForRecord = participantAtMatch.get();

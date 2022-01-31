@@ -49,7 +49,7 @@ E 32,L4494,Vinh,Hoang,No,No,No,No,M,Limited,568.5542,2,Major,Open,Major,,No,,Ope
 E 33,L3253,Scott,LeRoux,No,No,No,No,M,Limited,523.2892,3,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 34,Ty92223,stuart,Wilson,No,No,No,No,A,Limited,521.9474,4,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 35,A133024,Alex,Skaggs,No,No,No,No,D,Limited,340.7587,5,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 36,pen,Ryan,Nichols,No,No,No,No,U,Limited,280.5524,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 36,NOT_A_MEMBER,Ryan,Nichols,No,No,No,No,U,Limited,280.5524,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 37,fy122523,Wisly,Martinez,No,No,No,No,D,Limited,212.5100,7,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 38,A133543,Amber,Black,No,No,No,No,U,Limited,128.0223,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 39,L2124,Bruce,Bennett,No,No,No,No,C,Limited 10,650.0000,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No

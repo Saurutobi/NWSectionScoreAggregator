@@ -17,7 +17,7 @@ D Comp,USPSA,FirstName,LastName,DQPistol,DQRifle,DQShotgun,Reentry,Class,Divisio
 E 1,TY24792,Alan,Kies,No,No,No,No,A,Carry Optics,627.9309,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 2,A133424,Kaiwen,Wang,No,No,No,No,D,Carry Optics,450.2040,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 3,FY92838,Greg,Beck,No,No,No,No,B,Limited,630.0000,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 4,L-343,Bill,Mayne,No,No,No,No,A,PCC,604.5337,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
+E 4,L343,Bill,Mayne,No,No,No,No,A,PCC,604.5337,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 5,Ty47022,Bruce,Wood,No,No,No,No,B,PCC,533.0422,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 6,TY108303,Matt,Crane,No,No,No,No,C,PCC,480.3456,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 7,L2124,Bruce,Bennett,No,No,No,No,U,PCC,77.4209,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
