@@ -24,7 +24,7 @@ E 7,TY86966,Nelson,Tablang,No,No,No,No,,CO,508.1434,7,Minor,Open,Major,,No,,Open
 E 8,A111900,Eugene,Madayag,No,No,No,No,,CO,476.4774,8,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 9,L1145,Squire,Tomasie,No,No,No,No,,CO,469.2506,9,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 10,FY104954,Gregory,Cain,No,No,No,No,,CO,255.6205,10,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
-E 11,,Jack,Apling,No,No,No,No,,CO,204.0925,11,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
+E 11,a133577,Jack,Apling,No,No,No,No,,CO,204.0925,11,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 12,L3253,Scott,LeRoux,No,No,No,No,M,Limited,591.3353,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 13,FY104437,Brandon,Collins,No,No,No,No,C,Limited,570.6022,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 14,,Dane,Sands,No,No,No,No,,Limited,523.1458,3,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
@@ -37,7 +37,7 @@ E 20,A133488,James,Johnson,No,No,No,No,U,Limited,298.2214,9,Minor,Open,Major,,No
 E 21,,Nick,Duran,No,No,No,No,,Limited,272.8104,10,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 22,A85786,Noel,Domingo,No,No,No,No,A,Open,625.0000,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 23,TY86951,Emilio,Domingo,No,No,No,No,A,Open,499.5781,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
-E 24,,Clifford,Aguilar,No,No,No,No,,Open,447.7004,3,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 24,l4865,Clifford,Aguilar,No,No,No,No,,Open,447.7004,3,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 25,FY122523,Wisly,Martinez,No,No,No,No,D,Open,115.4306,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 26,TY55079,Doug,Hartley,No,No,No,No,B,PCC,582.5831,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
 E 27,TY89148,David,Dupree,No,No,No,No,,PCC,512.8495,2,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No

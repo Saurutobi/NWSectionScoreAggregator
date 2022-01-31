@@ -16,7 +16,7 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 @SuppressWarnings("ThrowablePrintedToSystemOut")
-public class NWSectionAggregator {
+public class MatchAggregator {
     private static final String DELIMITER = "|";
 
     public static void aggregateMatch(String inputDirectory, String outputFileName, boolean dqOnly) {
@@ -85,7 +85,7 @@ public class NWSectionAggregator {
         try {
             final FileWriter myWriter = new FileWriter(outputFileName);
             final List<Match> matchesWithDqs = matches.stream()
-                    .filter(NWSectionAggregator::matchContainsDq)
+                    .filter(MatchAggregator::matchContainsDq)
                     .collect(Collectors.toList());
 
             writeSectionReportHeader(myWriter, matchesWithDqs);
@@ -135,7 +135,7 @@ public class NWSectionAggregator {
                 final StringBuilder out = new StringBuilder(participant._1 + DELIMITER + participant._2 + DELIMITER + participant._3);
                 for (Match match : matches) {
                     final Optional<Participant> participantAtMatch = match.participants.stream()
-                            .filter(matchParticipant -> matchParticipant.getUspsaNumber().equals(participant._3))
+                            .filter(matchParticipant -> matchParticipant.getNameLast().equals(participant._2) && matchParticipant.getUspsaNumber().equals(participant._3))
                             .findFirst();
                     if (participantAtMatch.isPresent()) {
                         final Participant participantForRecord = participantAtMatch.get();

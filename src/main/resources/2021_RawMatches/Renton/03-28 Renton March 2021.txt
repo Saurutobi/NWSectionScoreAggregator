@@ -44,7 +44,7 @@ E 27,FY92838,Greg,Beck,No,No,No,No,B,Limited,329.4302,3,Major,Open,Major,,No,,Op
 E 28,A133024,Alex,Skaggs,No,No,No,No,D,Limited,268.6805,4,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 29,A117306,Ronaldi,Hanantha,No,No,No,No,U,Limited,219.6654,5,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 30,ty37515,Tod,Sherman,No,No,No,No,C,Limited,145.1131,6,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
-E 31,L 2124,Bruce,Bennett,No,No,No,No,C,Limited 10,400.0000,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
+E 31,L2124,Bruce,Bennett,No,No,No,No,C,Limited 10,400.0000,1,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 32,a85786,khapo,newdell,No,No,No,No,A,Open,501.6202,1,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 33,TY114649,Jordan,Rogers,No,No,No,No,M,Open,491.9572,2,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 34,A110099,harold,martinez,No,No,No,No,A,Open,423.5460,3,Major,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
