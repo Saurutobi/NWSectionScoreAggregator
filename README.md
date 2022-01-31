@@ -14,10 +14,20 @@ Example
 
 ```-ia "C:\Git\NWSectionScoreAggregator\src\main\resources\2021_RawMatches" "C:\Git\NWSectionScoreAggregator\src\main\resources\2021_ConvertedMatches"```
 
+###Quality Check converted matches
+```-qc [input folder]```
+
+This outputs matches, participants where USPSA numbers aren't valid to the console
+
+Example
+
+```-qc "C:\Git\NWSectionScoreAggregator\src\main\resources\2021_ConvertedMatches"```
+
+
 ###Generate custom awards output from a converted match
 ```-r [input file]```
 
-This outputs to the console
+This awards outputs to the console
 
 Example
 
