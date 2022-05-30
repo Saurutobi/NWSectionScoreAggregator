@@ -12,7 +12,7 @@ This outputs to ```[inputfile].json```
 
 Example
 
-```-ia "C:\Git\NWSectionScoreAggregator\src\main\resources\2021_RawMatches" "C:\Git\NWSectionScoreAggregator\src\main\resources\2022_ConvertedMatches"```
+```-ia "C:\Git\NWSectionScoreAggregator\src\main\resources\2022_RawMatches" "C:\Git\NWSectionScoreAggregator\src\main\resources\2022_ConvertedMatches"```
 
 ###Quality Check converted matches
 ```-qc [input folder]```
@@ -51,4 +51,4 @@ Example
 ## TODO
 - strip USPSA numbers down to just the numbers-update the QC
 - Use json schema to generate targets which are the Model rather than hardcoding a model, give that schema to PS and USPSA
-- Add Section Series 
+- Add Section Series calculations

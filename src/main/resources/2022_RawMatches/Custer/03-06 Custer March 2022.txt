@@ -31,7 +31,7 @@ E 14,A136877,Darrell,Feller,No,No,No,No,C,Carry Optics,416.1308,14,Minor,Open,Ma
 E 15,A111302,carlo,sulicipan,No,No,No,No,U,Carry Optics,412.2246,15,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,Yes
 E 16,A137342,Mongtai "Tai",Lin,No,No,No,No,C,Carry Optics,406.3585,16,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 17,L2396,Floyd,Shoemaker,No,No,No,No,A,Carry Optics,379.3522,17,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Super Senior,No,No
-E 18,104933,Greg,Taylor,No,No,No,No,U,Carry Optics,367.4351,18,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
+E 18,A104933,Greg,Taylor,No,No,No,No,U,Carry Optics,367.4351,18,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Senior,No,No
 E 19,A134793,Xuzi,Zhou,No,No,No,No,U,Carry Optics,346.2677,19,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 20,A134357,John,Selchert,No,No,No,No,U,Carry Optics,333.3994,20,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,,No,No
 E 21,A134658,Matt,Clark,No,No,No,No,U,Carry Optics,332.1418,21,Minor,Open,Major,,No,,Open,Minor,,No,,No,,,,,,,,,,No,Junior,No,No
