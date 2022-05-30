@@ -21,7 +21,7 @@ public class QualityChecker {
         Option.of(inputDirectory).peek(inputDir -> {
             final List<Match> matches = readConvertedMatches(inputDir);
             qcUspsaNumbers(matches);
-            qcShooterNames(matches);
+            qcShooterNamesAndNumbers(matches);
         });
     }
 
@@ -47,7 +47,7 @@ public class QualityChecker {
         }
     }
 
-    private static void qcShooterNames(List<Match> matches) {
+    private static void qcShooterNamesAndNumbers(List<Match> matches) {
         System.out.println("Review Aggregated Matches to find duplicates");
         final List<Participant> allParticipants = getAllDistinctMembersWhoParticipated(matches);
 

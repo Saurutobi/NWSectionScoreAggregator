@@ -71,7 +71,7 @@ public class MatchAggregator {
 
             writeSectionReportHeader(myWriter, matchesWithDqs);
             for (Tuple3<String, String, String> participant : participants) {
-                final StringBuilder out = new StringBuilder(participant._1 + DELIMITER + participant._2 + DELIMITER + participant._3);
+                final StringBuilder out = new StringBuilder(participant._1 + DELIMITER + participant._2);
                 for (Match match : matchesWithDqs) {
                     final Optional<Participant> participantAtMatch = match.participants.stream()
                             .filter(matchParticipant -> matchParticipant.getNameFirst().equals(participant._1) &&
@@ -115,7 +115,7 @@ public class MatchAggregator {
             final FileWriter myWriter = new FileWriter(outputFileName);
             writeSectionReportHeader(myWriter, matches);
             for (Tuple3<String, String, String> participant : participants) {
-                final StringBuilder out = new StringBuilder(participant._1 + DELIMITER + participant._2 + DELIMITER + participant._3);
+                final StringBuilder out = new StringBuilder(participant._1 + DELIMITER + participant._2);
                 for (Match match : matches) {
                     final Optional<Participant> participantAtMatch = match.participants.stream()
                             .filter(matchParticipant -> matchParticipant.getNameLast().equals(participant._2) && matchParticipant.getUspsaNumber().equals(participant._3))
@@ -149,7 +149,7 @@ public class MatchAggregator {
     }
 
     private static void writeSectionReportHeader(FileWriter myWriter, List<Match> matches) throws IOException {
-        final StringBuilder out = new StringBuilder("First|Last|USPSA Number");
+        final StringBuilder out = new StringBuilder("First|Last");
         for (Match match : matches) {
             out.append(DELIMITER)
                     .append(match.name.replace(",", ""));

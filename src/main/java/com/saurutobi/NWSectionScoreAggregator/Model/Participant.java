@@ -45,26 +45,12 @@ public class Participant {
     }
 
     private static String handleUspsaNumber(String[] attributes) {
-        if(isNotValidUspsaNumber(attributes[1])){
-            System.out.println("INVALID USPSA NUMBER: " + attributes[1] + "," + attributes[2] + "," + attributes[3]);
+        final String cleanedNumber = stripNonNumbers(attributes[1]);
+        if(cleanedNumber.isEmpty()){
+            System.out.println("INVALID USPSA NUMBER: " + cleanedNumber + "," + attributes[2] + "," + attributes[3]);
             return NO_USPSA_NUMBER;
         }
-        return stripNonNumbers(attributes[1]);
-    }
-
-
-    private static boolean isNotValidUspsaNumber(String uspsaNumber) {
-        if (uspsaNumber.isEmpty()) {
-            return true;
-        } else if (uspsaNumber.contains(" ") || uspsaNumber.contains("-") || uspsaNumber.contains("/")) {
-            return true;
-        } else {
-            return !uspsaNumber.contains(USPSA_NUMBER_PREFIX_LIFE)
-                   && !uspsaNumber.contains(USPSA_NUMBER_PREFIX_ANNUAL)
-                   && !uspsaNumber.contains(USPSA_NUMBER_PREFIX_B)
-                   && !uspsaNumber.contains(USPSA_NUMBER_PREFIX_THREEYEAR)
-                   && !uspsaNumber.contains(USPSA_NUMBER_PREFIX_FOREIGN_OR_FIVEYEAR);
-        }
+        return cleanedNumber;
     }
 
     private static String stripNonNumbers(String uspsaNumber) {
