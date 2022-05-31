@@ -1,11 +1,13 @@
 package com.saurutobi.NWSectionScoreAggregator;
 
 import static com.saurutobi.NWSectionScoreAggregator.Util.readConvertedMatches;
+import static java.util.Comparator.comparingDouble;
 
 import com.saurutobi.NWSectionScoreAggregator.Model.Division;
 import com.saurutobi.NWSectionScoreAggregator.Model.Match;
 import com.saurutobi.NWSectionScoreAggregator.Model.Participant;
 import com.saurutobi.NWSectionScoreAggregator.Model.ParticipantStageResult;
+import com.saurutobi.NWSectionScoreAggregator.Model.SectionSeries.Classification;
 import com.saurutobi.NWSectionScoreAggregator.Model.SectionSeries.SeriesMatch;
 import com.saurutobi.NWSectionScoreAggregator.Model.SectionSeries.SeriesParticipant;
 import io.vavr.Function1;
@@ -14,49 +16,38 @@ import io.vavr.collection.Map;
 import io.vavr.control.Option;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class SectionSeriesAggregator {
-    private static final int numberOfRequiredSectionMatches = 4;
+    private static final int numberOfRequiredSectionMatches = 0;  //TODO: bump to 4 when that many have been shot
+    private static final String classificationRecordFileName = "CHANGEME";
 
     public static void createSeriesResults(String inputDirectory, String outputFileName) {
         Option.of(inputDirectory).peek(inputDir -> Option.of(outputFileName).peek(outputFile -> {
             final List<Match> matches = readConvertedMatches(inputDir);
             final List<SeriesMatch> seriesMatchesWithAllSectionMemberParticipation = loadParticipantsIntoSeriesMatches(matches);
             final List<SeriesMatch> seriesMatchesWithOnlyEligibleParticipation = filterOutParticipantsWithNotEnoughRequiredMatches(seriesMatchesWithAllSectionMemberParticipation);
+            //TODO: print out eligible folks so that an update to the classification file can be made
 
-            //produce Leaderboards
-            final List<Tuple2<SeriesParticipant, Double>> sortedHighOverallScores = getHighScores(seriesMatchesWithOnlyEligibleParticipation);
-            final List<Tuple2<SeriesParticipant, Integer>> sortedHighAs = getHighValue(seriesMatchesWithOnlyEligibleParticipation, SeriesParticipant::getSeriesMatchAs);
-            final List<Tuple2<SeriesParticipant, Integer>> sortedHighDs = getHighValue(seriesMatchesWithOnlyEligibleParticipation, SeriesParticipant::getSeriesMatchDs);
-            final List<Tuple2<SeriesParticipant, Integer>> sortedHighNoShoots = getHighValue(seriesMatchesWithOnlyEligibleParticipation, SeriesParticipant::getSeriesMatchNoShoots);
-            /*leaderboards:
-                HOA-total points across all matches shot
-                Most Accurate - most As (currently on all 7 matches)
-                What No-Shoot - most NS (currently on all 7 matches)
-                Deltas For Days - most Ds (currently on all 7 matches)
-            */
+            produceLeaderboards(seriesMatchesWithOnlyEligibleParticipation);
 
 
-            /*division awards:
-                for each division, filter just by participants in that division.
-                group by first/last into Map<Tuple2<namefirst, namelast>, List<matchpoints>>
-                sort the matchpoints, then sum up the top 4
-                Now we have namefirst, namelast, total section points. put that in a list, sort by points, there's the awards
+            for (Division div : Division.values()) {
+                final List<Tuple2<SeriesParticipant, Double>> allDivParticipants = getAllDivisionParticipants(seriesMatchesWithOnlyEligibleParticipation, div);
+                final List<Tuple2<SeriesParticipant, Double>> top3InDivision = topN(allDivParticipants, 3);
 
-            class awards: do the above, but put another loop inside the division for classes and filter by class
-*/
-            /*Scores:
-                Divisions: for each person in a division, get their match points by getting their finish%(need 1st place for that). Then assign them points to 4 digits by that %
-                    Do this for all divisions.
-                    Top 3 shooters, 5 shooter minimum.
-                Classes/Divisions: Top 1-n shooters, minimum 5, n+1 for every 3 past the initial 5 minimum(eg 8ppl = 2 awards). Division winners do
+                if (allDivParticipants.size() >= 5) {
+                    //print top3 for division IF there's at least 5 in it
+                }
 
-             */
+                for (Classification classification : Classification.values()) {
+                    final List<Tuple2<SeriesParticipant, Double>> allClassParticipants = getAllClassParticipants(allDivParticipants, classification);
 
+                    //print Top 1-n shooters, minimum 5, n+1 for every 3 past the initial 5 minimum(eg 8ppl = 2 awards). Division winners do
+                }
+            }
         }));
     }
 
@@ -68,30 +59,31 @@ public class SectionSeriesAggregator {
                     .date(match.getDate())
                     .participants(new ArrayList<>())
                     .build();
-
             for (Division div : Division.values()) {
                 final List<Participant> divParticipants = match.getParticipants().stream()
                         .filter(participant -> participant.getDivision() == div)
                         .collect(Collectors.toList());
-                @SuppressWarnings("OptionalGetWithoutIsPresent")
-                final Double firstPlacePoints = divParticipants.stream()
-                        .filter(participant -> participant.getDivisonFinish() == 1)
-                        .map(Participant::getDivisionPoints)
-                        .findFirst()
-                        .get();
-                for (Participant divParticipant : divParticipants) {
-                    if (isSectionMember(divParticipant)) {
-                        final SeriesParticipant seriesParticipant = SeriesParticipant.builder()
-                                .nameFirst(divParticipant.getNameFirst())
-                                .nameLast(divParticipant.getNameLast())
-                                .uspsaNumber(divParticipant.getUspsaNumber())
-                                .division(div)
-                                .seriesMatchPoints(divParticipant.getDivisionPoints() / firstPlacePoints * 100)
-                                .seriesMatchAs(getAs(divParticipant.shooterNumber, match.getParticipantStageResults()))
-                                .seriesMatchDs(getDs(divParticipant.shooterNumber, match.getParticipantStageResults()))
-                                .seriesMatchNoShoots(getNoShoots(divParticipant.shooterNumber, match.getParticipantStageResults()))
-                                .build();
-                        seriesMatch.getParticipants().add(seriesParticipant);
+                if (divParticipants.size() > 0) {
+                    @SuppressWarnings("OptionalGetWithoutIsPresent") final Double firstPlacePoints = divParticipants.stream()
+                            .filter(participant -> participant.getDivisonFinish() == 1)
+                            .map(Participant::getDivisionPoints)
+                            .findFirst()
+                            .get();
+                    for (Participant divParticipant : divParticipants) {
+                        if (isSectionMember(divParticipant)) {
+                            final SeriesParticipant seriesParticipant = SeriesParticipant.builder()
+                                    .nameFirst(divParticipant.getNameFirst())
+                                    .nameLast(divParticipant.getNameLast())
+                                    .uspsaNumber(divParticipant.getUspsaNumber())
+                                    .division(div)
+                                    .classification(getClassification(divParticipant))
+                                    .seriesMatchPoints(divParticipant.getDivisionPoints() / firstPlacePoints * 100)
+                                    .seriesMatchAs(getAs(divParticipant.shooterNumber, match.getParticipantStageResults()))
+                                    .seriesMatchDs(getDs(divParticipant.shooterNumber, match.getParticipantStageResults()))
+                                    .seriesMatchNoShoots(getNoShoots(divParticipant.shooterNumber, match.getParticipantStageResults()))
+                                    .build();
+                            seriesMatch.getParticipants().add(seriesParticipant);
+                        }
                     }
                 }
             }
@@ -101,8 +93,13 @@ public class SectionSeriesAggregator {
     }
 
     private static boolean isSectionMember(Participant divParticipant) {
-        //TODO: Figure out how to do this later
+        //TODO: read from file of section folks and do a ispresent type check
         return true;
+    }
+
+    private static Classification getClassification(Participant divParticipant) {
+        //TODO: read from classificationRecordFileName of folks eligible(print out folks eligible), then do a get type thing
+        return null;
     }
 
     private static int getAs(int shooterNumber, List<ParticipantStageResult> participantStageResults) {
@@ -167,12 +164,12 @@ public class SectionSeriesAggregator {
                 .map(SeriesMatch::getParticipants)
                 .flatMap(List::stream)
                 .collect(Collectors.toList());
-        return groupParticipants(allParticipants).toJavaStream()
-                .map(entry -> new Tuple2<>(entry._2.get(0), entry._2.toJavaStream()
-                        .map(SeriesParticipant::getSeriesMatchPoints)
-                        .reduce(0.0, Double::sum)))
-                .sorted(Comparator.comparingDouble(Tuple2::_2))
-                .collect(Collectors.toList());
+        return topN(groupParticipants(allParticipants).toJavaStream()
+                            .map(entry -> new Tuple2<>(entry._2.get(0), entry._2.toJavaStream()
+                                    .map(SeriesParticipant::getSeriesMatchPoints)
+                                    .reduce(0.0, Double::sum)))
+                            .sorted(comparingDouble(Tuple2::_2))
+                            .collect(Collectors.toList()), 10);
     }
 
     private static List<Tuple2<SeriesParticipant, Integer>> getHighValue(List<SeriesMatch> seriesMatches, Function<SeriesParticipant, Integer> getter) {
@@ -180,11 +177,62 @@ public class SectionSeriesAggregator {
                 .map(SeriesMatch::getParticipants)
                 .flatMap(List::stream)
                 .collect(Collectors.toList());
-        return groupParticipants(allParticipants).toJavaStream()
-                .map(entry -> new Tuple2<>(entry._2.get(0), entry._2.toJavaStream()
-                        .map(getter)
-                        .reduce(0, Integer::sum)))
-                .sorted(Comparator.comparingDouble(Tuple2::_2))
+        return topN(groupParticipants(allParticipants).toJavaStream()
+                            .map(entry -> new Tuple2<>(entry._2.get(0), entry._2.toJavaStream()
+                                    .map(getter)
+                                    .reduce(0, Integer::sum)))
+                            .sorted(comparingDouble(Tuple2::_2))
+                            .collect(Collectors.toList()), 10);
+    }
+
+    private static <T extends Number> List<Tuple2<SeriesParticipant, T>> topN(List<Tuple2<SeriesParticipant, T>> participants, int n) {
+        final ArrayList<Tuple2<SeriesParticipant, T>> sortedTopN = new ArrayList<>();
+        for (int i = 1; i <= n; i++) {
+            sortedTopN.add(participants.get(participants.size() - i));
+        }
+        return sortedTopN;
+    }
+
+    private static Double getSeriesTotalPoints(List<SeriesParticipant> seriesParticipant) {
+        List<Double> scores = seriesParticipant.stream()
+                .sorted(comparingDouble(SeriesParticipant::getSeriesMatchPoints))
+                .map(SeriesParticipant::getSeriesMatchPoints)
+                .collect(Collectors.toList());
+        Double score = 0.0;
+        for (int i = 1; i <= 4; i++) {
+            score += scores.get(scores.size() - i);
+        }
+        return score;
+    }
+
+    private static List<Tuple2<SeriesParticipant, Double>> getAllDivisionParticipants(List<SeriesMatch> seriesMatches, Division div) {
+        return groupParticipants(seriesMatches.stream().map(SeriesMatch::getParticipants)
+                                         .flatMap(List::stream)
+                                         .filter(participant -> participant.getDivision() == div)
+                                         .collect(Collectors.toList()))
+                .toJavaStream()
+                .map(entry -> new Tuple2<>(entry._2.get(0), getSeriesTotalPoints(entry._2.toJavaList())))
                 .collect(Collectors.toList());
     }
+
+    private static List<Tuple2<SeriesParticipant, Double>> getAllClassParticipants(List<Tuple2<SeriesParticipant, Double>> participants, Classification classification) {
+        return participants.stream()
+                .filter(entry -> entry._1.getClassification() == classification)
+                .collect(Collectors.toList());
+    }
+
+    private static void produceLeaderboards(List<SeriesMatch> seriesMatchesWithOnlyEligibleParticipation){
+        //produce Leaderboards
+        final List<Tuple2<SeriesParticipant, Double>> sortedHighOverallScores = getHighScores(seriesMatchesWithOnlyEligibleParticipation);
+        final List<Tuple2<SeriesParticipant, Integer>> sortedHighAs = getHighValue(seriesMatchesWithOnlyEligibleParticipation, SeriesParticipant::getSeriesMatchAs);
+        final List<Tuple2<SeriesParticipant, Integer>> sortedHighDs = getHighValue(seriesMatchesWithOnlyEligibleParticipation, SeriesParticipant::getSeriesMatchDs);
+        final List<Tuple2<SeriesParticipant, Integer>> sortedHighNoShoots = getHighValue(seriesMatchesWithOnlyEligibleParticipation, SeriesParticipant::getSeriesMatchNoShoots);
+            /*Print leaderbords:
+            High Overall - sortedHighOverallScores
+            Most Accurate - sortedHighAs
+            Deltas For Days - sortedHighDs
+            What No-Shoot - sortedHighNoShoots
+            */
+    }
 }
+

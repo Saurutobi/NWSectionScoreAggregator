@@ -34,15 +34,16 @@ public class Participant {
 
     public static Participant mapParticipantFromUSPSAMatchReportFile(String[] attributes) {
         //RAW attributes: "E 1, A1234, first, last, No, No, No, No, M, Carry Optics, 738.5825, 1, Minor,etcetc"
+        final boolean isDQed = mapDQPistolValueToBoolean(attributes[4]);
         return Participant.builder()
                 .shooterNumber(Integer.parseInt(removeLinePrefix(attributes[0])))
                 .nameFirst(attributes[2])
                 .nameLast(attributes[3])
                 .uspsaNumber(handleUspsaNumber(attributes))
-                .isDQed(mapDQPistolValueToBoolean(attributes[4]))
+                .isDQed(isDQed)
                 .division(Division.mapDivisionString(attributes[9]))
                 .divisonFinish(Integer.parseInt(attributes[11]))
-                .divisionPoints(Double.parseDouble(attributes[10]))
+                .divisionPoints(isDQed ? 0.0 : Double.parseDouble(attributes[10]))
                 .build();
     }
 

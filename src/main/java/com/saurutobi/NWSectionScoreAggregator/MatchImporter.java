@@ -15,6 +15,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
+import java.util.Objects;
 import java.util.stream.Collectors;
 
 @SuppressWarnings("ThrowablePrintedToSystemOut")
@@ -109,6 +110,7 @@ public class MatchImporter {
                 .map(line -> line.toLowerCase(Locale.ROOT))
                 .map(line -> line.split(","))
                 .map(Participant::mapParticipantFromUSPSAMatchReportFile)
+                .filter(Objects::nonNull)
                 .collect(Collectors.toList());
     }
 

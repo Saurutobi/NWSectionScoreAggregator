@@ -52,7 +52,7 @@ Example
 
 Example
 
-```-s "C:\Git\NWSectionScoreAggregator\src\main\resources\2022_ConvertedMatches" "C:\Git\NWSectionScoreAggregator\src\main\resources\NWSectionDQReport.csv"```
+```-s "C:\Git\NWSectionScoreAggregator\src\main\resources\2022_SectionSeries" "C:\Git\NWSectionScoreAggregator\src\main\resources\NWSectionSeries.csv"```
 
 
 ## TODO
