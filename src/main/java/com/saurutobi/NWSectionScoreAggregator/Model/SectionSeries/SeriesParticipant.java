@@ -20,6 +20,8 @@ public class SeriesParticipant {
     public String nameLast;
     public String uspsaNumber;
     public Division division;
-    public Double matchPoints;
-    //public boolean isSectionMember;
+    public Double seriesMatchPoints;
+    public int seriesMatchAs;
+    public int seriesMatchDs;
+    public int seriesMatchNoShoots;
 }

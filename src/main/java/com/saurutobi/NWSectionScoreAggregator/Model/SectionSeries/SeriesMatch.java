@@ -20,5 +20,5 @@ public class SeriesMatch {
     private static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy");
     public String name;
     public LocalDate date;
-    public List<Participant> participants;
+    public List<SeriesParticipant> participants;
 }
