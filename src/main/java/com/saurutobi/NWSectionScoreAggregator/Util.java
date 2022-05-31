@@ -30,8 +30,7 @@ public class Util {
         try {
             return Util.getObjectMapper().readValue(file, Match.class);
         } catch (IOException e) {
-            System.out.println("error reading file");
-            System.out.println(e);
+            System.out.println("error reading file | " + e);
             return null;
         }
     }

@@ -30,6 +30,7 @@ public class Participant {
     public boolean isDQed;
     public Division division;
     public Integer divisonFinish;
+    public Double divisionPoints;
 
     public static Participant mapParticipantFromUSPSAMatchReportFile(String[] attributes) {
         //RAW attributes: "E 1, A1234, first, last, No, No, No, No, M, Carry Optics, 738.5825, 1, Minor,etcetc"
@@ -41,6 +42,7 @@ public class Participant {
                 .isDQed(mapDQPistolValueToBoolean(attributes[4]))
                 .division(Division.mapDivisionString(attributes[9]))
                 .divisonFinish(Integer.parseInt(attributes[11]))
+                .divisionPoints(Double.parseDouble(attributes[10]))
                 .build();
     }
 

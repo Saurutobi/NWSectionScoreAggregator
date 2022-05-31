@@ -18,6 +18,8 @@ public class NWSectionScoreAggregatorApplication {
             System.out.println("-a [input folder] [output file path]" + "\n");
             System.out.println("To report on all DQs from all matches in a directory:");
             System.out.println("-d [input folder] [output file path]");
+            System.out.println("To report on Section Series Awards:");
+            System.out.println("-s [input folder] [output file path]");
             System.exit(0);
         } else if (args[0].equals("-i")) {
             System.out.println("Importing Match" + "\n");
@@ -32,11 +34,14 @@ public class NWSectionScoreAggregatorApplication {
             System.out.println("Generating Custom Results" + "\n");
             CustomMatchResultsGenerator.generateResultsFromMatch(args[1]);
         } else if (args[0].equals("-a")) {
-            System.out.println("Aggregating Section Matches" + "\n");
+            System.out.println("Aggregating Matches" + "\n");
             MatchAggregator.aggregateMatch(args[1], args[2], false);
         } else if (args[0].equals("-d")) {
-            System.out.println("Aggregating Section Matches" + "\n");
+            System.out.println("Aggregating Matches" + "\n");
             MatchAggregator.aggregateMatch(args[1], args[2], true);
+        } else if(args[0].equals("-s")){
+            System.out.println("Generation Section Series Matches" + "\n");
+            SectionSeriesAggregator.createSeriesResults(args[1], args[2]);
         }
     }
 }

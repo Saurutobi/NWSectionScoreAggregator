@@ -14,7 +14,6 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
-@SuppressWarnings("ThrowablePrintedToSystemOut")
 public class MatchAggregator {
     private static final String DELIMITER = "|";
 
@@ -100,8 +99,7 @@ public class MatchAggregator {
             myWriter.flush();
             myWriter.close();
         } catch (IOException e) {
-            System.out.println("error writing file");
-            System.out.println(e);
+            System.out.println("error writing file | " + e);
         }
     }
 
@@ -143,8 +141,7 @@ public class MatchAggregator {
             myWriter.flush();
             myWriter.close();
         } catch (IOException e) {
-            System.out.println("error writing file");
-            System.out.println(e);
+            System.out.println("error writing file | " + e);
         }
     }
 

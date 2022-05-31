@@ -47,8 +47,15 @@ Example
 
 ```-d "C:\Git\NWSectionScoreAggregator\src\main\resources\2022_ConvertedMatches" "C:\Git\NWSectionScoreAggregator\src\main\resources\NWSectionDQReport.csv"```
 
+### Report on Section Series Awards
+```-s [input folder] [output file path]```
+
+Example
+
+```-s "C:\Git\NWSectionScoreAggregator\src\main\resources\2022_ConvertedMatches" "C:\Git\NWSectionScoreAggregator\src\main\resources\NWSectionDQReport.csv"```
+
 
 ## TODO
-- strip USPSA numbers down to just the numbers-update the QC
+- Think about removing USPSA numbers altogether
 - Use json schema to generate targets which are the Model rather than hardcoding a model, give that schema to PS and USPSA
-- Add Section Series calculations
+- Finish Section Series Awards reporting
